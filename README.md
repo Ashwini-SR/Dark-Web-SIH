@@ -73,13 +73,4 @@ why (matching lowercase style, matching ellipsis habit, same odd posting hours,
    the derivation chain of all case links into a downloadable JSON/CSV, and
    build the PPT/demo script around the exact flow already working today.
 
-## Design philosophy (say this to judges if asked)
 
-- No transformer/deep-learning dependency was used for stylometry on purpose —
-  every score is fully explainable and traceable to a specific, named linguistic
-  feature, which matters more to an intelligence/legal audience than raw accuracy
-  from a black box.
-- The system **never asserts identity** — every output is a labeled, confidence-scored
-  hypothesis with a visible derivation chain back to the evidence that produced it.
-- All data used is either self-authored/synthetic or from legal, public sources —
-  no scraping of real illegal marketplaces was performed or is required.
