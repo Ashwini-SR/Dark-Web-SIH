@@ -1,0 +1,1524 @@
+{
+  "_warning": "GROUND TRUTH - EVALUATION ONLY. This file must never be loaded by P2 (StyloLink), P3 (Chrono-Graph) or P4 (FIH-Ledger) during inference. It exists to score their output.",
+  "dataset_version": "1.0.0",
+  "persona_to_actor": {
+    "PERSONA-001": "ACTOR-001",
+    "PERSONA-002": "ACTOR-002",
+    "PERSONA-003": "ACTOR-003",
+    "PERSONA-004": "ACTOR-001",
+    "PERSONA-005": "ACTOR-004",
+    "PERSONA-006": "ACTOR-005",
+    "PERSONA-007": "ACTOR-002",
+    "PERSONA-008": "ACTOR-006",
+    "PERSONA-009": "ACTOR-007",
+    "PERSONA-010": "ACTOR-008",
+    "PERSONA-011": "ACTOR-001",
+    "PERSONA-012": "ACTOR-006",
+    "PERSONA-013": "ACTOR-005",
+    "PERSONA-014": "ACTOR-007",
+    "PERSONA-015": "ACTOR-009",
+    "PERSONA-016": "ACTOR-009",
+    "PERSONA-017": "ACTOR-009",
+    "PERSONA-018": "ACTOR-008"
+  },
+  "post_to_actor": {
+    "POST-0001": "ACTOR-008",
+    "POST-0002": "ACTOR-001",
+    "POST-0003": "ACTOR-004",
+    "POST-0004": "ACTOR-001",
+    "POST-0005": "ACTOR-002",
+    "POST-0006": "ACTOR-001",
+    "POST-0007": "ACTOR-005",
+    "POST-0008": "ACTOR-002",
+    "POST-0009": "ACTOR-001",
+    "POST-0010": "ACTOR-005",
+    "POST-0011": "ACTOR-003",
+    "POST-0012": "ACTOR-008",
+    "POST-0013": "ACTOR-006",
+    "POST-0014": "ACTOR-001",
+    "POST-0015": "ACTOR-008",
+    "POST-0016": "ACTOR-001",
+    "POST-0017": "ACTOR-009",
+    "POST-0018": "ACTOR-002",
+    "POST-0019": "ACTOR-001",
+    "POST-0020": "ACTOR-005",
+    "POST-0021": "ACTOR-003",
+    "POST-0022": "ACTOR-004",
+    "POST-0023": "ACTOR-002",
+    "POST-0024": "ACTOR-007",
+    "POST-0025": "ACTOR-004",
+    "POST-0026": "ACTOR-004",
+    "POST-0027": "ACTOR-004",
+    "POST-0028": "ACTOR-001",
+    "POST-0029": "ACTOR-009",
+    "POST-0030": "ACTOR-005",
+    "POST-0031": "ACTOR-002",
+    "POST-0032": "ACTOR-008",
+    "POST-0033": "ACTOR-001",
+    "POST-0034": "ACTOR-009",
+    "POST-0035": "ACTOR-001",
+    "POST-0036": "ACTOR-003",
+    "POST-0037": "ACTOR-008",
+    "POST-0038": "ACTOR-001",
+    "POST-0039": "ACTOR-009",
+    "POST-0040": "ACTOR-002",
+    "POST-0041": "ACTOR-005",
+    "POST-0042": "ACTOR-003",
+    "POST-0043": "ACTOR-005",
+    "POST-0044": "ACTOR-001",
+    "POST-0045": "ACTOR-001",
+    "POST-0046": "ACTOR-005",
+    "POST-0047": "ACTOR-002",
+    "POST-0048": "ACTOR-002",
+    "POST-0049": "ACTOR-008",
+    "POST-0050": "ACTOR-001",
+    "POST-0051": "ACTOR-005",
+    "POST-0052": "ACTOR-005",
+    "POST-0053": "ACTOR-001",
+    "POST-0054": "ACTOR-001",
+    "POST-0055": "ACTOR-009",
+    "POST-0056": "ACTOR-008",
+    "POST-0057": "ACTOR-003",
+    "POST-0058": "ACTOR-005",
+    "POST-0059": "ACTOR-001",
+    "POST-0060": "ACTOR-001",
+    "POST-0061": "ACTOR-001",
+    "POST-0062": "ACTOR-002",
+    "POST-0063": "ACTOR-005",
+    "POST-0064": "ACTOR-003",
+    "POST-0065": "ACTOR-006",
+    "POST-0066": "ACTOR-006",
+    "POST-0067": "ACTOR-006",
+    "POST-0068": "ACTOR-006",
+    "POST-0069": "ACTOR-005",
+    "POST-0070": "ACTOR-001",
+    "POST-0071": "ACTOR-009",
+    "POST-0072": "ACTOR-002",
+    "POST-0073": "ACTOR-005",
+    "POST-0074": "ACTOR-006",
+    "POST-0075": "ACTOR-001",
+    "POST-0076": "ACTOR-001",
+    "POST-0077": "ACTOR-002",
+    "POST-0078": "ACTOR-007",
+    "POST-0079": "ACTOR-001",
+    "POST-0080": "ACTOR-008",
+    "POST-0081": "ACTOR-005",
+    "POST-0082": "ACTOR-008",
+    "POST-0083": "ACTOR-006",
+    "POST-0084": "ACTOR-001",
+    "POST-0085": "ACTOR-001",
+    "POST-0086": "ACTOR-003",
+    "POST-0087": "ACTOR-006",
+    "POST-0088": "ACTOR-006",
+    "POST-0089": "ACTOR-005",
+    "POST-0090": "ACTOR-006",
+    "POST-0091": "ACTOR-006",
+    "POST-0092": "ACTOR-006",
+    "POST-0093": "ACTOR-001",
+    "POST-0094": "ACTOR-009",
+    "POST-0095": "ACTOR-002",
+    "POST-0096": "ACTOR-001",
+    "POST-0097": "ACTOR-001",
+    "POST-0098": "ACTOR-005",
+    "POST-0099": "ACTOR-008",
+    "POST-0100": "ACTOR-007",
+    "POST-0101": "ACTOR-005",
+    "POST-0102": "ACTOR-002",
+    "POST-0103": "ACTOR-008",
+    "POST-0104": "ACTOR-003",
+    "POST-0105": "ACTOR-001",
+    "POST-0106": "ACTOR-005",
+    "POST-0107": "ACTOR-002",
+    "POST-0108": "ACTOR-001",
+    "POST-0109": "ACTOR-009",
+    "POST-0110": "ACTOR-001",
+    "POST-0111": "ACTOR-006",
+    "POST-0112": "ACTOR-006",
+    "POST-0113": "ACTOR-009",
+    "POST-0114": "ACTOR-008",
+    "POST-0115": "ACTOR-003",
+    "POST-0116": "ACTOR-006",
+    "POST-0117": "ACTOR-006",
+    "POST-0118": "ACTOR-006",
+    "POST-0119": "ACTOR-001",
+    "POST-0120": "ACTOR-001",
+    "POST-0121": "ACTOR-009",
+    "POST-0122": "ACTOR-005",
+    "POST-0123": "ACTOR-002",
+    "POST-0124": "ACTOR-005",
+    "POST-0125": "ACTOR-009",
+    "POST-0126": "ACTOR-005",
+    "POST-0127": "ACTOR-009",
+    "POST-0128": "ACTOR-008",
+    "POST-0129": "ACTOR-001",
+    "POST-0130": "ACTOR-009",
+    "POST-0131": "ACTOR-002",
+    "POST-0132": "ACTOR-005",
+    "POST-0133": "ACTOR-007",
+    "POST-0134": "ACTOR-007",
+    "POST-0135": "ACTOR-009",
+    "POST-0136": "ACTOR-004",
+    "POST-0137": "ACTOR-004",
+    "POST-0138": "ACTOR-002",
+    "POST-0139": "ACTOR-008",
+    "POST-0140": "ACTOR-008",
+    "POST-0141": "ACTOR-003",
+    "POST-0142": "ACTOR-004",
+    "POST-0143": "ACTOR-004",
+    "POST-0144": "ACTOR-004",
+    "POST-0145": "ACTOR-005",
+    "POST-0146": "ACTOR-001",
+    "POST-0147": "ACTOR-005",
+    "POST-0148": "ACTOR-008",
+    "POST-0149": "ACTOR-008",
+    "POST-0150": "ACTOR-008",
+    "POST-0151": "ACTOR-008",
+    "POST-0152": "ACTOR-009",
+    "POST-0153": "ACTOR-008",
+    "POST-0154": "ACTOR-008",
+    "POST-0155": "ACTOR-008",
+    "POST-0156": "ACTOR-003",
+    "POST-0157": "ACTOR-005",
+    "POST-0158": "ACTOR-008",
+    "POST-0159": "ACTOR-006",
+    "POST-0160": "ACTOR-001",
+    "POST-0161": "ACTOR-002",
+    "POST-0162": "ACTOR-005",
+    "POST-0163": "ACTOR-009",
+    "POST-0164": "ACTOR-008",
+    "POST-0165": "ACTOR-009",
+    "POST-0166": "ACTOR-005",
+    "POST-0167": "ACTOR-005",
+    "POST-0168": "ACTOR-002",
+    "POST-0169": "ACTOR-003",
+    "POST-0170": "ACTOR-001",
+    "POST-0171": "ACTOR-009",
+    "POST-0172": "ACTOR-002",
+    "POST-0173": "ACTOR-009",
+    "POST-0174": "ACTOR-005",
+    "POST-0175": "ACTOR-003",
+    "POST-0176": "ACTOR-005",
+    "POST-0177": "ACTOR-001",
+    "POST-0178": "ACTOR-001",
+    "POST-0179": "ACTOR-008",
+    "POST-0180": "ACTOR-001",
+    "POST-0181": "ACTOR-002",
+    "POST-0182": "ACTOR-004",
+    "POST-0183": "ACTOR-009",
+    "POST-0184": "ACTOR-004",
+    "POST-0185": "ACTOR-001",
+    "POST-0186": "ACTOR-001",
+    "POST-0187": "ACTOR-009",
+    "POST-0188": "ACTOR-008",
+    "POST-0189": "ACTOR-005",
+    "POST-0190": "ACTOR-008",
+    "POST-0191": "ACTOR-004",
+    "POST-0192": "ACTOR-004",
+    "POST-0193": "ACTOR-004",
+    "POST-0194": "ACTOR-001",
+    "POST-0195": "ACTOR-002",
+    "POST-0196": "ACTOR-008",
+    "POST-0197": "ACTOR-008",
+    "POST-0198": "ACTOR-003",
+    "POST-0199": "ACTOR-009",
+    "POST-0200": "ACTOR-005",
+    "POST-0201": "ACTOR-001",
+    "POST-0202": "ACTOR-005",
+    "POST-0203": "ACTOR-002",
+    "POST-0204": "ACTOR-007",
+    "POST-0205": "ACTOR-009",
+    "POST-0206": "ACTOR-001",
+    "POST-0207": "ACTOR-001",
+    "POST-0208": "ACTOR-008",
+    "POST-0209": "ACTOR-004",
+    "POST-0210": "ACTOR-004",
+    "POST-0211": "ACTOR-004",
+    "POST-0212": "ACTOR-004",
+    "POST-0213": "ACTOR-005",
+    "POST-0214": "ACTOR-001",
+    "POST-0215": "ACTOR-009",
+    "POST-0216": "ACTOR-001",
+    "POST-0217": "ACTOR-009",
+    "POST-0218": "ACTOR-004",
+    "POST-0219": "ACTOR-009",
+    "POST-0220": "ACTOR-001",
+    "POST-0221": "ACTOR-005",
+    "POST-0222": "ACTOR-008",
+    "POST-0223": "ACTOR-003",
+    "POST-0224": "ACTOR-007",
+    "POST-0225": "ACTOR-005",
+    "POST-0226": "ACTOR-001",
+    "POST-0227": "ACTOR-001",
+    "POST-0228": "ACTOR-002",
+    "POST-0229": "ACTOR-009",
+    "POST-0230": "ACTOR-007",
+    "POST-0231": "ACTOR-003",
+    "POST-0232": "ACTOR-009",
+    "POST-0233": "ACTOR-005",
+    "POST-0234": "ACTOR-001",
+    "POST-0235": "ACTOR-009",
+    "POST-0236": "ACTOR-005",
+    "POST-0237": "ACTOR-007",
+    "POST-0238": "ACTOR-001",
+    "POST-0239": "ACTOR-001",
+    "POST-0240": "ACTOR-008",
+    "POST-0241": "ACTOR-001",
+    "POST-0242": "ACTOR-009",
+    "POST-0243": "ACTOR-009",
+    "POST-0244": "ACTOR-001",
+    "POST-0245": "ACTOR-003",
+    "POST-0246": "ACTOR-006",
+    "POST-0247": "ACTOR-005",
+    "POST-0248": "ACTOR-001",
+    "POST-0249": "ACTOR-009",
+    "POST-0250": "ACTOR-006",
+    "POST-0251": "ACTOR-006",
+    "POST-0252": "ACTOR-001",
+    "POST-0253": "ACTOR-008",
+    "POST-0254": "ACTOR-006",
+    "POST-0255": "ACTOR-006",
+    "POST-0256": "ACTOR-001",
+    "POST-0257": "ACTOR-009",
+    "POST-0258": "ACTOR-001",
+    "POST-0259": "ACTOR-009",
+    "POST-0260": "ACTOR-001",
+    "POST-0261": "ACTOR-008",
+    "POST-0262": "ACTOR-002",
+    "POST-0263": "ACTOR-002",
+    "POST-0264": "ACTOR-001",
+    "POST-0265": "ACTOR-002",
+    "POST-0266": "ACTOR-002",
+    "POST-0267": "ACTOR-003",
+    "POST-0268": "ACTOR-004",
+    "POST-0269": "ACTOR-005",
+    "POST-0270": "ACTOR-005",
+    "POST-0271": "ACTOR-001",
+    "POST-0272": "ACTOR-001",
+    "POST-0273": "ACTOR-004",
+    "POST-0274": "ACTOR-004",
+    "POST-0275": "ACTOR-007",
+    "POST-0276": "ACTOR-004",
+    "POST-0277": "ACTOR-004",
+    "POST-0278": "ACTOR-009",
+    "POST-0279": "ACTOR-003",
+    "POST-0280": "ACTOR-009",
+    "POST-0281": "ACTOR-006",
+    "POST-0282": "ACTOR-006",
+    "POST-0283": "ACTOR-006",
+    "POST-0284": "ACTOR-001",
+    "POST-0285": "ACTOR-008",
+    "POST-0286": "ACTOR-002",
+    "POST-0287": "ACTOR-006",
+    "POST-0288": "ACTOR-006",
+    "POST-0289": "ACTOR-001",
+    "POST-0290": "ACTOR-001",
+    "POST-0291": "ACTOR-002",
+    "POST-0292": "ACTOR-009",
+    "POST-0293": "ACTOR-007",
+    "POST-0294": "ACTOR-005",
+    "POST-0295": "ACTOR-001",
+    "POST-0296": "ACTOR-002",
+    "POST-0297": "ACTOR-007",
+    "POST-0298": "ACTOR-009",
+    "POST-0299": "ACTOR-001",
+    "POST-0300": "ACTOR-001",
+    "POST-0301": "ACTOR-009",
+    "POST-0302": "ACTOR-002",
+    "POST-0303": "ACTOR-008",
+    "POST-0304": "ACTOR-002",
+    "POST-0305": "ACTOR-009",
+    "POST-0306": "ACTOR-003",
+    "POST-0307": "ACTOR-007",
+    "POST-0308": "ACTOR-005",
+    "POST-0309": "ACTOR-001",
+    "POST-0310": "ACTOR-001",
+    "POST-0311": "ACTOR-009",
+    "POST-0312": "ACTOR-009",
+    "POST-0313": "ACTOR-001",
+    "POST-0314": "ACTOR-009",
+    "POST-0315": "ACTOR-006",
+    "POST-0316": "ACTOR-001",
+    "POST-0317": "ACTOR-002",
+    "POST-0318": "ACTOR-003",
+    "POST-0319": "ACTOR-006",
+    "POST-0320": "ACTOR-006",
+    "POST-0321": "ACTOR-006",
+    "POST-0322": "ACTOR-006",
+    "POST-0323": "ACTOR-005",
+    "POST-0324": "ACTOR-001",
+    "POST-0325": "ACTOR-002",
+    "POST-0326": "ACTOR-008",
+    "POST-0327": "ACTOR-007",
+    "POST-0328": "ACTOR-009",
+    "POST-0329": "ACTOR-008",
+    "POST-0330": "ACTOR-002",
+    "POST-0331": "ACTOR-008",
+    "POST-0332": "ACTOR-001",
+    "POST-0333": "ACTOR-001",
+    "POST-0334": "ACTOR-002",
+    "POST-0335": "ACTOR-009",
+    "POST-0336": "ACTOR-001",
+    "POST-0337": "ACTOR-005",
+    "POST-0338": "ACTOR-002",
+    "POST-0339": "ACTOR-007",
+    "POST-0340": "ACTOR-006",
+    "POST-0341": "ACTOR-006",
+    "POST-0342": "ACTOR-006",
+    "POST-0343": "ACTOR-006",
+    "POST-0344": "ACTOR-001",
+    "POST-0345": "ACTOR-003",
+    "POST-0346": "ACTOR-004",
+    "POST-0347": "ACTOR-004",
+    "POST-0348": "ACTOR-009",
+    "POST-0349": "ACTOR-004",
+    "POST-0350": "ACTOR-004",
+    "POST-0351": "ACTOR-004",
+    "POST-0352": "ACTOR-001",
+    "POST-0353": "ACTOR-002",
+    "POST-0354": "ACTOR-002",
+    "POST-0355": "ACTOR-008",
+    "POST-0356": "ACTOR-006",
+    "POST-0357": "ACTOR-009",
+    "POST-0358": "ACTOR-005"
+  },
+  "identifier_to_actor": {
+    "IDENT-001": "ACTOR-001",
+    "IDENT-002": "ACTOR-001",
+    "IDENT-003": "ACTOR-002",
+    "IDENT-004": "ACTOR-003",
+    "IDENT-005": "ACTOR-001",
+    "IDENT-006": "ACTOR-001",
+    "IDENT-007": "ACTOR-004",
+    "IDENT-008": "ACTOR-004",
+    "IDENT-009": "ACTOR-005",
+    "IDENT-010": "ACTOR-002",
+    "IDENT-011": "ACTOR-006",
+    "IDENT-012": "ACTOR-007",
+    "IDENT-013": "ACTOR-008",
+    "IDENT-014": "ACTOR-008",
+    "IDENT-015": "ACTOR-001",
+    "IDENT-016": "ACTOR-006",
+    "IDENT-017": "ACTOR-006",
+    "IDENT-018": "ACTOR-005",
+    "IDENT-019": "ACTOR-007",
+    "IDENT-020": "ACTOR-009",
+    "IDENT-021": "ACTOR-009",
+    "IDENT-022": "ACTOR-009",
+    "IDENT-023": "ACTOR-008",
+    "IDENT-024": "ACTOR-001",
+    "IDENT-025": "ACTOR-001",
+    "IDENT-026": "ACTOR-001",
+    "IDENT-027": "ACTOR-002",
+    "IDENT-028": "ACTOR-002",
+    "IDENT-029": "ACTOR-003",
+    "IDENT-030": "ACTOR-004",
+    "IDENT-031": "ACTOR-004",
+    "IDENT-032": "ACTOR-005",
+    "IDENT-033": "ACTOR-005",
+    "IDENT-034": "ACTOR-006",
+    "IDENT-035": "ACTOR-006",
+    "IDENT-036": "ACTOR-008",
+    "IDENT-037": "ACTOR-009",
+    "IDENT-038": "ACTOR-009",
+    "IDENT-039": "ACTOR-009",
+    "IDENT-040": "ACTOR-008",
+    "IDENT-041": "ACTOR-001",
+    "IDENT-042": "ACTOR-001",
+    "IDENT-043": "ACTOR-001",
+    "IDENT-044": "ACTOR-002",
+    "IDENT-045": "ACTOR-003",
+    "IDENT-046": "ACTOR-004",
+    "IDENT-047": "ACTOR-004",
+    "IDENT-048": "ACTOR-005",
+    "IDENT-049": "ACTOR-005",
+    "IDENT-050": "ACTOR-006",
+    "IDENT-051": "ACTOR-006",
+    "IDENT-052": "ACTOR-008",
+    "IDENT-053": "ACTOR-009",
+    "IDENT-054": "ACTOR-009",
+    "IDENT-055": "ACTOR-009",
+    "IDENT-056": "ACTOR-008",
+    "IDENT-057": "ACTOR-001",
+    "IDENT-058": "ACTOR-001",
+    "IDENT-059": "ACTOR-002",
+    "IDENT-060": "ACTOR-002",
+    "IDENT-061": "ACTOR-004",
+    "IDENT-062": "ACTOR-008",
+    "IDENT-063": "ACTOR-006",
+    "IDENT-064": "ACTOR-009",
+    "IDENT-065": "ACTOR-007",
+    "IDENT-066": "ACTOR-001",
+    "IDENT-067": "ACTOR-001",
+    "IDENT-068": "ACTOR-001",
+    "IDENT-069": "ACTOR-002",
+    "IDENT-070": "ACTOR-002",
+    "IDENT-071": "ACTOR-009",
+    "IDENT-072": "ACTOR-003",
+    "IDENT-073": "ACTOR-005",
+    "IDENT-074": "ACTOR-005",
+    "IDENT-075": "ACTOR-006",
+    "IDENT-076": "ACTOR-009"
+  },
+  "service_to_actor": {
+    "SERVICE-001": [
+      "ACTOR-001"
+    ],
+    "SERVICE-002": [
+      "ACTOR-004"
+    ],
+    "SERVICE-003": [
+      "ACTOR-002"
+    ],
+    "SERVICE-004": [
+      "ACTOR-006"
+    ],
+    "SERVICE-005": [
+      "ACTOR-005"
+    ],
+    "SERVICE-006": [
+      "ACTOR-009"
+    ],
+    "SERVICE-007": [
+      "ACTOR-007"
+    ],
+    "SERVICE-008": [
+      "ACTOR-008"
+    ]
+  },
+  "persona_generation_profiles": {
+    "PERSONA-001": {
+      "actor_id": "ACTOR-001",
+      "style_archetype": "STYLE-A",
+      "writing_style_profile": {
+        "label": "short lowercase, ellipsis-heavy",
+        "average_sentence_length": "short",
+        "punctuation_style": "frequent_ellipsis",
+        "capitalization": "mostly_lowercase",
+        "typo_style": "missing_apostrophes",
+        "verbosity": "brief",
+        "slang_level": "high"
+      },
+      "idiolect_markers": [
+        "same terms as before",
+        "ping me here",
+        "no rush on this",
+        "as usual"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "day_pattern": "all",
+        "cadence": "steady",
+        "active_window": [
+          "2026-06-02T03:21:00Z",
+          "2026-07-05T04:32:00Z"
+        ],
+        "post_count": 26
+      },
+      "design_notes": "Goes quiet after a closing notice; 14-day gap before PERSONA-004 appears."
+    },
+    "PERSONA-002": {
+      "actor_id": "ACTOR-002",
+      "style_archetype": "STYLE-D",
+      "writing_style_profile": {
+        "label": "technical register, semicolon clauses",
+        "average_sentence_length": "long",
+        "punctuation_style": "semicolons",
+        "capitalization": "standard",
+        "typo_style": "none",
+        "verbosity": "high",
+        "slang_level": "none"
+      },
+      "idiolect_markers": [
+        "for the record",
+        "per the earlier thread",
+        "noting this here"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "day_pattern": "weekdays",
+        "cadence": "steady",
+        "active_window": [
+          "2026-06-03T09:03:00Z",
+          "2026-07-28T11:49:00Z"
+        ],
+        "post_count": 24
+      },
+      "design_notes": "9-day gap before PERSONA-007 appears on a different board."
+    },
+    "PERSONA-003": {
+      "actor_id": "ACTOR-003",
+      "style_archetype": "STYLE-B",
+      "writing_style_profile": {
+        "label": "formal complete sentences, flat punctuation",
+        "average_sentence_length": "medium",
+        "punctuation_style": "periods_only",
+        "capitalization": "standard",
+        "typo_style": "none",
+        "verbosity": "moderate",
+        "slang_level": "low"
+      },
+      "idiolect_markers": [
+        "to clarify",
+        "I will follow up"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "day_pattern": "all",
+        "cadence": "steady",
+        "active_window": [
+          "2026-06-05T13:56:00Z",
+          "2026-08-22T15:40:00Z"
+        ],
+        "post_count": 22
+      },
+      "design_notes": "Control actor: single persona, stable handle, formal register."
+    },
+    "PERSONA-004": {
+      "actor_id": "ACTOR-001",
+      "style_archetype": "STYLE-A",
+      "writing_style_profile": {
+        "label": "short lowercase, ellipsis-heavy",
+        "average_sentence_length": "short",
+        "punctuation_style": "frequent_ellipsis",
+        "capitalization": "mostly_lowercase",
+        "typo_style": "missing_apostrophes",
+        "verbosity": "brief",
+        "slang_level": "high"
+      },
+      "idiolect_markers": [
+        "same terms as before",
+        "ping me here",
+        "no rush on this",
+        "as usual"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "day_pattern": "all",
+        "cadence": "steady",
+        "active_window": [
+          "2026-07-19T04:12:00Z",
+          "2026-08-24T03:01:00Z"
+        ],
+        "post_count": 30
+      },
+      "design_notes": "Rebrand of PERSONA-001. Same PGP and wallet, same style, same hours."
+    },
+    "PERSONA-005": {
+      "actor_id": "ACTOR-004",
+      "style_archetype": "STYLE-F",
+      "writing_style_profile": {
+        "label": "verbose with parenthetical asides",
+        "average_sentence_length": "long",
+        "punctuation_style": "parentheses",
+        "capitalization": "standard",
+        "typo_style": "none",
+        "verbosity": "very_high",
+        "slang_level": "low"
+      },
+      "idiolect_markers": [
+        "as before",
+        "same as the last cycle",
+        "for completeness"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "day_pattern": "all",
+        "cadence": "bursty",
+        "active_window": [
+          "2026-06-02T22:45:00Z",
+          "2026-08-23T21:33:55Z"
+        ],
+        "post_count": 30
+      },
+      "design_notes": "Same handle observed on two marketplaces from 2026-07-10 onward."
+    },
+    "PERSONA-006": {
+      "actor_id": "ACTOR-005",
+      "style_archetype": "STYLE-G",
+      "writing_style_profile": {
+        "label": "typo-prone, omitted apostrophes",
+        "average_sentence_length": "medium",
+        "punctuation_style": "irregular_commas",
+        "capitalization": "mostly_lowercase",
+        "typo_style": "frequent_misspellings",
+        "verbosity": "moderate",
+        "slang_level": "medium"
+      },
+      "idiolect_markers": [
+        "cant confirm yet",
+        "same as last week",
+        "will update"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "day_pattern": "weekdays",
+        "cadence": "steady",
+        "active_window": [
+          "2026-06-04T10:37:00Z",
+          "2026-07-30T12:20:00Z"
+        ],
+        "post_count": 22
+      },
+      "design_notes": "Style twin of PERSONA-013 but on an incompatible schedule."
+    },
+    "PERSONA-007": {
+      "actor_id": "ACTOR-002",
+      "style_archetype": "STYLE-D",
+      "writing_style_profile": {
+        "label": "technical register, semicolon clauses",
+        "average_sentence_length": "long",
+        "punctuation_style": "semicolons",
+        "capitalization": "standard",
+        "typo_style": "none",
+        "verbosity": "high",
+        "slang_level": "none"
+      },
+      "idiolect_markers": [
+        "for the record",
+        "per the earlier thread",
+        "noting this here"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "day_pattern": "weekdays",
+        "cadence": "steady",
+        "active_window": [
+          "2026-08-06T13:20:26Z",
+          "2026-08-25T09:29:00Z"
+        ],
+        "post_count": 16
+      },
+      "design_notes": "Rebrand of PERSONA-002. Rotated PGP and wallet; only a stale contact address overlaps."
+    },
+    "PERSONA-008": {
+      "actor_id": "ACTOR-006",
+      "style_archetype": "STYLE-H",
+      "writing_style_profile": {
+        "label": "mixed capitalization, repeated punctuation",
+        "average_sentence_length": "short",
+        "punctuation_style": "repeated_marks",
+        "capitalization": "mixed_case_emphasis",
+        "typo_style": "none",
+        "verbosity": "moderate",
+        "slang_level": "medium"
+      },
+      "idiolect_markers": [
+        "Same Setup",
+        "check the pinned note",
+        "back online now"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "day_pattern": "all",
+        "cadence": "bursty",
+        "active_window": [
+          "2026-06-06T23:36:00Z",
+          "2026-07-12T23:32:00Z"
+        ],
+        "post_count": 18
+      },
+      "design_notes": "Abandoned persona; 21-day gap before PERSONA-012 appears on the same service."
+    },
+    "PERSONA-009": {
+      "actor_id": "ACTOR-007",
+      "style_archetype": "STYLE-E",
+      "writing_style_profile": {
+        "label": "minimalist one-liners",
+        "average_sentence_length": "very_short",
+        "punctuation_style": "sparse",
+        "capitalization": "mostly_lowercase",
+        "typo_style": "none",
+        "verbosity": "minimal",
+        "slang_level": "low"
+      },
+      "idiolect_markers": [
+        "ok",
+        "noted"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "day_pattern": "all",
+        "cadence": "sparse",
+        "active_window": [
+          "2026-06-10T15:13:00Z",
+          "2026-08-18T18:23:00Z"
+        ],
+        "post_count": 8
+      },
+      "design_notes": "Short-text account: insufficient data for stylometry."
+    },
+    "PERSONA-010": {
+      "actor_id": "ACTOR-008",
+      "style_archetype": "STYLE-B",
+      "writing_style_profile": {
+        "label": "formal complete sentences, flat punctuation",
+        "average_sentence_length": "medium",
+        "punctuation_style": "periods_only",
+        "capitalization": "standard",
+        "typo_style": "none",
+        "verbosity": "moderate",
+        "slang_level": "low"
+      },
+      "idiolect_markers": [
+        "please keep it in one thread",
+        "logged for reference"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "day_pattern": "all",
+        "cadence": "steady",
+        "active_window": [
+          "2026-06-01T15:23:00Z",
+          "2026-08-25T10:29:00Z"
+        ],
+        "post_count": 26
+      },
+      "design_notes": "Moderator hub. Interacts with many unrelated personas - shared-network false-positive source."
+    },
+    "PERSONA-011": {
+      "actor_id": "ACTOR-001",
+      "style_archetype": "STYLE-A",
+      "writing_style_profile": {
+        "label": "short lowercase, ellipsis-heavy",
+        "average_sentence_length": "short",
+        "punctuation_style": "frequent_ellipsis",
+        "capitalization": "mostly_lowercase",
+        "typo_style": "missing_apostrophes",
+        "verbosity": "brief",
+        "slang_level": "high"
+      },
+      "idiolect_markers": [
+        "same terms as before",
+        "ping me here",
+        "no rush on this",
+        "as usual"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "day_pattern": "all",
+        "cadence": "steady",
+        "active_window": [
+          "2026-06-20T03:47:00Z",
+          "2026-08-20T02:06:00Z"
+        ],
+        "post_count": 24
+      },
+      "design_notes": "Parallel third persona of ACTOR-001 on a different marketplace; separate wallet, separate PGP."
+    },
+    "PERSONA-012": {
+      "actor_id": "ACTOR-006",
+      "style_archetype": "STYLE-H",
+      "writing_style_profile": {
+        "label": "mixed capitalization, repeated punctuation",
+        "average_sentence_length": "short",
+        "punctuation_style": "repeated_marks",
+        "capitalization": "mixed_case_emphasis",
+        "typo_style": "none",
+        "verbosity": "moderate",
+        "slang_level": "medium"
+      },
+      "idiolect_markers": [
+        "Same Setup",
+        "check the pinned note",
+        "back online now"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "day_pattern": "all",
+        "cadence": "bursty",
+        "active_window": [
+          "2026-08-02T22:35:00Z",
+          "2026-08-25T21:03:00Z"
+        ],
+        "post_count": 20
+      },
+      "design_notes": "Rebrand of PERSONA-008 on the same hidden service; near-miss PGP variation."
+    },
+    "PERSONA-013": {
+      "actor_id": "ACTOR-005",
+      "style_archetype": "STYLE-G",
+      "writing_style_profile": {
+        "label": "typo-prone, omitted apostrophes",
+        "average_sentence_length": "medium",
+        "punctuation_style": "irregular_commas",
+        "capitalization": "mostly_lowercase",
+        "typo_style": "frequent_misspellings",
+        "verbosity": "moderate",
+        "slang_level": "medium"
+      },
+      "idiolect_markers": [
+        "cant confirm yet",
+        "same as last week",
+        "will update"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          0,
+          1,
+          2,
+          22,
+          23
+        ],
+        "day_pattern": "all",
+        "cadence": "steady",
+        "active_window": [
+          "2026-06-15T22:34:00Z",
+          "2026-08-25T22:01:00Z"
+        ],
+        "post_count": 24
+      },
+      "design_notes": "Concurrent with PERSONA-006 on an opposite schedule: style agrees, timing conflicts."
+    },
+    "PERSONA-014": {
+      "actor_id": "ACTOR-007",
+      "style_archetype": "STYLE-E",
+      "writing_style_profile": {
+        "label": "minimalist one-liners",
+        "average_sentence_length": "very_short",
+        "punctuation_style": "sparse",
+        "capitalization": "mostly_lowercase",
+        "typo_style": "none",
+        "verbosity": "minimal",
+        "slang_level": "low"
+      },
+      "idiolect_markers": [
+        "ok",
+        "noted"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "day_pattern": "all",
+        "cadence": "sparse",
+        "active_window": [
+          "2026-06-25T18:52:00Z",
+          "2026-08-21T17:01:00Z"
+        ],
+        "post_count": 7
+      },
+      "design_notes": "Second short-text account of ACTOR-007 on a low-reliability paste source."
+    },
+    "PERSONA-015": {
+      "actor_id": "ACTOR-009",
+      "style_archetype": "STYLE-A",
+      "writing_style_profile": {
+        "label": "short lowercase, ellipsis-heavy",
+        "average_sentence_length": "short",
+        "punctuation_style": "frequent_ellipsis",
+        "capitalization": "mostly_lowercase",
+        "typo_style": "missing_apostrophes",
+        "verbosity": "brief",
+        "slang_level": "high"
+      },
+      "idiolect_markers": [
+        "short window on this",
+        "second batch later"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "day_pattern": "all",
+        "cadence": "steady",
+        "active_window": [
+          "2026-06-08T05:16:00Z",
+          "2026-08-23T05:30:00Z"
+        ],
+        "post_count": 20
+      },
+      "design_notes": "Shares STYLE-A with the ACTOR-001 personas but is a different actor - primary false-positive candidate."
+    },
+    "PERSONA-016": {
+      "actor_id": "ACTOR-009",
+      "style_archetype": "STYLE-E",
+      "writing_style_profile": {
+        "label": "minimalist one-liners",
+        "average_sentence_length": "very_short",
+        "punctuation_style": "sparse",
+        "capitalization": "mostly_lowercase",
+        "typo_style": "none",
+        "verbosity": "minimal",
+        "slang_level": "low"
+      },
+      "idiolect_markers": [
+        "short window on this",
+        "second batch later"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "day_pattern": "all",
+        "cadence": "sparse",
+        "active_window": [
+          "2026-06-12T16:04:00Z",
+          "2026-08-15T15:10:00Z"
+        ],
+        "post_count": 9
+      },
+      "design_notes": "Minimalist paste-drop persona linked to ACTOR-009 only through a shared wallet identifier."
+    },
+    "PERSONA-017": {
+      "actor_id": "ACTOR-009",
+      "style_archetype": "STYLE-D",
+      "writing_style_profile": {
+        "label": "technical register, semicolon clauses",
+        "average_sentence_length": "long",
+        "punctuation_style": "semicolons",
+        "capitalization": "standard",
+        "typo_style": "none",
+        "verbosity": "high",
+        "slang_level": "none"
+      },
+      "idiolect_markers": [
+        "short window on this",
+        "second batch later"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "day_pattern": "all",
+        "cadence": "steady",
+        "active_window": [
+          "2026-07-05T21:41:00Z",
+          "2026-08-25T21:51:00Z"
+        ],
+        "post_count": 18
+      },
+      "design_notes": "Shares STYLE-D with the ACTOR-002 personas (different actor) while sharing a PGP with PERSONA-015 (same actor, different style)."
+    },
+    "PERSONA-018": {
+      "actor_id": "ACTOR-008",
+      "style_archetype": "STYLE-C",
+      "writing_style_profile": {
+        "label": "fragmented, exclamation-heavy",
+        "average_sentence_length": "very_short",
+        "punctuation_style": "frequent_exclamation",
+        "capitalization": "standard",
+        "typo_style": "none",
+        "verbosity": "brief",
+        "slang_level": "medium"
+      },
+      "idiolect_markers": [
+        "please keep it in one thread",
+        "logged for reference"
+      ],
+      "behaviour_profile": {
+        "active_hours_utc": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "day_pattern": "all",
+        "cadence": "bursty",
+        "active_window": [
+          "2026-07-01T13:42:00Z",
+          "2026-08-19T12:30:00Z"
+        ],
+        "post_count": 14
+      },
+      "design_notes": "Second persona of the moderator actor, in a completely different register."
+    }
+  },
+  "style_archetypes": {
+    "STYLE-A": {
+      "label": "short lowercase, ellipsis-heavy",
+      "average_sentence_length": "short",
+      "punctuation_style": "frequent_ellipsis",
+      "capitalization": "mostly_lowercase",
+      "typo_style": "missing_apostrophes",
+      "verbosity": "brief",
+      "slang_level": "high"
+    },
+    "STYLE-B": {
+      "label": "formal complete sentences, flat punctuation",
+      "average_sentence_length": "medium",
+      "punctuation_style": "periods_only",
+      "capitalization": "standard",
+      "typo_style": "none",
+      "verbosity": "moderate",
+      "slang_level": "low"
+    },
+    "STYLE-C": {
+      "label": "fragmented, exclamation-heavy",
+      "average_sentence_length": "very_short",
+      "punctuation_style": "frequent_exclamation",
+      "capitalization": "standard",
+      "typo_style": "none",
+      "verbosity": "brief",
+      "slang_level": "medium"
+    },
+    "STYLE-D": {
+      "label": "technical register, semicolon clauses",
+      "average_sentence_length": "long",
+      "punctuation_style": "semicolons",
+      "capitalization": "standard",
+      "typo_style": "none",
+      "verbosity": "high",
+      "slang_level": "none"
+    },
+    "STYLE-E": {
+      "label": "minimalist one-liners",
+      "average_sentence_length": "very_short",
+      "punctuation_style": "sparse",
+      "capitalization": "mostly_lowercase",
+      "typo_style": "none",
+      "verbosity": "minimal",
+      "slang_level": "low"
+    },
+    "STYLE-F": {
+      "label": "verbose with parenthetical asides",
+      "average_sentence_length": "long",
+      "punctuation_style": "parentheses",
+      "capitalization": "standard",
+      "typo_style": "none",
+      "verbosity": "very_high",
+      "slang_level": "low"
+    },
+    "STYLE-G": {
+      "label": "typo-prone, omitted apostrophes",
+      "average_sentence_length": "medium",
+      "punctuation_style": "irregular_commas",
+      "capitalization": "mostly_lowercase",
+      "typo_style": "frequent_misspellings",
+      "verbosity": "moderate",
+      "slang_level": "medium"
+    },
+    "STYLE-H": {
+      "label": "mixed capitalization, repeated punctuation",
+      "average_sentence_length": "short",
+      "punctuation_style": "repeated_marks",
+      "capitalization": "mixed_case_emphasis",
+      "typo_style": "none",
+      "verbosity": "moderate",
+      "slang_level": "medium"
+    }
+  },
+  "actor_persona_edges": [
+    {
+      "actor_id": "ACTOR-001",
+      "persona_id": "PERSONA-001",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-002",
+      "persona_id": "PERSONA-002",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-003",
+      "persona_id": "PERSONA-003",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-001",
+      "persona_id": "PERSONA-004",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-004",
+      "persona_id": "PERSONA-005",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-005",
+      "persona_id": "PERSONA-006",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-002",
+      "persona_id": "PERSONA-007",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-006",
+      "persona_id": "PERSONA-008",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-007",
+      "persona_id": "PERSONA-009",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-008",
+      "persona_id": "PERSONA-010",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-001",
+      "persona_id": "PERSONA-011",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-006",
+      "persona_id": "PERSONA-012",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-005",
+      "persona_id": "PERSONA-013",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-007",
+      "persona_id": "PERSONA-014",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-009",
+      "persona_id": "PERSONA-015",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-009",
+      "persona_id": "PERSONA-016",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-009",
+      "persona_id": "PERSONA-017",
+      "relationship_type": "OPERATES"
+    },
+    {
+      "actor_id": "ACTOR-008",
+      "persona_id": "PERSONA-018",
+      "relationship_type": "OPERATES"
+    }
+  ],
+  "migrations": [
+    {
+      "migration_id": "MIG-001",
+      "actor_id": "ACTOR-001",
+      "from_persona": "PERSONA-001",
+      "to_persona": "PERSONA-004",
+      "from_last_active": "2026-07-05",
+      "to_first_active": "2026-07-19",
+      "gap_days": 14,
+      "migration_type": "REBRAND_SAME_SOURCE",
+      "notes": "Closing notice posted, account left dormant, new handle appears on the same marketplace with the same key material."
+    },
+    {
+      "migration_id": "MIG-002",
+      "actor_id": "ACTOR-002",
+      "from_persona": "PERSONA-002",
+      "to_persona": "PERSONA-007",
+      "from_last_active": "2026-07-28",
+      "to_first_active": "2026-08-06",
+      "gap_days": 9,
+      "migration_type": "REBRAND_CROSS_SOURCE",
+      "notes": "Moves from ForumAlpha to ForumBeta with rotated key material; only a stale contact address carries over."
+    },
+    {
+      "migration_id": "MIG-003",
+      "actor_id": "ACTOR-006",
+      "from_persona": "PERSONA-008",
+      "to_persona": "PERSONA-012",
+      "from_last_active": "2026-07-12",
+      "to_first_active": "2026-08-02",
+      "gap_days": 21,
+      "migration_type": "REBRAND_SAME_SERVICE",
+      "notes": "Same hidden service and support panel; PGP value varies by a single suffix."
+    },
+    {
+      "migration_id": "MIG-004",
+      "actor_id": "ACTOR-004",
+      "from_persona": "PERSONA-005",
+      "to_persona": "PERSONA-005",
+      "from_last_active": "2026-08-23",
+      "to_first_active": "2026-07-10",
+      "gap_days": 0,
+      "migration_type": "SOURCE_EXPANSION_SAME_HANDLE",
+      "notes": "Not a rebrand: the same handle and key material simply appear on a second marketplace from 2026-07-10."
+    }
+  ],
+  "infrastructure_ground_truth": [
+    {
+      "entity_a": "SERVICE-001",
+      "entity_b": "CLEAR-001",
+      "ground_truth": "SAME_INFRASTRUCTURE",
+      "reason": "Certificate, banner and favicon all agree; designed as the strong positive clearnet correlation."
+    },
+    {
+      "entity_a": "SERVICE-003",
+      "entity_b": "CLEAR-003",
+      "ground_truth": "POSSIBLE_SHARED_INFRASTRUCTURE",
+      "reason": "Certificate matches but no second indicator corroborates it."
+    },
+    {
+      "entity_a": "SERVICE-002",
+      "entity_b": "SERVICE-004",
+      "ground_truth": "POSSIBLE_SHARED_INFRASTRUCTURE",
+      "reason": "Banner and favicon shared between two services operated by different synthetic actors - a shared-hosting-style artefact, not co-ownership."
+    },
+    {
+      "entity_a": "SERVICE-002",
+      "entity_b": "CLEAR-002",
+      "ground_truth": "POSSIBLE_SHARED_INFRASTRUCTURE",
+      "reason": "Banner and favicon match, certificate differs."
+    },
+    {
+      "entity_a": "SERVICE-004",
+      "entity_b": "CLEAR-002",
+      "ground_truth": "POSSIBLE_SHARED_INFRASTRUCTURE",
+      "reason": "Banner and favicon match, certificate differs."
+    },
+    {
+      "entity_a": "SERVICE-006",
+      "entity_b": "CLEAR-004",
+      "ground_truth": "POSSIBLE_SHARED_INFRASTRUCTURE",
+      "reason": "Only a common software signature matches; weak on its own."
+    },
+    {
+      "entity_a": "SERVICE-008",
+      "entity_b": "CLEAR-006",
+      "ground_truth": "POSSIBLE_SHARED_INFRASTRUCTURE",
+      "reason": "Favicon matches, certificate and banner differ."
+    },
+    {
+      "entity_a": "SERVICE-005",
+      "entity_b": "CLEAR-005",
+      "ground_truth": "DIFFERENT_INFRASTRUCTURE",
+      "reason": "Negative control: no indicator overlap."
+    },
+    {
+      "entity_a": "SERVICE-001",
+      "entity_b": "SERVICE-006",
+      "ground_truth": "DIFFERENT_INFRASTRUCTURE",
+      "reason": "Negative control: no indicator overlap."
+    },
+    {
+      "entity_a": "SERVICE-007",
+      "entity_b": "SERVICE-008",
+      "ground_truth": "DIFFERENT_INFRASTRUCTURE",
+      "reason": "Negative control: no indicator overlap."
+    },
+    {
+      "entity_a": "SERVICE-001",
+      "entity_b": "SERVICE-003",
+      "ground_truth": "DIFFERENT_INFRASTRUCTURE",
+      "reason": "Negative control: no indicator overlap."
+    }
+  ],
+  "case_expectations": {
+    "CASE-001": {
+      "expected_final_assessment": "STRONG_POSITIVE",
+      "expectation_notes": "All four evidence families agree: identical key material, identical wallet, same style archetype and idiolect, same posting hours, 14-day gap. This is the reference strong-positive case.",
+      "target_personas": [
+        "PERSONA-001",
+        "PERSONA-004"
+      ]
+    },
+    "CASE-002": {
+      "expected_final_assessment": "AMBIGUOUS",
+      "expectation_notes": "Banner and favicon overlap plus coinciding posting hours, against differing certificates, differing key material and differing style. Should not resolve to a positive link.",
+      "target_personas": [
+        "PERSONA-005",
+        "PERSONA-012"
+      ]
+    },
+    "CASE-003": {
+      "expected_final_assessment": "WEAK_POSITIVE",
+      "expectation_notes": "A single shared wallet observation on a LOW-reliability source, with almost no text on one side. Correct behaviour is a weak positive, not a confident link.",
+      "target_personas": [
+        "PERSONA-015",
+        "PERSONA-016"
+      ]
+    },
+    "CASE-004": {
+      "expected_final_assessment": "CONFLICTING_EVIDENCE",
+      "expectation_notes": "Ground truth is same actor, but the temporal signal actively contradicts it. Tests that fusion neither ignores the conflict nor lets it veto a strong stylometric signal.",
+      "target_personas": [
+        "PERSONA-006",
+        "PERSONA-013"
+      ]
+    },
+    "CASE-005": {
+      "expected_final_assessment": "FALSE_POSITIVE_CANDIDATE",
+      "expectation_notes": "Same style archetype, different actors, different idiolect markers, different topics, no shared identifiers or infrastructure. Should be rejected or heavily discounted.",
+      "target_personas": [
+        "PERSONA-001",
+        "PERSONA-015"
+      ]
+    },
+    "CASE-006": {
+      "expected_final_assessment": "INSUFFICIENT_EVIDENCE",
+      "expectation_notes": "Ground truth is same actor, but the dataset deliberately withholds enough text or identifiers to support that. The correct output is an explicit insufficiency verdict.",
+      "target_personas": [
+        "PERSONA-009",
+        "PERSONA-014"
+      ]
+    },
+    "CASE-007": {
+      "expected_final_assessment": "STRONG_POSITIVE",
+      "expectation_notes": "Identical handle, identical PGP and identical wallet observed on both marketplaces with continuous activity - the clean cross-source identity case.",
+      "target_personas": [
+        "PERSONA-005"
+      ]
+    },
+    "CASE-008": {
+      "expected_final_assessment": "STRONG_POSITIVE",
+      "expectation_notes": "Same hidden service across the gap, near-miss key variation, identical style archetype and posting hours. The main temporal-graph demo case.",
+      "target_personas": [
+        "PERSONA-008",
+        "PERSONA-012"
+      ]
+    }
+  },
+  "scenarios": {
+    "SCENARIO-01": "Same actor, different persona, same PGP and wallet, similar style, migration gap.",
+    "SCENARIO-02": "Same actor, different persona, similar style, no shared wallet.",
+    "SCENARIO-03": "Different actors, same topic, different style.",
+    "SCENARIO-04": "Different actors, similar style, different identifiers.",
+    "SCENARIO-05": "Different actors, similar posting time, different style.",
+    "SCENARIO-06": "Possible infrastructure overlap with ambiguous identity.",
+    "SCENARIO-07": "Strong identifier evidence, weak behavioural or stylometric evidence.",
+    "SCENARIO-08": "Strong stylometric evidence with conflicting behavioural or identifier evidence.",
+    "SCENARIO-09": "Short-text account pair with insufficient stylometric evidence.",
+    "SCENARIO-10": "Completely unrelated accounts.",
+    "SCENARIO-11": "One actor with three personas across multiple sources.",
+    "SCENARIO-12": "One persona appearing across multiple sources under the same handle."
+  },
+  "scenario_coverage": {
+    "SCENARIO-01": [
+      "PAIR-001",
+      "PAIR-005"
+    ],
+    "SCENARIO-11": [
+      "PAIR-002",
+      "PAIR-003"
+    ],
+    "SCENARIO-02": [
+      "PAIR-004"
+    ],
+    "SCENARIO-08": [
+      "PAIR-006"
+    ],
+    "SCENARIO-07": [
+      "PAIR-007",
+      "PAIR-008"
+    ],
+    "SCENARIO-09": [
+      "PAIR-009",
+      "PAIR-023"
+    ],
+    "SCENARIO-03": [
+      "PAIR-010",
+      "PAIR-011",
+      "PAIR-012",
+      "PAIR-018"
+    ],
+    "SCENARIO-04": [
+      "PAIR-013",
+      "PAIR-014",
+      "PAIR-015"
+    ],
+    "SCENARIO-06": [
+      "PAIR-016",
+      "PAIR-025"
+    ],
+    "SCENARIO-05": [
+      "PAIR-017"
+    ],
+    "SCENARIO-10": [
+      "PAIR-019",
+      "PAIR-020",
+      "PAIR-021",
+      "PAIR-022",
+      "PAIR-024"
+    ],
+    "SCENARIO-12": [
+      "CASE-007"
+    ]
+  }
+}

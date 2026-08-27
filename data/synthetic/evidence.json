@@ -1,0 +1,2386 @@
+[
+  {
+    "evidence_id": "EVID-001",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-001 was observed using pgp_fingerprint value FAKE-PGP-001 on MarketGamma.",
+    "entities": [
+      "PERSONA-001",
+      "IDENT-024"
+    ],
+    "evidence_refs": [
+      "IDENT-024"
+    ],
+    "source_id": "SRC-003",
+    "observed_at": "2026-06-02T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-002",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-004 was observed using pgp_fingerprint value FAKE-PGP-001 on MarketGamma.",
+    "entities": [
+      "PERSONA-004",
+      "IDENT-025"
+    ],
+    "evidence_refs": [
+      "IDENT-025"
+    ],
+    "source_id": "SRC-003",
+    "observed_at": "2026-07-19T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-003",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-011 was observed using pgp_fingerprint value FAKE-PGP-014 on MarketDelta.",
+    "entities": [
+      "PERSONA-011",
+      "IDENT-026"
+    ],
+    "evidence_refs": [
+      "IDENT-026"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-06-20T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-004",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-002 was observed using pgp_fingerprint value FAKE-PGP-002 on ForumAlpha.",
+    "entities": [
+      "PERSONA-002",
+      "IDENT-027"
+    ],
+    "evidence_refs": [
+      "IDENT-027"
+    ],
+    "source_id": "SRC-001",
+    "observed_at": "2026-06-03T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-005",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-007 was observed using pgp_fingerprint value FAKE-PGP-007 on ForumBeta.",
+    "entities": [
+      "PERSONA-007",
+      "IDENT-028"
+    ],
+    "evidence_refs": [
+      "IDENT-028"
+    ],
+    "source_id": "SRC-002",
+    "observed_at": "2026-08-06T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-006",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-003 was observed using pgp_fingerprint value FAKE-PGP-003 on ForumAlpha.",
+    "entities": [
+      "PERSONA-003",
+      "IDENT-029"
+    ],
+    "evidence_refs": [
+      "IDENT-029"
+    ],
+    "source_id": "SRC-001",
+    "observed_at": "2026-06-05T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-007",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-005 was observed using pgp_fingerprint value FAKE-PGP-005 on MarketGamma.",
+    "entities": [
+      "PERSONA-005",
+      "IDENT-030"
+    ],
+    "evidence_refs": [
+      "IDENT-030"
+    ],
+    "source_id": "SRC-003",
+    "observed_at": "2026-06-02T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-008",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-005 was observed using pgp_fingerprint value FAKE-PGP-005 on MarketDelta.",
+    "entities": [
+      "PERSONA-005",
+      "IDENT-031"
+    ],
+    "evidence_refs": [
+      "IDENT-031"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-07-10T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-009",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-006 was observed using pgp_fingerprint value FAKE-PGP-006 on ForumBeta.",
+    "entities": [
+      "PERSONA-006",
+      "IDENT-032"
+    ],
+    "evidence_refs": [
+      "IDENT-032"
+    ],
+    "source_id": "SRC-002",
+    "observed_at": "2026-06-04T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-010",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-013 was observed using pgp_fingerprint value FAKE-PGP-013 on BoardEpsilon.",
+    "entities": [
+      "PERSONA-013",
+      "IDENT-033"
+    ],
+    "evidence_refs": [
+      "IDENT-033"
+    ],
+    "source_id": "SRC-005",
+    "observed_at": "2026-06-15T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-011",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-008 was observed using pgp_fingerprint value FAKE-PGP-008 on MarketDelta.",
+    "entities": [
+      "PERSONA-008",
+      "IDENT-034"
+    ],
+    "evidence_refs": [
+      "IDENT-034"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-06-06T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-012",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-012 was observed using pgp_fingerprint value FAKE-PGP-008-B on MarketDelta.",
+    "entities": [
+      "PERSONA-012",
+      "IDENT-035"
+    ],
+    "evidence_refs": [
+      "IDENT-035"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-08-02T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-013",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-010 was observed using pgp_fingerprint value FAKE-PGP-010 on ForumAlpha.",
+    "entities": [
+      "PERSONA-010",
+      "IDENT-036"
+    ],
+    "evidence_refs": [
+      "IDENT-036"
+    ],
+    "source_id": "SRC-001",
+    "observed_at": "2026-06-01T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-014",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-015 was observed using pgp_fingerprint value FAKE-PGP-015 on MarketDelta.",
+    "entities": [
+      "PERSONA-015",
+      "IDENT-037"
+    ],
+    "evidence_refs": [
+      "IDENT-037"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-06-08T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-015",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-017 was observed using pgp_fingerprint value FAKE-PGP-015 on ForumBeta.",
+    "entities": [
+      "PERSONA-017",
+      "IDENT-038"
+    ],
+    "evidence_refs": [
+      "IDENT-038"
+    ],
+    "source_id": "SRC-002",
+    "observed_at": "2026-07-05T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-016",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-016 was observed using pgp_fingerprint value FAKE-PGP-016 on PasteVault.",
+    "entities": [
+      "PERSONA-016",
+      "IDENT-039"
+    ],
+    "evidence_refs": [
+      "IDENT-039"
+    ],
+    "source_id": "SRC-006",
+    "observed_at": "2026-07-19T00:00:00Z",
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-017",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-018 was observed using pgp_fingerprint value FAKE-PGP-018 on BoardEpsilon.",
+    "entities": [
+      "PERSONA-018",
+      "IDENT-040"
+    ],
+    "evidence_refs": [
+      "IDENT-040"
+    ],
+    "source_id": "SRC-005",
+    "observed_at": "2026-07-01T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-018",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-001 was observed using wallet value SYN-WALLET-BTC-001 on MarketGamma.",
+    "entities": [
+      "PERSONA-001",
+      "IDENT-041"
+    ],
+    "evidence_refs": [
+      "IDENT-041"
+    ],
+    "source_id": "SRC-003",
+    "observed_at": "2026-06-04T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-019",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-004 was observed using wallet value SYN-WALLET-BTC-001 on MarketGamma.",
+    "entities": [
+      "PERSONA-004",
+      "IDENT-042"
+    ],
+    "evidence_refs": [
+      "IDENT-042"
+    ],
+    "source_id": "SRC-003",
+    "observed_at": "2026-07-21T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-020",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-011 was observed using wallet value SYN-WALLET-BTC-009 on MarketDelta.",
+    "entities": [
+      "PERSONA-011",
+      "IDENT-043"
+    ],
+    "evidence_refs": [
+      "IDENT-043"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-06-22T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-021",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-002 was observed using wallet value SYN-WALLET-XMR-002 on ForumAlpha.",
+    "entities": [
+      "PERSONA-002",
+      "IDENT-044"
+    ],
+    "evidence_refs": [
+      "IDENT-044"
+    ],
+    "source_id": "SRC-001",
+    "observed_at": "2026-06-05T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-022",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-003 was observed using wallet value SYN-WALLET-BTC-003 on ForumAlpha.",
+    "entities": [
+      "PERSONA-003",
+      "IDENT-045"
+    ],
+    "evidence_refs": [
+      "IDENT-045"
+    ],
+    "source_id": "SRC-001",
+    "observed_at": "2026-06-09T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-023",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-005 was observed using wallet value SYN-WALLET-BTC-005 on MarketGamma.",
+    "entities": [
+      "PERSONA-005",
+      "IDENT-046"
+    ],
+    "evidence_refs": [
+      "IDENT-046"
+    ],
+    "source_id": "SRC-003",
+    "observed_at": "2026-06-06T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-024",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-005 was observed using wallet value SYN-WALLET-BTC-005 on MarketDelta.",
+    "entities": [
+      "PERSONA-005",
+      "IDENT-047"
+    ],
+    "evidence_refs": [
+      "IDENT-047"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-07-12T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-025",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-006 was observed using wallet value SYN-WALLET-BTC-006 on ForumBeta.",
+    "entities": [
+      "PERSONA-006",
+      "IDENT-048"
+    ],
+    "evidence_refs": [
+      "IDENT-048"
+    ],
+    "source_id": "SRC-002",
+    "observed_at": "2026-06-07T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-026",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-013 was observed using wallet value SYN-WALLET-BTC-013 on BoardEpsilon.",
+    "entities": [
+      "PERSONA-013",
+      "IDENT-049"
+    ],
+    "evidence_refs": [
+      "IDENT-049"
+    ],
+    "source_id": "SRC-005",
+    "observed_at": "2026-06-18T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-027",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-008 was observed using wallet value SYN-WALLET-BTC-008 on MarketDelta.",
+    "entities": [
+      "PERSONA-008",
+      "IDENT-050"
+    ],
+    "evidence_refs": [
+      "IDENT-050"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-06-08T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-028",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-012 was observed using wallet value SYN-WALLET-BTC-012 on MarketDelta.",
+    "entities": [
+      "PERSONA-012",
+      "IDENT-051"
+    ],
+    "evidence_refs": [
+      "IDENT-051"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-08-03T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-029",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-010 was observed using wallet value SYN-WALLET-BTC-010 on ForumAlpha.",
+    "entities": [
+      "PERSONA-010",
+      "IDENT-052"
+    ],
+    "evidence_refs": [
+      "IDENT-052"
+    ],
+    "source_id": "SRC-001",
+    "observed_at": "2026-06-01T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-030",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-015 was observed using wallet value SYN-WALLET-XMR-015 on MarketDelta.",
+    "entities": [
+      "PERSONA-015",
+      "IDENT-053"
+    ],
+    "evidence_refs": [
+      "IDENT-053"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-06-10T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-031",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-016 was observed using wallet value SYN-WALLET-XMR-015 on PasteVault.",
+    "entities": [
+      "PERSONA-016",
+      "IDENT-054"
+    ],
+    "evidence_refs": [
+      "IDENT-054"
+    ],
+    "source_id": "SRC-006",
+    "observed_at": "2026-06-14T00:00:00Z",
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-032",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-017 was observed using wallet value SYN-WALLET-BTC-017 on ForumBeta.",
+    "entities": [
+      "PERSONA-017",
+      "IDENT-055"
+    ],
+    "evidence_refs": [
+      "IDENT-055"
+    ],
+    "source_id": "SRC-002",
+    "observed_at": "2026-07-07T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-033",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-018 was observed using wallet value SYN-WALLET-BTC-018 on BoardEpsilon.",
+    "entities": [
+      "PERSONA-018",
+      "IDENT-056"
+    ],
+    "evidence_refs": [
+      "IDENT-056"
+    ],
+    "source_id": "SRC-005",
+    "observed_at": "2026-07-03T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-034",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-001 was observed using email value contact-ferry@synthetic.example on MarketGamma.",
+    "entities": [
+      "PERSONA-001",
+      "IDENT-057"
+    ],
+    "evidence_refs": [
+      "IDENT-057"
+    ],
+    "source_id": "SRC-003",
+    "observed_at": "2026-06-03T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-035",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-011 was observed using email value contact-ferry@synthetic.example on MarketDelta.",
+    "entities": [
+      "PERSONA-011",
+      "IDENT-058"
+    ],
+    "evidence_refs": [
+      "IDENT-058"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-06-21T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-036",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-002 was observed using email value contact-actor-002@synthetic.example on ForumAlpha.",
+    "entities": [
+      "PERSONA-002",
+      "IDENT-059"
+    ],
+    "evidence_refs": [
+      "IDENT-059"
+    ],
+    "source_id": "SRC-001",
+    "observed_at": "2026-06-04T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-037",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-007 was observed using email value contact-actor-002@synthetic.example on ForumBeta.",
+    "entities": [
+      "PERSONA-007",
+      "IDENT-060"
+    ],
+    "evidence_refs": [
+      "IDENT-060"
+    ],
+    "source_id": "SRC-002",
+    "observed_at": "2026-08-07T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-038",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-005 was observed using email value broker-desk@synthetic.example on MarketGamma.",
+    "entities": [
+      "PERSONA-005",
+      "IDENT-061"
+    ],
+    "evidence_refs": [
+      "IDENT-061"
+    ],
+    "source_id": "SRC-003",
+    "observed_at": "2026-06-05T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-039",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-010 was observed using email value relay-desk@synthetic.example on ForumAlpha.",
+    "entities": [
+      "PERSONA-010",
+      "IDENT-062"
+    ],
+    "evidence_refs": [
+      "IDENT-062"
+    ],
+    "source_id": "SRC-001",
+    "observed_at": "2026-06-02T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-040",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-012 was observed using email value tide-inbox@synthetic.example on MarketDelta.",
+    "entities": [
+      "PERSONA-012",
+      "IDENT-063"
+    ],
+    "evidence_refs": [
+      "IDENT-063"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-08-05T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-041",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-015 was observed using email value vault-inbox@synthetic.example on MarketDelta.",
+    "entities": [
+      "PERSONA-015",
+      "IDENT-064"
+    ],
+    "evidence_refs": [
+      "IDENT-064"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-06-11T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-042",
+    "evidence_class": "FACT",
+    "statement": "PERSONA-009 was observed using email value mule-inbox@synthetic.example on BoardEpsilon.",
+    "entities": [
+      "PERSONA-009",
+      "IDENT-065"
+    ],
+    "evidence_refs": [
+      "IDENT-065"
+    ],
+    "source_id": "SRC-005",
+    "observed_at": "2026-06-13T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-043",
+    "evidence_class": "FACT",
+    "statement": "shadowvendor posted 26 records on SRC-003 between 2026-06-02 and 2026-07-05.",
+    "entities": [
+      "PERSONA-001"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-003",
+    "observed_at": "2026-07-05T04:32:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-044",
+    "evidence_class": "FACT",
+    "statement": "redfox77 posted 24 records on SRC-001 between 2026-06-03 and 2026-07-28.",
+    "entities": [
+      "PERSONA-002"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-001",
+    "observed_at": "2026-07-28T11:49:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-045",
+    "evidence_class": "FACT",
+    "statement": "cryptowolf posted 22 records on SRC-001 between 2026-06-05 and 2026-08-22.",
+    "entities": [
+      "PERSONA-003"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-001",
+    "observed_at": "2026-08-22T15:40:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-046",
+    "evidence_class": "FACT",
+    "statement": "darkknight99 posted 30 records on SRC-001, SRC-003 between 2026-07-19 and 2026-08-24.",
+    "entities": [
+      "PERSONA-004"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-003",
+    "observed_at": "2026-08-24T03:01:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-047",
+    "evidence_class": "FACT",
+    "statement": "neonbroker posted 30 records on SRC-003, SRC-004 between 2026-06-02 and 2026-08-23.",
+    "entities": [
+      "PERSONA-005"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-003",
+    "observed_at": "2026-08-23T21:33:55Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-048",
+    "evidence_class": "FACT",
+    "statement": "greycartel posted 22 records on SRC-002 between 2026-06-04 and 2026-07-30.",
+    "entities": [
+      "PERSONA-006"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-002",
+    "observed_at": "2026-07-30T12:20:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-049",
+    "evidence_class": "FACT",
+    "statement": "bytefox posted 16 records on SRC-002 between 2026-08-06 and 2026-08-25.",
+    "entities": [
+      "PERSONA-007"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-002",
+    "observed_at": "2026-08-25T09:29:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-050",
+    "evidence_class": "FACT",
+    "statement": "silentbuyer posted 18 records on SRC-004 between 2026-06-06 and 2026-07-12.",
+    "entities": [
+      "PERSONA-008"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-004",
+    "observed_at": "2026-07-12T23:32:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-051",
+    "evidence_class": "FACT",
+    "statement": "quartzmule posted 8 records on SRC-005 between 2026-06-10 and 2026-08-18.",
+    "entities": [
+      "PERSONA-009"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-005",
+    "observed_at": "2026-08-18T18:23:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-052",
+    "evidence_class": "FACT",
+    "statement": "pinegrove_admin posted 26 records on SRC-001, SRC-002 between 2026-06-01 and 2026-08-25.",
+    "entities": [
+      "PERSONA-010"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-001",
+    "observed_at": "2026-08-25T10:29:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-053",
+    "evidence_class": "FACT",
+    "statement": "nightmerchant posted 24 records on SRC-004 between 2026-06-20 and 2026-08-20.",
+    "entities": [
+      "PERSONA-011"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-004",
+    "observed_at": "2026-08-20T02:06:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-054",
+    "evidence_class": "FACT",
+    "statement": "hollowtide posted 20 records on SRC-004, SRC-007 between 2026-08-02 and 2026-08-25.",
+    "entities": [
+      "PERSONA-012"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-004",
+    "observed_at": "2026-08-25T21:03:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-055",
+    "evidence_class": "FACT",
+    "statement": "silentnode posted 24 records on SRC-005 between 2026-06-15 and 2026-08-25.",
+    "entities": [
+      "PERSONA-013"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-005",
+    "observed_at": "2026-08-25T22:01:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-056",
+    "evidence_class": "FACT",
+    "statement": "emberlark posted 7 records on SRC-006 between 2026-06-25 and 2026-08-21.",
+    "entities": [
+      "PERSONA-014"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-006",
+    "observed_at": "2026-08-21T17:01:00Z",
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-057",
+    "evidence_class": "FACT",
+    "statement": "tinvault posted 20 records on SRC-004 between 2026-06-08 and 2026-08-23.",
+    "entities": [
+      "PERSONA-015"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-004",
+    "observed_at": "2026-08-23T05:30:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-058",
+    "evidence_class": "FACT",
+    "statement": "brasspetal posted 9 records on SRC-006 between 2026-06-12 and 2026-08-15.",
+    "entities": [
+      "PERSONA-016"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-006",
+    "observed_at": "2026-08-15T15:10:00Z",
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-059",
+    "evidence_class": "FACT",
+    "statement": "lowtidefox posted 18 records on SRC-002 between 2026-07-05 and 2026-08-25.",
+    "entities": [
+      "PERSONA-017"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-002",
+    "observed_at": "2026-08-25T21:51:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-060",
+    "evidence_class": "FACT",
+    "statement": "mistcaller posted 14 records on SRC-005 between 2026-07-01 and 2026-08-19.",
+    "entities": [
+      "PERSONA-018"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-005",
+    "observed_at": "2026-08-19T12:30:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-061",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-CERT-FP-001 of type ssl_certificate was observed on SERVICE-001.",
+    "entities": [
+      "SERVICE-001",
+      "INFRA-001"
+    ],
+    "evidence_refs": [
+      "INFRA-001"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-17T23:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-062",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-BANNER-001 of type server_banner was observed on SERVICE-001.",
+    "entities": [
+      "SERVICE-001",
+      "INFRA-002"
+    ],
+    "evidence_refs": [
+      "INFRA-002"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-21T18:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-063",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-FAVICON-001 of type favicon_hash was observed on SERVICE-001.",
+    "entities": [
+      "SERVICE-001",
+      "INFRA-003"
+    ],
+    "evidence_refs": [
+      "INFRA-003"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-17T15:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-064",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-SW-SIG-001 of type software_signature was observed on SERVICE-001.",
+    "entities": [
+      "SERVICE-001",
+      "INFRA-004"
+    ],
+    "evidence_refs": [
+      "INFRA-004"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-20T00:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-065",
+    "evidence_class": "FACT",
+    "statement": "Indicator node-a{n}.synthetic.example of type hostname_pattern was observed on SERVICE-001.",
+    "entities": [
+      "SERVICE-001",
+      "INFRA-005"
+    ],
+    "evidence_refs": [
+      "INFRA-005"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-03T19:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-066",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-DESC-META-001 of type descriptor_metadata was observed on SERVICE-001.",
+    "entities": [
+      "SERVICE-001",
+      "INFRA-006"
+    ],
+    "evidence_refs": [
+      "INFRA-006"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-14T11:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-067",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-CERT-FP-002 of type ssl_certificate was observed on SERVICE-002.",
+    "entities": [
+      "SERVICE-002",
+      "INFRA-007"
+    ],
+    "evidence_refs": [
+      "INFRA-007"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-18T02:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-068",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-BANNER-004 of type server_banner was observed on SERVICE-002.",
+    "entities": [
+      "SERVICE-002",
+      "INFRA-008"
+    ],
+    "evidence_refs": [
+      "INFRA-008"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-17T02:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-069",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-FAVICON-002 of type favicon_hash was observed on SERVICE-002.",
+    "entities": [
+      "SERVICE-002",
+      "INFRA-009"
+    ],
+    "evidence_refs": [
+      "INFRA-009"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-24T08:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-070",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-SW-SIG-002 of type software_signature was observed on SERVICE-002.",
+    "entities": [
+      "SERVICE-002",
+      "INFRA-010"
+    ],
+    "evidence_refs": [
+      "INFRA-010"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-24T07:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-071",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-CONFIG-002 of type service_configuration was observed on SERVICE-002.",
+    "entities": [
+      "SERVICE-002",
+      "INFRA-011"
+    ],
+    "evidence_refs": [
+      "INFRA-011"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-23T14:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-072",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-CERT-FP-003 of type ssl_certificate was observed on SERVICE-003.",
+    "entities": [
+      "SERVICE-003",
+      "INFRA-012"
+    ],
+    "evidence_refs": [
+      "INFRA-012"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-08T19:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-073",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-BANNER-003 of type server_banner was observed on SERVICE-003.",
+    "entities": [
+      "SERVICE-003",
+      "INFRA-013"
+    ],
+    "evidence_refs": [
+      "INFRA-013"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-22T17:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-074",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-FAVICON-003 of type favicon_hash was observed on SERVICE-003.",
+    "entities": [
+      "SERVICE-003",
+      "INFRA-014"
+    ],
+    "evidence_refs": [
+      "INFRA-014"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-12T20:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-075",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-SW-SIG-003 of type software_signature was observed on SERVICE-003.",
+    "entities": [
+      "SERVICE-003",
+      "INFRA-015"
+    ],
+    "evidence_refs": [
+      "INFRA-015"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-14T02:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-076",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-DESC-META-003 of type descriptor_metadata was observed on SERVICE-003.",
+    "entities": [
+      "SERVICE-003",
+      "INFRA-016"
+    ],
+    "evidence_refs": [
+      "INFRA-016"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-22T07:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-077",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-CERT-FP-004 of type ssl_certificate was observed on SERVICE-004.",
+    "entities": [
+      "SERVICE-004",
+      "INFRA-017"
+    ],
+    "evidence_refs": [
+      "INFRA-017"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-13T16:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-078",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-BANNER-004 of type server_banner was observed on SERVICE-004.",
+    "entities": [
+      "SERVICE-004",
+      "INFRA-018"
+    ],
+    "evidence_refs": [
+      "INFRA-018"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-23T22:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-079",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-FAVICON-002 of type favicon_hash was observed on SERVICE-004.",
+    "entities": [
+      "SERVICE-004",
+      "INFRA-019"
+    ],
+    "evidence_refs": [
+      "INFRA-019"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-07T23:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-080",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-SW-SIG-004 of type software_signature was observed on SERVICE-004.",
+    "entities": [
+      "SERVICE-004",
+      "INFRA-020"
+    ],
+    "evidence_refs": [
+      "INFRA-020"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-20T03:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-081",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-CONFIG-004 of type service_configuration was observed on SERVICE-004.",
+    "entities": [
+      "SERVICE-004",
+      "INFRA-021"
+    ],
+    "evidence_refs": [
+      "INFRA-021"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-11T17:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-082",
+    "evidence_class": "FACT",
+    "statement": "Indicator panel-w{n}.synthetic.example of type hostname_pattern was observed on SERVICE-004.",
+    "entities": [
+      "SERVICE-004",
+      "INFRA-022"
+    ],
+    "evidence_refs": [
+      "INFRA-022"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-19T22:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-083",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-CERT-FP-005 of type ssl_certificate was observed on SERVICE-005.",
+    "entities": [
+      "SERVICE-005",
+      "INFRA-023"
+    ],
+    "evidence_refs": [
+      "INFRA-023"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-29T11:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-084",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-BANNER-005 of type server_banner was observed on SERVICE-005.",
+    "entities": [
+      "SERVICE-005",
+      "INFRA-024"
+    ],
+    "evidence_refs": [
+      "INFRA-024"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-07-06T10:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-085",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-SW-SIG-005 of type software_signature was observed on SERVICE-005.",
+    "entities": [
+      "SERVICE-005",
+      "INFRA-025"
+    ],
+    "evidence_refs": [
+      "INFRA-025"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-21T10:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-086",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-STATUS-005 of type fictional_server_status_indicator was observed on SERVICE-005.",
+    "entities": [
+      "SERVICE-005",
+      "INFRA-026"
+    ],
+    "evidence_refs": [
+      "INFRA-026"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-07-01T16:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-087",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-CERT-FP-006 of type ssl_certificate was observed on SERVICE-006.",
+    "entities": [
+      "SERVICE-006",
+      "INFRA-027"
+    ],
+    "evidence_refs": [
+      "INFRA-027"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-23T13:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-088",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-BANNER-006 of type server_banner was observed on SERVICE-006.",
+    "entities": [
+      "SERVICE-006",
+      "INFRA-028"
+    ],
+    "evidence_refs": [
+      "INFRA-028"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-12T05:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-089",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-FAVICON-006 of type favicon_hash was observed on SERVICE-006.",
+    "entities": [
+      "SERVICE-006",
+      "INFRA-029"
+    ],
+    "evidence_refs": [
+      "INFRA-029"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-25T23:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-090",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-SW-SIG-006 of type software_signature was observed on SERVICE-006.",
+    "entities": [
+      "SERVICE-006",
+      "INFRA-030"
+    ],
+    "evidence_refs": [
+      "INFRA-030"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-19T04:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-091",
+    "evidence_class": "FACT",
+    "statement": "Indicator desk-d{n}.synthetic.example of type hostname_pattern was observed on SERVICE-006.",
+    "entities": [
+      "SERVICE-006",
+      "INFRA-031"
+    ],
+    "evidence_refs": [
+      "INFRA-031"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-26T11:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-092",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-DESC-META-006 of type descriptor_metadata was observed on SERVICE-006.",
+    "entities": [
+      "SERVICE-006",
+      "INFRA-032"
+    ],
+    "evidence_refs": [
+      "INFRA-032"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-26T17:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-093",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-BANNER-007 of type server_banner was observed on SERVICE-007.",
+    "entities": [
+      "SERVICE-007",
+      "INFRA-033"
+    ],
+    "evidence_refs": [
+      "INFRA-033"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-25T00:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-094",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-STATUS-007 of type fictional_server_status_indicator was observed on SERVICE-007.",
+    "entities": [
+      "SERVICE-007",
+      "INFRA-034"
+    ],
+    "evidence_refs": [
+      "INFRA-034"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-07-04T20:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-095",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-DESC-META-007 of type descriptor_metadata was observed on SERVICE-007.",
+    "entities": [
+      "SERVICE-007",
+      "INFRA-035"
+    ],
+    "evidence_refs": [
+      "INFRA-035"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-07-02T08:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-096",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-CERT-FP-008 of type ssl_certificate was observed on SERVICE-008.",
+    "entities": [
+      "SERVICE-008",
+      "INFRA-036"
+    ],
+    "evidence_refs": [
+      "INFRA-036"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-05T12:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-097",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-BANNER-008 of type server_banner was observed on SERVICE-008.",
+    "entities": [
+      "SERVICE-008",
+      "INFRA-037"
+    ],
+    "evidence_refs": [
+      "INFRA-037"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-15T20:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-098",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-FAVICON-008 of type favicon_hash was observed on SERVICE-008.",
+    "entities": [
+      "SERVICE-008",
+      "INFRA-038"
+    ],
+    "evidence_refs": [
+      "INFRA-038"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-18T12:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-099",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-SW-SIG-008 of type software_signature was observed on SERVICE-008.",
+    "entities": [
+      "SERVICE-008",
+      "INFRA-039"
+    ],
+    "evidence_refs": [
+      "INFRA-039"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-05T03:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-100",
+    "evidence_class": "FACT",
+    "statement": "Indicator FAKE-CONFIG-008 of type service_configuration was observed on SERVICE-008.",
+    "entities": [
+      "SERVICE-008",
+      "INFRA-040"
+    ],
+    "evidence_refs": [
+      "INFRA-040"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-06-06T22:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-101",
+    "evidence_class": "FACT",
+    "statement": "Clearnet asset server001.synthetic.example exposed indicators FAKE-CERT-FP-001, FAKE-BANNER-001, FAKE-FAVICON-001.",
+    "entities": [
+      "CLEAR-001"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-008",
+    "observed_at": "2026-06-05T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-102",
+    "evidence_class": "FACT",
+    "statement": "Clearnet asset edge002.synthetic.example exposed indicators FAKE-BANNER-004, FAKE-FAVICON-002.",
+    "entities": [
+      "CLEAR-002"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-008",
+    "observed_at": "2026-06-11T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-103",
+    "evidence_class": "FACT",
+    "statement": "Clearnet asset relay003.synthetic.example exposed indicators FAKE-CERT-FP-003.",
+    "entities": [
+      "CLEAR-003"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-008",
+    "observed_at": "2026-06-18T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-104",
+    "evidence_class": "FACT",
+    "statement": "Clearnet asset host004.synthetic.example exposed indicators FAKE-SW-SIG-006.",
+    "entities": [
+      "CLEAR-004"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-008",
+    "observed_at": "2026-06-22T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-105",
+    "evidence_class": "FACT",
+    "statement": "Clearnet asset mirror005.synthetic.example exposed indicators FAKE-BANNER-023.",
+    "entities": [
+      "CLEAR-005"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-008",
+    "observed_at": "2026-07-02T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-106",
+    "evidence_class": "FACT",
+    "statement": "Clearnet asset gateway006.synthetic.example exposed indicators FAKE-FAVICON-008.",
+    "entities": [
+      "CLEAR-006"
+    ],
+    "evidence_refs": [],
+    "source_id": "SRC-008",
+    "observed_at": "2026-06-09T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": ""
+  },
+  {
+    "evidence_id": "EVID-107",
+    "evidence_class": "INFERENCE",
+    "statement": "PERSONA-002 and PERSONA-007 are linked by SHARES_IDENTIFIER. Both accounts observed using the same alias value (fx); weakest supporting source score 0.68",
+    "entities": [
+      "PERSONA-002",
+      "PERSONA-007"
+    ],
+    "evidence_refs": [
+      "IDENT-069",
+      "IDENT-070",
+      "REL-102"
+    ],
+    "source_id": "SRC-002",
+    "observed_at": "2026-08-25T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-108",
+    "evidence_class": "INFERENCE",
+    "statement": "PERSONA-002 and PERSONA-007 are linked by SHARES_IDENTIFIER. Both accounts observed using the same email value (contact-actor-002@synthetic.example); weakest supporting source score 0.68",
+    "entities": [
+      "PERSONA-002",
+      "PERSONA-007"
+    ],
+    "evidence_refs": [
+      "IDENT-059",
+      "IDENT-060",
+      "REL-103"
+    ],
+    "source_id": "SRC-002",
+    "observed_at": "2026-08-12T00:00:00Z",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-109",
+    "evidence_class": "INFERENCE",
+    "statement": "PERSONA-001 and PERSONA-011 are linked by SHARES_IDENTIFIER. Both accounts observed using the same email value (contact-ferry@synthetic.example); weakest supporting source score 0.62",
+    "entities": [
+      "PERSONA-001",
+      "PERSONA-011"
+    ],
+    "evidence_refs": [
+      "IDENT-057",
+      "IDENT-058",
+      "REL-104"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-08-20T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-110",
+    "evidence_class": "INFERENCE",
+    "statement": "PERSONA-001 and PERSONA-004 are linked by SHARES_IDENTIFIER. Both accounts observed using the same pgp_fingerprint value (FAKE-PGP-001); weakest supporting source score 0.88",
+    "entities": [
+      "PERSONA-001",
+      "PERSONA-004"
+    ],
+    "evidence_refs": [
+      "IDENT-024",
+      "IDENT-025",
+      "REL-105"
+    ],
+    "source_id": "SRC-003",
+    "observed_at": "2026-08-24T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-111",
+    "evidence_class": "INFERENCE",
+    "statement": "PERSONA-015 and PERSONA-017 are linked by SHARES_IDENTIFIER. Both accounts observed using the same pgp_fingerprint value (FAKE-PGP-015); weakest supporting source score 0.62",
+    "entities": [
+      "PERSONA-015",
+      "PERSONA-017"
+    ],
+    "evidence_refs": [
+      "IDENT-037",
+      "IDENT-038",
+      "REL-106"
+    ],
+    "source_id": "SRC-004",
+    "observed_at": "2026-08-25T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-112",
+    "evidence_class": "INFERENCE",
+    "statement": "PERSONA-001 and PERSONA-004 are linked by SHARES_IDENTIFIER. Both accounts observed using the same wallet value (SYN-WALLET-BTC-001); weakest supporting source score 0.88",
+    "entities": [
+      "PERSONA-001",
+      "PERSONA-004"
+    ],
+    "evidence_refs": [
+      "IDENT-041",
+      "IDENT-042",
+      "REL-107"
+    ],
+    "source_id": "SRC-003",
+    "observed_at": "2026-08-24T00:00:00Z",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-113",
+    "evidence_class": "INFERENCE",
+    "statement": "PERSONA-015 and PERSONA-016 are linked by SHARES_IDENTIFIER. Both accounts observed using the same wallet value (SYN-WALLET-XMR-015); weakest supporting source score 0.35",
+    "entities": [
+      "PERSONA-015",
+      "PERSONA-016"
+    ],
+    "evidence_refs": [
+      "IDENT-053",
+      "IDENT-054",
+      "REL-108"
+    ],
+    "source_id": "SRC-006",
+    "observed_at": "2026-08-23T00:00:00Z",
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-114",
+    "evidence_class": "INFERENCE",
+    "statement": "SERVICE-002 and SERVICE-004 are linked by SHARES_INFRASTRUCTURE. Both services expose the indicator value FAKE-BANNER-004",
+    "entities": [
+      "SERVICE-002",
+      "SERVICE-004"
+    ],
+    "evidence_refs": [
+      "INFRA-008",
+      "INFRA-018",
+      "REL-109"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-08-21T22:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-115",
+    "evidence_class": "INFERENCE",
+    "statement": "SERVICE-002 and SERVICE-004 are linked by SHARES_INFRASTRUCTURE. Both services expose the indicator value FAKE-FAVICON-002",
+    "entities": [
+      "SERVICE-002",
+      "SERVICE-004"
+    ],
+    "evidence_refs": [
+      "INFRA-009",
+      "INFRA-019",
+      "REL-110"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-08-10T08:00:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-116",
+    "evidence_class": "INFERENCE",
+    "statement": "SERVICE-001 and CLEAR-001 are linked by SHARES_INFRASTRUCTURE. Clearnet asset and hidden service share the indicator value FAKE-CERT-FP-001",
+    "entities": [
+      "SERVICE-001",
+      "CLEAR-001"
+    ],
+    "evidence_refs": [
+      "INFRA-001",
+      "REL-111"
+    ],
+    "source_id": "SRC-008",
+    "observed_at": "2026-08-24T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-117",
+    "evidence_class": "INFERENCE",
+    "statement": "SERVICE-001 and CLEAR-001 are linked by SHARES_INFRASTRUCTURE. Clearnet asset and hidden service share the indicator value FAKE-BANNER-001",
+    "entities": [
+      "SERVICE-001",
+      "CLEAR-001"
+    ],
+    "evidence_refs": [
+      "INFRA-002",
+      "REL-112"
+    ],
+    "source_id": "SRC-008",
+    "observed_at": "2026-08-24T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-118",
+    "evidence_class": "INFERENCE",
+    "statement": "SERVICE-001 and CLEAR-001 are linked by SHARES_INFRASTRUCTURE. Clearnet asset and hidden service share the indicator value FAKE-FAVICON-001",
+    "entities": [
+      "SERVICE-001",
+      "CLEAR-001"
+    ],
+    "evidence_refs": [
+      "INFRA-003",
+      "REL-113"
+    ],
+    "source_id": "SRC-008",
+    "observed_at": "2026-08-24T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-119",
+    "evidence_class": "INFERENCE",
+    "statement": "SERVICE-002 and CLEAR-002 are linked by SHARES_INFRASTRUCTURE. Clearnet asset and hidden service share the indicator value FAKE-BANNER-004",
+    "entities": [
+      "SERVICE-002",
+      "CLEAR-002"
+    ],
+    "evidence_refs": [
+      "INFRA-008",
+      "REL-114"
+    ],
+    "source_id": "SRC-008",
+    "observed_at": "2026-08-25T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-120",
+    "evidence_class": "INFERENCE",
+    "statement": "SERVICE-004 and CLEAR-002 are linked by SHARES_INFRASTRUCTURE. Clearnet asset and hidden service share the indicator value FAKE-BANNER-004",
+    "entities": [
+      "SERVICE-004",
+      "CLEAR-002"
+    ],
+    "evidence_refs": [
+      "INFRA-018",
+      "REL-115"
+    ],
+    "source_id": "SRC-008",
+    "observed_at": "2026-08-25T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-121",
+    "evidence_class": "INFERENCE",
+    "statement": "SERVICE-002 and CLEAR-002 are linked by SHARES_INFRASTRUCTURE. Clearnet asset and hidden service share the indicator value FAKE-FAVICON-002",
+    "entities": [
+      "SERVICE-002",
+      "CLEAR-002"
+    ],
+    "evidence_refs": [
+      "INFRA-009",
+      "REL-116"
+    ],
+    "source_id": "SRC-008",
+    "observed_at": "2026-08-25T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-122",
+    "evidence_class": "INFERENCE",
+    "statement": "SERVICE-004 and CLEAR-002 are linked by SHARES_INFRASTRUCTURE. Clearnet asset and hidden service share the indicator value FAKE-FAVICON-002",
+    "entities": [
+      "SERVICE-004",
+      "CLEAR-002"
+    ],
+    "evidence_refs": [
+      "INFRA-019",
+      "REL-117"
+    ],
+    "source_id": "SRC-008",
+    "observed_at": "2026-08-25T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-123",
+    "evidence_class": "INFERENCE",
+    "statement": "SERVICE-003 and CLEAR-003 are linked by SHARES_INFRASTRUCTURE. Clearnet asset and hidden service share the indicator value FAKE-CERT-FP-003",
+    "entities": [
+      "SERVICE-003",
+      "CLEAR-003"
+    ],
+    "evidence_refs": [
+      "INFRA-012",
+      "REL-118"
+    ],
+    "source_id": "SRC-008",
+    "observed_at": "2026-08-22T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-124",
+    "evidence_class": "INFERENCE",
+    "statement": "SERVICE-006 and CLEAR-004 are linked by SHARES_INFRASTRUCTURE. Clearnet asset and hidden service share the indicator value FAKE-SW-SIG-006",
+    "entities": [
+      "SERVICE-006",
+      "CLEAR-004"
+    ],
+    "evidence_refs": [
+      "INFRA-030",
+      "REL-119"
+    ],
+    "source_id": "SRC-008",
+    "observed_at": "2026-08-20T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-125",
+    "evidence_class": "INFERENCE",
+    "statement": "SERVICE-008 and CLEAR-006 are linked by SHARES_INFRASTRUCTURE. Clearnet asset and hidden service share the indicator value FAKE-FAVICON-008",
+    "entities": [
+      "SERVICE-008",
+      "CLEAR-006"
+    ],
+    "evidence_refs": [
+      "INFRA-038",
+      "REL-120"
+    ],
+    "source_id": "SRC-008",
+    "observed_at": "2026-08-25T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Derived relationship, not a direct observation."
+  },
+  {
+    "evidence_id": "EVID-126",
+    "evidence_class": "HYPOTHESIS",
+    "statement": "PERSONA-001 and PERSONA-004 may belong to the same underlying actor.",
+    "entities": [
+      "PERSONA-001",
+      "PERSONA-004"
+    ],
+    "evidence_refs": [
+      "REL-105",
+      "REL-107",
+      "SERVICE-001",
+      "REL-121"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-08-24T03:01:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Unverified hypothesis raised from observable overlap; requires corroboration from independent evidence families."
+  },
+  {
+    "evidence_id": "EVID-127",
+    "evidence_class": "HYPOTHESIS",
+    "statement": "PERSONA-001 and PERSONA-011 may belong to the same underlying actor.",
+    "entities": [
+      "PERSONA-001",
+      "PERSONA-011"
+    ],
+    "evidence_refs": [
+      "REL-104",
+      "REL-122"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-08-20T02:06:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Unverified hypothesis raised from observable overlap; requires corroboration from independent evidence families."
+  },
+  {
+    "evidence_id": "EVID-128",
+    "evidence_class": "HYPOTHESIS",
+    "statement": "PERSONA-002 and PERSONA-007 may belong to the same underlying actor.",
+    "entities": [
+      "PERSONA-002",
+      "PERSONA-007"
+    ],
+    "evidence_refs": [
+      "REL-102",
+      "REL-103",
+      "SERVICE-003",
+      "REL-123"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-08-25T09:29:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Unverified hypothesis raised from observable overlap; requires corroboration from independent evidence families."
+  },
+  {
+    "evidence_id": "EVID-129",
+    "evidence_class": "HYPOTHESIS",
+    "statement": "PERSONA-005 and PERSONA-008 may belong to the same underlying actor.",
+    "entities": [
+      "PERSONA-005",
+      "PERSONA-008"
+    ],
+    "evidence_refs": [
+      "REL-109",
+      "REL-110",
+      "REL-124"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-08-23T21:33:55Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Unverified hypothesis raised from observable overlap; requires corroboration from independent evidence families."
+  },
+  {
+    "evidence_id": "EVID-130",
+    "evidence_class": "HYPOTHESIS",
+    "statement": "PERSONA-005 and PERSONA-012 may belong to the same underlying actor.",
+    "entities": [
+      "PERSONA-005",
+      "PERSONA-012"
+    ],
+    "evidence_refs": [
+      "REL-109",
+      "REL-110",
+      "REL-125"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-08-25T21:03:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Unverified hypothesis raised from observable overlap; requires corroboration from independent evidence families."
+  },
+  {
+    "evidence_id": "EVID-131",
+    "evidence_class": "HYPOTHESIS",
+    "statement": "PERSONA-008 and PERSONA-012 may belong to the same underlying actor.",
+    "entities": [
+      "PERSONA-008",
+      "PERSONA-012"
+    ],
+    "evidence_refs": [
+      "SERVICE-004",
+      "REL-126"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-08-25T21:03:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Unverified hypothesis raised from observable overlap; requires corroboration from independent evidence families."
+  },
+  {
+    "evidence_id": "EVID-132",
+    "evidence_class": "HYPOTHESIS",
+    "statement": "PERSONA-010 and PERSONA-018 may belong to the same underlying actor.",
+    "entities": [
+      "PERSONA-010",
+      "PERSONA-018"
+    ],
+    "evidence_refs": [
+      "SERVICE-008",
+      "REL-127"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-08-25T10:29:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Unverified hypothesis raised from observable overlap; requires corroboration from independent evidence families."
+  },
+  {
+    "evidence_id": "EVID-133",
+    "evidence_class": "HYPOTHESIS",
+    "statement": "PERSONA-015 and PERSONA-016 may belong to the same underlying actor.",
+    "entities": [
+      "PERSONA-015",
+      "PERSONA-016"
+    ],
+    "evidence_refs": [
+      "REL-108",
+      "REL-128"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-08-23T05:30:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Unverified hypothesis raised from observable overlap; requires corroboration from independent evidence families."
+  },
+  {
+    "evidence_id": "EVID-134",
+    "evidence_class": "HYPOTHESIS",
+    "statement": "PERSONA-015 and PERSONA-017 may belong to the same underlying actor.",
+    "entities": [
+      "PERSONA-015",
+      "PERSONA-017"
+    ],
+    "evidence_refs": [
+      "REL-106",
+      "SERVICE-006",
+      "REL-129"
+    ],
+    "source_id": "SRC-007",
+    "observed_at": "2026-08-25T21:51:00Z",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Unverified hypothesis raised from observable overlap; requires corroboration from independent evidence families."
+  }
+]

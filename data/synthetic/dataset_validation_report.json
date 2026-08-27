@@ -1,0 +1,159 @@
+{
+  "validation_status": "VALID",
+  "validated_at": "2026-08-27T16:29:49Z",
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "statistics": {
+    "counts": {
+      "total_actors": 9,
+      "total_personas": 18,
+      "total_posts": 358,
+      "total_sources": 8,
+      "total_identifiers": 76,
+      "total_infrastructure_indicators": 40,
+      "total_hidden_services": 8,
+      "total_clearnet_assets": 6,
+      "total_relationships": 129,
+      "total_events": 191,
+      "total_evidence_records": 134,
+      "total_cases": 8,
+      "total_evaluation_pairs": 25
+    },
+    "timeline": {
+      "first_post": "2026-06-01T15:23:00Z",
+      "last_post": "2026-08-25T22:01:00Z",
+      "last_scan_date": "2026-08-26T00:00:00Z"
+    },
+    "pairwise_evaluation_counts": {
+      "SAME_ACTOR": 10,
+      "SAME_TOPIC_DIFFERENT_STYLE": 3,
+      "DIFFERENT_TOPIC_SIMILAR_STYLE": 3,
+      "AMBIGUOUS": 1,
+      "DIFFERENT_ACTOR": 3,
+      "UNRELATED": 5
+    },
+    "pairwise_expected_strength": {
+      "HIGH_EXPECTED": 2,
+      "MEDIUM_EXPECTED": 6,
+      "INSUFFICIENT": 2,
+      "LOW_EXPECTED": 15
+    },
+    "scenario_coverage": {
+      "SCENARIO-01": 2,
+      "SCENARIO-11": 2,
+      "SCENARIO-02": 1,
+      "SCENARIO-08": 1,
+      "SCENARIO-07": 2,
+      "SCENARIO-09": 2,
+      "SCENARIO-03": 4,
+      "SCENARIO-04": 3,
+      "SCENARIO-06": 2,
+      "SCENARIO-05": 1,
+      "SCENARIO-10": 5,
+      "SCENARIO-12": 1
+    },
+    "source_reliability_distribution": {
+      "HIGH": 3,
+      "MEDIUM": 3,
+      "LOW": 2
+    },
+    "posts_per_source": {
+      "SRC-001": 67,
+      "SRC-003": 75,
+      "SRC-002": 68,
+      "SRC-004": 81,
+      "SRC-005": 46,
+      "SRC-006": 16,
+      "SRC-007": 5
+    },
+    "persona_distribution": {
+      "PERSONA-010": 26,
+      "PERSONA-001": 26,
+      "PERSONA-005": 30,
+      "PERSONA-002": 24,
+      "PERSONA-006": 22,
+      "PERSONA-003": 22,
+      "PERSONA-008": 18,
+      "PERSONA-015": 20,
+      "PERSONA-009": 8,
+      "PERSONA-016": 9,
+      "PERSONA-013": 24,
+      "PERSONA-011": 24,
+      "PERSONA-014": 7,
+      "PERSONA-018": 14,
+      "PERSONA-017": 18,
+      "PERSONA-004": 30,
+      "PERSONA-012": 20,
+      "PERSONA-007": 16
+    },
+    "personas_per_actor": {
+      "ACTOR-001": 3,
+      "ACTOR-002": 2,
+      "ACTOR-003": 1,
+      "ACTOR-004": 1,
+      "ACTOR-005": 2,
+      "ACTOR-006": 2,
+      "ACTOR-007": 2,
+      "ACTOR-008": 2,
+      "ACTOR-009": 3
+    },
+    "identifier_type_distribution": {
+      "handle": 23,
+      "pgp_fingerprint": 17,
+      "wallet": 16,
+      "email": 9,
+      "alias": 11
+    },
+    "infrastructure_type_distribution": {
+      "ssl_certificate": 7,
+      "server_banner": 8,
+      "favicon_hash": 6,
+      "software_signature": 7,
+      "hostname_pattern": 3,
+      "descriptor_metadata": 4,
+      "service_configuration": 3,
+      "fictional_server_status_indicator": 2
+    },
+    "relationship_type_distribution": {
+      "USES_HANDLE": 18,
+      "USES_PGP": 16,
+      "USES_WALLET": 15,
+      "USES_IDENTIFIER": 9,
+      "POSTED_ON": 22,
+      "ASSOCIATED_WITH_SERVICE": 13,
+      "OBSERVED_BY": 8,
+      "SHARES_IDENTIFIER": 7,
+      "SHARES_INFRASTRUCTURE": 12,
+      "POSSIBLE_SAME_ACTOR": 9
+    },
+    "evidence_class_distribution": {
+      "FACT": 106,
+      "INFERENCE": 19,
+      "HYPOTHESIS": 9
+    },
+    "event_type_distribution": {
+      "IDENTIFIER_OBSERVED": 43,
+      "PGP_OBSERVED": 17,
+      "WALLET_OBSERVED": 16,
+      "SERVICE_OBSERVED": 8,
+      "ACCOUNT_CREATED": 18,
+      "FIRST_POST": 18,
+      "INFRASTRUCTURE_OBSERVED": 40,
+      "NEW_PERSONA_APPEARS": 5,
+      "MIGRATION_START": 3,
+      "ACCOUNT_INACTIVE": 4,
+      "RELATIONSHIP_DISCOVERED": 19
+    },
+    "post_length_distribution": {
+      "min_words": 2,
+      "median_words": 18,
+      "max_words": 64,
+      "mean_words": 19.3,
+      "very_short_posts_max_6_words": 39,
+      "medium_posts_7_to_25_words": 240,
+      "long_posts_over_25_words": 79
+    }
+  }
+}

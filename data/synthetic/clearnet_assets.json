@@ -1,0 +1,113 @@
+[
+  {
+    "clearnet_asset_id": "CLEAR-001",
+    "hostname": "server001.synthetic.example",
+    "certificate_fingerprint": "FAKE-CERT-FP-001",
+    "observed_indicators": [
+      "FAKE-CERT-FP-001",
+      "FAKE-BANNER-001",
+      "FAKE-FAVICON-001"
+    ],
+    "source_id": "SRC-008",
+    "first_seen": "2026-06-05T00:00:00Z",
+    "last_seen": "2026-08-24T00:00:00Z",
+    "observed_at": "2026-06-05T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "notes": "Full indicator agreement with SERVICE-001.",
+    "synthetic": true
+  },
+  {
+    "clearnet_asset_id": "CLEAR-002",
+    "hostname": "edge002.synthetic.example",
+    "certificate_fingerprint": "FAKE-CERT-FP-021",
+    "observed_indicators": [
+      "FAKE-BANNER-004",
+      "FAKE-FAVICON-002"
+    ],
+    "source_id": "SRC-008",
+    "first_seen": "2026-06-11T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "observed_at": "2026-06-11T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "notes": "Shared hosting-style overlap: matches SERVICE-002 and SERVICE-004 on banner and favicon only, certificate differs.",
+    "synthetic": true
+  },
+  {
+    "clearnet_asset_id": "CLEAR-003",
+    "hostname": "relay003.synthetic.example",
+    "certificate_fingerprint": "FAKE-CERT-FP-003",
+    "observed_indicators": [
+      "FAKE-CERT-FP-003"
+    ],
+    "source_id": "SRC-008",
+    "first_seen": "2026-06-18T00:00:00Z",
+    "last_seen": "2026-08-22T00:00:00Z",
+    "observed_at": "2026-06-18T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "notes": "Certificate matches SERVICE-003; no other indicator observed.",
+    "synthetic": true
+  },
+  {
+    "clearnet_asset_id": "CLEAR-004",
+    "hostname": "host004.synthetic.example",
+    "certificate_fingerprint": "FAKE-CERT-FP-022",
+    "observed_indicators": [
+      "FAKE-SW-SIG-006"
+    ],
+    "source_id": "SRC-008",
+    "first_seen": "2026-06-22T00:00:00Z",
+    "last_seen": "2026-08-20T00:00:00Z",
+    "observed_at": "2026-06-22T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "notes": "Only a common software signature matches SERVICE-006 - weak on its own.",
+    "synthetic": true
+  },
+  {
+    "clearnet_asset_id": "CLEAR-005",
+    "hostname": "mirror005.synthetic.example",
+    "certificate_fingerprint": "FAKE-CERT-FP-023",
+    "observed_indicators": [
+      "FAKE-BANNER-023"
+    ],
+    "source_id": "SRC-008",
+    "first_seen": "2026-07-02T00:00:00Z",
+    "last_seen": "2026-08-19T00:00:00Z",
+    "observed_at": "2026-07-02T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "notes": "Negative control: no overlap with any hidden service in the dataset.",
+    "synthetic": true
+  },
+  {
+    "clearnet_asset_id": "CLEAR-006",
+    "hostname": "gateway006.synthetic.example",
+    "certificate_fingerprint": "FAKE-CERT-FP-024",
+    "observed_indicators": [
+      "FAKE-FAVICON-008"
+    ],
+    "source_id": "SRC-008",
+    "first_seen": "2026-06-09T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "observed_at": "2026-06-09T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "notes": "Favicon matches SERVICE-008; certificate and banner differ.",
+    "synthetic": true
+  }
+]

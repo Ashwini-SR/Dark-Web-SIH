@@ -1,0 +1,2837 @@
+[
+  {
+    "event_id": "EVT-0001",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-01T00:00:00Z",
+    "persona_id": "PERSONA-010",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "handle value pinegrove_admin observed for PERSONA-010 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-013"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0002",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-01T00:00:00Z",
+    "persona_id": "PERSONA-010",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "handle value pinegrove_admin observed for PERSONA-010 on ForumBeta.",
+    "evidence_reference": [
+      "IDENT-014"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0003",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-06-01T00:00:00Z",
+    "persona_id": "PERSONA-010",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "pgp_fingerprint value FAKE-PGP-010 observed for PERSONA-010 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-036"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0004",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-06-01T00:00:00Z",
+    "persona_id": "PERSONA-010",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "wallet value SYN-WALLET-BTC-010 observed for PERSONA-010 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-052"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0005",
+    "event_type": "SERVICE_OBSERVED",
+    "timestamp": "2026-06-01T00:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-008",
+    "source_id": "SRC-007",
+    "description": "Hidden service synthetic-onion-008 first catalogued.",
+    "evidence_reference": [
+      "INFRA-036",
+      "INFRA-037"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0006",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-01T07:00:00Z",
+    "persona_id": "PERSONA-001",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "Account shadowvendor first observed on MarketGamma.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0007",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-01T07:00:00Z",
+    "persona_id": "PERSONA-005",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "Account neonbroker first observed on MarketGamma.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0008",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-01T07:00:00Z",
+    "persona_id": "PERSONA-010",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "Account pinegrove_admin first observed on ForumAlpha.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0009",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-06-01T15:23:00Z",
+    "persona_id": "PERSONA-010",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "First recorded post by pinegrove_admin.",
+    "evidence_reference": [
+      "POST-0001"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0010",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-02T00:00:00Z",
+    "persona_id": "PERSONA-001",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "handle value shadowvendor observed for PERSONA-001 on MarketGamma.",
+    "evidence_reference": [
+      "IDENT-001"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0011",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-02T00:00:00Z",
+    "persona_id": "PERSONA-005",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "handle value neonbroker observed for PERSONA-005 on MarketGamma.",
+    "evidence_reference": [
+      "IDENT-007"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0012",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-06-02T00:00:00Z",
+    "persona_id": "PERSONA-001",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "pgp_fingerprint value FAKE-PGP-001 observed for PERSONA-001 on MarketGamma.",
+    "evidence_reference": [
+      "IDENT-024"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0013",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-06-02T00:00:00Z",
+    "persona_id": "PERSONA-005",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "pgp_fingerprint value FAKE-PGP-005 observed for PERSONA-005 on MarketGamma.",
+    "evidence_reference": [
+      "IDENT-030"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0014",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-02T00:00:00Z",
+    "persona_id": "PERSONA-010",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "email value relay-desk@synthetic.example observed for PERSONA-010 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-062"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0015",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-02T00:00:00Z",
+    "persona_id": "PERSONA-001",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "alias value sv observed for PERSONA-001 on MarketGamma.",
+    "evidence_reference": [
+      "IDENT-066"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0016",
+    "event_type": "SERVICE_OBSERVED",
+    "timestamp": "2026-06-02T00:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-001",
+    "source_id": "SRC-007",
+    "description": "Hidden service synthetic-onion-001 first catalogued.",
+    "evidence_reference": [
+      "INFRA-001",
+      "INFRA-002"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0017",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-06-02T03:21:00Z",
+    "persona_id": "PERSONA-001",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "First recorded post by shadowvendor.",
+    "evidence_reference": [
+      "POST-0002"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0018",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-02T07:00:00Z",
+    "persona_id": "PERSONA-002",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "Account redfox77 first observed on ForumAlpha.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0019",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-06-02T22:45:00Z",
+    "persona_id": "PERSONA-005",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "First recorded post by neonbroker.",
+    "evidence_reference": [
+      "POST-0003"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0020",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-03T00:00:00Z",
+    "persona_id": "PERSONA-002",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "handle value redfox77 observed for PERSONA-002 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-003"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0021",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-06-03T00:00:00Z",
+    "persona_id": "PERSONA-002",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "pgp_fingerprint value FAKE-PGP-002 observed for PERSONA-002 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-027"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0022",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-03T00:00:00Z",
+    "persona_id": "PERSONA-001",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "email value contact-ferry@synthetic.example observed for PERSONA-001 on MarketGamma.",
+    "evidence_reference": [
+      "IDENT-057"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0023",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-03T00:00:00Z",
+    "persona_id": "PERSONA-002",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "alias value fx observed for PERSONA-002 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-069"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0024",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-03T07:00:00Z",
+    "persona_id": "PERSONA-006",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "Account greycartel first observed on ForumBeta.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0025",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-06-03T09:03:00Z",
+    "persona_id": "PERSONA-002",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "First recorded post by redfox77.",
+    "evidence_reference": [
+      "POST-0005"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0026",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-03T19:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-001",
+    "source_id": "SRC-007",
+    "description": "hostname_pattern indicator node-a{n}.synthetic.example observed on SERVICE-001.",
+    "evidence_reference": [
+      "INFRA-005"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0027",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-04T00:00:00Z",
+    "persona_id": "PERSONA-006",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "handle value greycartel observed for PERSONA-006 on ForumBeta.",
+    "evidence_reference": [
+      "IDENT-009"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0028",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-06-04T00:00:00Z",
+    "persona_id": "PERSONA-006",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "pgp_fingerprint value FAKE-PGP-006 observed for PERSONA-006 on ForumBeta.",
+    "evidence_reference": [
+      "IDENT-032"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0029",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-06-04T00:00:00Z",
+    "persona_id": "PERSONA-001",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "wallet value SYN-WALLET-BTC-001 observed for PERSONA-001 on MarketGamma.",
+    "evidence_reference": [
+      "IDENT-041"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0030",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-04T00:00:00Z",
+    "persona_id": "PERSONA-002",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "email value contact-actor-002@synthetic.example observed for PERSONA-002 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-059"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0031",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-04T00:00:00Z",
+    "persona_id": "PERSONA-006",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "alias value grey observed for PERSONA-006 on ForumBeta.",
+    "evidence_reference": [
+      "IDENT-073"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0032",
+    "event_type": "SERVICE_OBSERVED",
+    "timestamp": "2026-06-04T00:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-002",
+    "source_id": "SRC-007",
+    "description": "Hidden service synthetic-onion-002 first catalogued.",
+    "evidence_reference": [
+      "INFRA-007",
+      "INFRA-008"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0033",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-04T07:00:00Z",
+    "persona_id": "PERSONA-003",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "Account cryptowolf first observed on ForumAlpha.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0034",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-06-04T10:37:00Z",
+    "persona_id": "PERSONA-006",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "First recorded post by greycartel.",
+    "evidence_reference": [
+      "POST-0007"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0035",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-05T00:00:00Z",
+    "persona_id": "PERSONA-003",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "handle value cryptowolf observed for PERSONA-003 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-004"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0036",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-06-05T00:00:00Z",
+    "persona_id": "PERSONA-003",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "pgp_fingerprint value FAKE-PGP-003 observed for PERSONA-003 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-029"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0037",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-06-05T00:00:00Z",
+    "persona_id": "PERSONA-002",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "wallet value SYN-WALLET-XMR-002 observed for PERSONA-002 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-044"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0038",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-05T00:00:00Z",
+    "persona_id": "PERSONA-005",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "email value broker-desk@synthetic.example observed for PERSONA-005 on MarketGamma.",
+    "evidence_reference": [
+      "IDENT-061"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0039",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-05T00:00:00Z",
+    "persona_id": "PERSONA-003",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "alias value wolf observed for PERSONA-003 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-072"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0040",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-05T03:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-008",
+    "source_id": "SRC-007",
+    "description": "software_signature indicator FAKE-SW-SIG-008 observed on SERVICE-008.",
+    "evidence_reference": [
+      "INFRA-039"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0041",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-05T07:00:00Z",
+    "persona_id": "PERSONA-008",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "Account silentbuyer first observed on MarketDelta.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0042",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-05T12:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-008",
+    "source_id": "SRC-007",
+    "description": "ssl_certificate indicator FAKE-CERT-FP-008 observed on SERVICE-008.",
+    "evidence_reference": [
+      "INFRA-036"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0043",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-06-05T13:56:00Z",
+    "persona_id": "PERSONA-003",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "First recorded post by cryptowolf.",
+    "evidence_reference": [
+      "POST-0011"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0044",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-06T00:00:00Z",
+    "persona_id": "PERSONA-008",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "handle value silentbuyer observed for PERSONA-008 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-011"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0045",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-06-06T00:00:00Z",
+    "persona_id": "PERSONA-008",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "pgp_fingerprint value FAKE-PGP-008 observed for PERSONA-008 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-034"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0046",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-06-06T00:00:00Z",
+    "persona_id": "PERSONA-005",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "wallet value SYN-WALLET-BTC-005 observed for PERSONA-005 on MarketGamma.",
+    "evidence_reference": [
+      "IDENT-046"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0047",
+    "event_type": "SERVICE_OBSERVED",
+    "timestamp": "2026-06-06T00:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-003",
+    "source_id": "SRC-007",
+    "description": "Hidden service synthetic-onion-003 first catalogued.",
+    "evidence_reference": [
+      "INFRA-012",
+      "INFRA-013"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0048",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-06T22:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-008",
+    "source_id": "SRC-007",
+    "description": "service_configuration indicator FAKE-CONFIG-008 observed on SERVICE-008.",
+    "evidence_reference": [
+      "INFRA-040"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0049",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-06-06T23:36:00Z",
+    "persona_id": "PERSONA-008",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "First recorded post by silentbuyer.",
+    "evidence_reference": [
+      "POST-0013"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0050",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-06-07T00:00:00Z",
+    "persona_id": "PERSONA-006",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "wallet value SYN-WALLET-BTC-006 observed for PERSONA-006 on ForumBeta.",
+    "evidence_reference": [
+      "IDENT-048"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0051",
+    "event_type": "SERVICE_OBSERVED",
+    "timestamp": "2026-06-07T00:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-004",
+    "source_id": "SRC-007",
+    "description": "Hidden service synthetic-onion-004 first catalogued.",
+    "evidence_reference": [
+      "INFRA-017",
+      "INFRA-018"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0052",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-07T07:00:00Z",
+    "persona_id": "PERSONA-015",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "Account tinvault first observed on MarketDelta.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0053",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-07T23:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-004",
+    "source_id": "SRC-007",
+    "description": "favicon_hash indicator FAKE-FAVICON-002 observed on SERVICE-004.",
+    "evidence_reference": [
+      "INFRA-019"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0054",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-08T00:00:00Z",
+    "persona_id": "PERSONA-015",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "handle value tinvault observed for PERSONA-015 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-020"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0055",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-06-08T00:00:00Z",
+    "persona_id": "PERSONA-015",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "pgp_fingerprint value FAKE-PGP-015 observed for PERSONA-015 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-037"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0056",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-06-08T00:00:00Z",
+    "persona_id": "PERSONA-008",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "wallet value SYN-WALLET-BTC-008 observed for PERSONA-008 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-050"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0057",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-08T00:00:00Z",
+    "persona_id": "PERSONA-015",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "alias value vault observed for PERSONA-015 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-076"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0058",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-06-08T05:16:00Z",
+    "persona_id": "PERSONA-015",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "First recorded post by tinvault.",
+    "evidence_reference": [
+      "POST-0017"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0059",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-08T19:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-003",
+    "source_id": "SRC-007",
+    "description": "ssl_certificate indicator FAKE-CERT-FP-003 observed on SERVICE-003.",
+    "evidence_reference": [
+      "INFRA-012"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0060",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-06-09T00:00:00Z",
+    "persona_id": "PERSONA-003",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "wallet value SYN-WALLET-BTC-003 observed for PERSONA-003 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-045"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0061",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-09T07:00:00Z",
+    "persona_id": "PERSONA-009",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "Account quartzmule first observed on BoardEpsilon.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0062",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-10T00:00:00Z",
+    "persona_id": "PERSONA-009",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "handle value quartzmule observed for PERSONA-009 on BoardEpsilon.",
+    "evidence_reference": [
+      "IDENT-012"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0063",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-06-10T00:00:00Z",
+    "persona_id": "PERSONA-015",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "wallet value SYN-WALLET-XMR-015 observed for PERSONA-015 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-053"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0064",
+    "event_type": "SERVICE_OBSERVED",
+    "timestamp": "2026-06-10T00:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-006",
+    "source_id": "SRC-007",
+    "description": "Hidden service synthetic-onion-006 first catalogued.",
+    "evidence_reference": [
+      "INFRA-027",
+      "INFRA-028"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0065",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-06-10T15:13:00Z",
+    "persona_id": "PERSONA-009",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "First recorded post by quartzmule.",
+    "evidence_reference": [
+      "POST-0024"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0066",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-11T00:00:00Z",
+    "persona_id": "PERSONA-015",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "email value vault-inbox@synthetic.example observed for PERSONA-015 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-064"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0067",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-11T07:00:00Z",
+    "persona_id": "PERSONA-016",
+    "entity_id": null,
+    "source_id": "SRC-006",
+    "description": "Account brasspetal first observed on PasteVault.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35
+  },
+  {
+    "event_id": "EVT-0068",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-11T17:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-004",
+    "source_id": "SRC-007",
+    "description": "service_configuration indicator FAKE-CONFIG-004 observed on SERVICE-004.",
+    "evidence_reference": [
+      "INFRA-021"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0069",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-12T00:00:00Z",
+    "persona_id": "PERSONA-016",
+    "entity_id": null,
+    "source_id": "SRC-006",
+    "description": "handle value brasspetal observed for PERSONA-016 on PasteVault.",
+    "evidence_reference": [
+      "IDENT-021"
+    ],
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35
+  },
+  {
+    "event_id": "EVT-0070",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-12T05:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-006",
+    "source_id": "SRC-007",
+    "description": "server_banner indicator FAKE-BANNER-006 observed on SERVICE-006.",
+    "evidence_reference": [
+      "INFRA-028"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0071",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-06-12T16:04:00Z",
+    "persona_id": "PERSONA-016",
+    "entity_id": null,
+    "source_id": "SRC-006",
+    "description": "First recorded post by brasspetal.",
+    "evidence_reference": [
+      "POST-0034"
+    ],
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35
+  },
+  {
+    "event_id": "EVT-0072",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-12T20:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-003",
+    "source_id": "SRC-007",
+    "description": "favicon_hash indicator FAKE-FAVICON-003 observed on SERVICE-003.",
+    "evidence_reference": [
+      "INFRA-014"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0073",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-13T00:00:00Z",
+    "persona_id": "PERSONA-009",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "email value mule-inbox@synthetic.example observed for PERSONA-009 on BoardEpsilon.",
+    "evidence_reference": [
+      "IDENT-065"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0074",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-13T16:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-004",
+    "source_id": "SRC-007",
+    "description": "ssl_certificate indicator FAKE-CERT-FP-004 observed on SERVICE-004.",
+    "evidence_reference": [
+      "INFRA-017"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0075",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-06-14T00:00:00Z",
+    "persona_id": "PERSONA-016",
+    "entity_id": null,
+    "source_id": "SRC-006",
+    "description": "wallet value SYN-WALLET-XMR-015 observed for PERSONA-016 on PasteVault.",
+    "evidence_reference": [
+      "IDENT-054"
+    ],
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35
+  },
+  {
+    "event_id": "EVT-0076",
+    "event_type": "SERVICE_OBSERVED",
+    "timestamp": "2026-06-14T00:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-007",
+    "source_id": "SRC-007",
+    "description": "Hidden service synthetic-onion-007 first catalogued.",
+    "evidence_reference": [
+      "INFRA-033",
+      "INFRA-034"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0077",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-14T02:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-003",
+    "source_id": "SRC-007",
+    "description": "software_signature indicator FAKE-SW-SIG-003 observed on SERVICE-003.",
+    "evidence_reference": [
+      "INFRA-015"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0078",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-14T07:00:00Z",
+    "persona_id": "PERSONA-013",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "Account silentnode first observed on BoardEpsilon.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0079",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-14T11:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-001",
+    "source_id": "SRC-007",
+    "description": "descriptor_metadata indicator FAKE-DESC-META-001 observed on SERVICE-001.",
+    "evidence_reference": [
+      "INFRA-006"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0080",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-15T00:00:00Z",
+    "persona_id": "PERSONA-013",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "handle value silentnode observed for PERSONA-013 on BoardEpsilon.",
+    "evidence_reference": [
+      "IDENT-018"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0081",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-06-15T00:00:00Z",
+    "persona_id": "PERSONA-013",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "pgp_fingerprint value FAKE-PGP-013 observed for PERSONA-013 on BoardEpsilon.",
+    "evidence_reference": [
+      "IDENT-033"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0082",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-15T00:00:00Z",
+    "persona_id": "PERSONA-013",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "alias value node observed for PERSONA-013 on BoardEpsilon.",
+    "evidence_reference": [
+      "IDENT-074"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0083",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-15T20:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-008",
+    "source_id": "SRC-007",
+    "description": "server_banner indicator FAKE-BANNER-008 observed on SERVICE-008.",
+    "evidence_reference": [
+      "INFRA-037"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0084",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-06-15T22:34:00Z",
+    "persona_id": "PERSONA-013",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "First recorded post by silentnode.",
+    "evidence_reference": [
+      "POST-0043"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0085",
+    "event_type": "SERVICE_OBSERVED",
+    "timestamp": "2026-06-16T00:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-005",
+    "source_id": "SRC-007",
+    "description": "Hidden service synthetic-onion-005 first catalogued.",
+    "evidence_reference": [
+      "INFRA-023",
+      "INFRA-024"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0086",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-17T02:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-002",
+    "source_id": "SRC-007",
+    "description": "server_banner indicator FAKE-BANNER-004 observed on SERVICE-002.",
+    "evidence_reference": [
+      "INFRA-008"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0087",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-17T15:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-001",
+    "source_id": "SRC-007",
+    "description": "favicon_hash indicator FAKE-FAVICON-001 observed on SERVICE-001.",
+    "evidence_reference": [
+      "INFRA-003"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0088",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-17T23:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-001",
+    "source_id": "SRC-007",
+    "description": "ssl_certificate indicator FAKE-CERT-FP-001 observed on SERVICE-001.",
+    "evidence_reference": [
+      "INFRA-001"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0089",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-06-18T00:00:00Z",
+    "persona_id": "PERSONA-013",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "wallet value SYN-WALLET-BTC-013 observed for PERSONA-013 on BoardEpsilon.",
+    "evidence_reference": [
+      "IDENT-049"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0090",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-18T02:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-002",
+    "source_id": "SRC-007",
+    "description": "ssl_certificate indicator FAKE-CERT-FP-002 observed on SERVICE-002.",
+    "evidence_reference": [
+      "INFRA-007"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0091",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-18T12:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-008",
+    "source_id": "SRC-007",
+    "description": "favicon_hash indicator FAKE-FAVICON-008 observed on SERVICE-008.",
+    "evidence_reference": [
+      "INFRA-038"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0092",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-19T04:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-006",
+    "source_id": "SRC-007",
+    "description": "software_signature indicator FAKE-SW-SIG-006 observed on SERVICE-006.",
+    "evidence_reference": [
+      "INFRA-030"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0093",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-19T07:00:00Z",
+    "persona_id": "PERSONA-011",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "Account nightmerchant first observed on MarketDelta.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0094",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-19T22:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-004",
+    "source_id": "SRC-007",
+    "description": "hostname_pattern indicator panel-w{n}.synthetic.example observed on SERVICE-004.",
+    "evidence_reference": [
+      "INFRA-022"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0095",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-20T00:00:00Z",
+    "persona_id": "PERSONA-011",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "handle value nightmerchant observed for PERSONA-011 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-015"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0096",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-06-20T00:00:00Z",
+    "persona_id": "PERSONA-011",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "pgp_fingerprint value FAKE-PGP-014 observed for PERSONA-011 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-026"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0097",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-20T00:00:00Z",
+    "persona_id": "PERSONA-011",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "alias value nm observed for PERSONA-011 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-068"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0098",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-20T00:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-001",
+    "source_id": "SRC-007",
+    "description": "software_signature indicator FAKE-SW-SIG-001 observed on SERVICE-001.",
+    "evidence_reference": [
+      "INFRA-004"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0099",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-20T03:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-004",
+    "source_id": "SRC-007",
+    "description": "software_signature indicator FAKE-SW-SIG-004 observed on SERVICE-004.",
+    "evidence_reference": [
+      "INFRA-020"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0100",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-06-20T03:47:00Z",
+    "persona_id": "PERSONA-011",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "First recorded post by nightmerchant.",
+    "evidence_reference": [
+      "POST-0054"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0101",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-21T00:00:00Z",
+    "persona_id": "PERSONA-011",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "email value contact-ferry@synthetic.example observed for PERSONA-011 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-058"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0102",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-21T10:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-005",
+    "source_id": "SRC-007",
+    "description": "software_signature indicator FAKE-SW-SIG-005 observed on SERVICE-005.",
+    "evidence_reference": [
+      "INFRA-025"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0103",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-21T18:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-001",
+    "source_id": "SRC-007",
+    "description": "server_banner indicator FAKE-BANNER-001 observed on SERVICE-001.",
+    "evidence_reference": [
+      "INFRA-002"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0104",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-06-22T00:00:00Z",
+    "persona_id": "PERSONA-011",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "wallet value SYN-WALLET-BTC-009 observed for PERSONA-011 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-043"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0105",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-22T07:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-003",
+    "source_id": "SRC-007",
+    "description": "descriptor_metadata indicator FAKE-DESC-META-003 observed on SERVICE-003.",
+    "evidence_reference": [
+      "INFRA-016"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0106",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-22T17:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-003",
+    "source_id": "SRC-007",
+    "description": "server_banner indicator FAKE-BANNER-003 observed on SERVICE-003.",
+    "evidence_reference": [
+      "INFRA-013"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0107",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-23T13:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-006",
+    "source_id": "SRC-007",
+    "description": "ssl_certificate indicator FAKE-CERT-FP-006 observed on SERVICE-006.",
+    "evidence_reference": [
+      "INFRA-027"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0108",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-23T14:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-002",
+    "source_id": "SRC-007",
+    "description": "service_configuration indicator FAKE-CONFIG-002 observed on SERVICE-002.",
+    "evidence_reference": [
+      "INFRA-011"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0109",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-23T22:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-004",
+    "source_id": "SRC-007",
+    "description": "server_banner indicator FAKE-BANNER-004 observed on SERVICE-004.",
+    "evidence_reference": [
+      "INFRA-018"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0110",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-24T07:00:00Z",
+    "persona_id": "PERSONA-014",
+    "entity_id": null,
+    "source_id": "SRC-006",
+    "description": "Account emberlark first observed on PasteVault.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35
+  },
+  {
+    "event_id": "EVT-0111",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-24T07:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-002",
+    "source_id": "SRC-007",
+    "description": "software_signature indicator FAKE-SW-SIG-002 observed on SERVICE-002.",
+    "evidence_reference": [
+      "INFRA-010"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0112",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-24T08:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-002",
+    "source_id": "SRC-007",
+    "description": "favicon_hash indicator FAKE-FAVICON-002 observed on SERVICE-002.",
+    "evidence_reference": [
+      "INFRA-009"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0113",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-06-25T00:00:00Z",
+    "persona_id": "PERSONA-014",
+    "entity_id": null,
+    "source_id": "SRC-006",
+    "description": "handle value emberlark observed for PERSONA-014 on PasteVault.",
+    "evidence_reference": [
+      "IDENT-019"
+    ],
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35
+  },
+  {
+    "event_id": "EVT-0114",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-25T00:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-007",
+    "source_id": "SRC-007",
+    "description": "server_banner indicator FAKE-BANNER-007 observed on SERVICE-007.",
+    "evidence_reference": [
+      "INFRA-033"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0115",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-06-25T18:52:00Z",
+    "persona_id": "PERSONA-014",
+    "entity_id": null,
+    "source_id": "SRC-006",
+    "description": "First recorded post by emberlark.",
+    "evidence_reference": [
+      "POST-0078"
+    ],
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35
+  },
+  {
+    "event_id": "EVT-0116",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-25T23:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-006",
+    "source_id": "SRC-007",
+    "description": "favicon_hash indicator FAKE-FAVICON-006 observed on SERVICE-006.",
+    "evidence_reference": [
+      "INFRA-029"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0117",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-26T11:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-006",
+    "source_id": "SRC-007",
+    "description": "hostname_pattern indicator desk-d{n}.synthetic.example observed on SERVICE-006.",
+    "evidence_reference": [
+      "INFRA-031"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0118",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-26T17:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-006",
+    "source_id": "SRC-007",
+    "description": "descriptor_metadata indicator FAKE-DESC-META-006 observed on SERVICE-006.",
+    "evidence_reference": [
+      "INFRA-032"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0119",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-06-29T11:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-005",
+    "source_id": "SRC-007",
+    "description": "ssl_certificate indicator FAKE-CERT-FP-005 observed on SERVICE-005.",
+    "evidence_reference": [
+      "INFRA-023"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0120",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-06-30T07:00:00Z",
+    "persona_id": "PERSONA-018",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "Account mistcaller first observed on BoardEpsilon.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0121",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-07-01T00:00:00Z",
+    "persona_id": "PERSONA-018",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "handle value mistcaller observed for PERSONA-018 on BoardEpsilon.",
+    "evidence_reference": [
+      "IDENT-023"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0122",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-07-01T00:00:00Z",
+    "persona_id": "PERSONA-018",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "pgp_fingerprint value FAKE-PGP-018 observed for PERSONA-018 on BoardEpsilon.",
+    "evidence_reference": [
+      "IDENT-040"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0123",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-07-01T13:42:00Z",
+    "persona_id": "PERSONA-018",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "First recorded post by mistcaller.",
+    "evidence_reference": [
+      "POST-0103"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0124",
+    "event_type": "NEW_PERSONA_APPEARS",
+    "timestamp": "2026-07-01T13:42:00Z",
+    "persona_id": "PERSONA-018",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "New account mistcaller begins posting on BoardEpsilon.",
+    "evidence_reference": [
+      "POST-0103"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0125",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-07-01T16:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-005",
+    "source_id": "SRC-007",
+    "description": "fictional_server_status_indicator indicator FAKE-STATUS-005 observed on SERVICE-005.",
+    "evidence_reference": [
+      "INFRA-026"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0126",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-07-02T08:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-007",
+    "source_id": "SRC-007",
+    "description": "descriptor_metadata indicator FAKE-DESC-META-007 observed on SERVICE-007.",
+    "evidence_reference": [
+      "INFRA-035"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0127",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-07-03T00:00:00Z",
+    "persona_id": "PERSONA-018",
+    "entity_id": null,
+    "source_id": "SRC-005",
+    "description": "wallet value SYN-WALLET-BTC-018 observed for PERSONA-018 on BoardEpsilon.",
+    "evidence_reference": [
+      "IDENT-056"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "event_id": "EVT-0128",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-07-04T07:00:00Z",
+    "persona_id": "PERSONA-017",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "Account lowtidefox first observed on ForumBeta.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0129",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-07-04T20:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-007",
+    "source_id": "SRC-007",
+    "description": "fictional_server_status_indicator indicator FAKE-STATUS-007 observed on SERVICE-007.",
+    "evidence_reference": [
+      "INFRA-034"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0130",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-07-05T00:00:00Z",
+    "persona_id": "PERSONA-017",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "handle value lowtidefox observed for PERSONA-017 on ForumBeta.",
+    "evidence_reference": [
+      "IDENT-022"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0131",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-07-05T00:00:00Z",
+    "persona_id": "PERSONA-017",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "pgp_fingerprint value FAKE-PGP-015 observed for PERSONA-017 on ForumBeta.",
+    "evidence_reference": [
+      "IDENT-038"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0132",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-07-05T00:00:00Z",
+    "persona_id": "PERSONA-017",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "alias value lowfx observed for PERSONA-017 on ForumBeta.",
+    "evidence_reference": [
+      "IDENT-071"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0133",
+    "event_type": "MIGRATION_START",
+    "timestamp": "2026-07-05T04:32:00Z",
+    "persona_id": "PERSONA-001",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "shadowvendor posted a closing notice and stopped posting on this source.",
+    "evidence_reference": [
+      "POST-0120"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0134",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-07-05T21:41:00Z",
+    "persona_id": "PERSONA-017",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "First recorded post by lowtidefox.",
+    "evidence_reference": [
+      "POST-0121"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0135",
+    "event_type": "NEW_PERSONA_APPEARS",
+    "timestamp": "2026-07-05T21:41:00Z",
+    "persona_id": "PERSONA-017",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "New account lowtidefox begins posting on ForumBeta.",
+    "evidence_reference": [
+      "POST-0121"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0136",
+    "event_type": "INFRASTRUCTURE_OBSERVED",
+    "timestamp": "2026-07-06T10:00:00Z",
+    "persona_id": null,
+    "entity_id": "SERVICE-005",
+    "source_id": "SRC-007",
+    "description": "server_banner indicator FAKE-BANNER-005 observed on SERVICE-005.",
+    "evidence_reference": [
+      "INFRA-024"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0137",
+    "event_type": "ACCOUNT_INACTIVE",
+    "timestamp": "2026-07-06T12:00:00Z",
+    "persona_id": "PERSONA-001",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "No further activity recorded for shadowvendor after this date.",
+    "evidence_reference": [
+      "POST-0120"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0138",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-07-07T00:00:00Z",
+    "persona_id": "PERSONA-017",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "wallet value SYN-WALLET-BTC-017 observed for PERSONA-017 on ForumBeta.",
+    "evidence_reference": [
+      "IDENT-055"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0139",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-07-08T00:00:00Z",
+    "persona_id": "PERSONA-001",
+    "entity_id": null,
+    "source_id": "SRC-006",
+    "description": "handle value shadowvendor observed for PERSONA-001 on PasteVault.",
+    "evidence_reference": [
+      "IDENT-002"
+    ],
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35
+  },
+  {
+    "event_id": "EVT-0140",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-07-10T00:00:00Z",
+    "persona_id": "PERSONA-005",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "handle value neonbroker observed for PERSONA-005 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-008"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0141",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-07-10T00:00:00Z",
+    "persona_id": "PERSONA-005",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "pgp_fingerprint value FAKE-PGP-005 observed for PERSONA-005 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-031"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0142",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-07-12T00:00:00Z",
+    "persona_id": "PERSONA-005",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "wallet value SYN-WALLET-BTC-005 observed for PERSONA-005 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-047"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0143",
+    "event_type": "MIGRATION_START",
+    "timestamp": "2026-07-12T23:32:00Z",
+    "persona_id": "PERSONA-008",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "silentbuyer posted a closing notice and stopped posting on this source.",
+    "evidence_reference": [
+      "POST-0159"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0144",
+    "event_type": "ACCOUNT_INACTIVE",
+    "timestamp": "2026-07-13T12:00:00Z",
+    "persona_id": "PERSONA-008",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "No further activity recorded for silentbuyer after this date.",
+    "evidence_reference": [
+      "POST-0159"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0145",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-07-18T07:00:00Z",
+    "persona_id": "PERSONA-004",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "Account darkknight99 first observed on MarketGamma.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0146",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-07-19T00:00:00Z",
+    "persona_id": "PERSONA-004",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "handle value darkknight99 observed for PERSONA-004 on MarketGamma.",
+    "evidence_reference": [
+      "IDENT-005"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0147",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-07-19T00:00:00Z",
+    "persona_id": "PERSONA-004",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "pgp_fingerprint value FAKE-PGP-001 observed for PERSONA-004 on MarketGamma.",
+    "evidence_reference": [
+      "IDENT-025"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0148",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-07-19T00:00:00Z",
+    "persona_id": "PERSONA-016",
+    "entity_id": null,
+    "source_id": "SRC-006",
+    "description": "pgp_fingerprint value FAKE-PGP-016 observed for PERSONA-016 on PasteVault.",
+    "evidence_reference": [
+      "IDENT-039"
+    ],
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35
+  },
+  {
+    "event_id": "EVT-0149",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-07-19T00:00:00Z",
+    "persona_id": "PERSONA-004",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "alias value dk99 observed for PERSONA-004 on MarketGamma.",
+    "evidence_reference": [
+      "IDENT-067"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0150",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-07-19T04:12:00Z",
+    "persona_id": "PERSONA-004",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "First recorded post by darkknight99.",
+    "evidence_reference": [
+      "POST-0178"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0151",
+    "event_type": "NEW_PERSONA_APPEARS",
+    "timestamp": "2026-07-19T04:12:00Z",
+    "persona_id": "PERSONA-004",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "New account darkknight99 begins posting on MarketGamma.",
+    "evidence_reference": [
+      "POST-0178"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0152",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-07-21T00:00:00Z",
+    "persona_id": "PERSONA-004",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "wallet value SYN-WALLET-BTC-001 observed for PERSONA-004 on MarketGamma.",
+    "evidence_reference": [
+      "IDENT-042"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0153",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-07-26T00:00:00Z",
+    "persona_id": "PERSONA-004",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "handle value darkknight99 observed for PERSONA-004 on ForumAlpha.",
+    "evidence_reference": [
+      "IDENT-006"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0154",
+    "event_type": "MIGRATION_START",
+    "timestamp": "2026-07-28T11:49:00Z",
+    "persona_id": "PERSONA-002",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "redfox77 posted a closing notice and stopped posting on this source.",
+    "evidence_reference": [
+      "POST-0228"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0155",
+    "event_type": "ACCOUNT_INACTIVE",
+    "timestamp": "2026-07-29T12:00:00Z",
+    "persona_id": "PERSONA-002",
+    "entity_id": null,
+    "source_id": "SRC-001",
+    "description": "No further activity recorded for redfox77 after this date.",
+    "evidence_reference": [
+      "POST-0228"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "event_id": "EVT-0156",
+    "event_type": "ACCOUNT_INACTIVE",
+    "timestamp": "2026-07-31T12:00:00Z",
+    "persona_id": "PERSONA-006",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "No further activity recorded for greycartel after this date.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0157",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-08-01T07:00:00Z",
+    "persona_id": "PERSONA-012",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "Account hollowtide first observed on MarketDelta.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0158",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-08-02T00:00:00Z",
+    "persona_id": "PERSONA-012",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "handle value hollowtide observed for PERSONA-012 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-016"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0159",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-08-02T00:00:00Z",
+    "persona_id": "PERSONA-012",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "pgp_fingerprint value FAKE-PGP-008-B observed for PERSONA-012 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-035"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0160",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-08-02T00:00:00Z",
+    "persona_id": "PERSONA-012",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "alias value tide observed for PERSONA-012 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-075"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0161",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-08-02T22:35:00Z",
+    "persona_id": "PERSONA-012",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "First recorded post by hollowtide.",
+    "evidence_reference": [
+      "POST-0246"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0162",
+    "event_type": "NEW_PERSONA_APPEARS",
+    "timestamp": "2026-08-02T22:35:00Z",
+    "persona_id": "PERSONA-012",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "New account hollowtide begins posting on MarketDelta.",
+    "evidence_reference": [
+      "POST-0246"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0163",
+    "event_type": "WALLET_OBSERVED",
+    "timestamp": "2026-08-03T00:00:00Z",
+    "persona_id": "PERSONA-012",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "wallet value SYN-WALLET-BTC-012 observed for PERSONA-012 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-051"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0164",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-08-04T00:00:00Z",
+    "persona_id": "PERSONA-012",
+    "entity_id": null,
+    "source_id": "SRC-007",
+    "description": "handle value hollowtide observed for PERSONA-012 on DeepWebSigma.",
+    "evidence_reference": [
+      "IDENT-017"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0165",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-08-05T00:00:00Z",
+    "persona_id": "PERSONA-012",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "email value tide-inbox@synthetic.example observed for PERSONA-012 on MarketDelta.",
+    "evidence_reference": [
+      "IDENT-063"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0166",
+    "event_type": "ACCOUNT_CREATED",
+    "timestamp": "2026-08-05T07:00:00Z",
+    "persona_id": "PERSONA-007",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "Account bytefox first observed on ForumBeta.",
+    "evidence_reference": [],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0167",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-08-06T00:00:00Z",
+    "persona_id": "PERSONA-007",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "handle value bytefox observed for PERSONA-007 on ForumBeta.",
+    "evidence_reference": [
+      "IDENT-010"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0168",
+    "event_type": "PGP_OBSERVED",
+    "timestamp": "2026-08-06T00:00:00Z",
+    "persona_id": "PERSONA-007",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "pgp_fingerprint value FAKE-PGP-007 observed for PERSONA-007 on ForumBeta.",
+    "evidence_reference": [
+      "IDENT-028"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0169",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-08-06T00:00:00Z",
+    "persona_id": "PERSONA-007",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "alias value fx observed for PERSONA-007 on ForumBeta.",
+    "evidence_reference": [
+      "IDENT-070"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0170",
+    "event_type": "FIRST_POST",
+    "timestamp": "2026-08-06T13:20:26Z",
+    "persona_id": "PERSONA-007",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "First recorded post by bytefox.",
+    "evidence_reference": [
+      "POST-0262"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0171",
+    "event_type": "NEW_PERSONA_APPEARS",
+    "timestamp": "2026-08-06T13:20:26Z",
+    "persona_id": "PERSONA-007",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "New account bytefox begins posting on ForumBeta.",
+    "evidence_reference": [
+      "POST-0262"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0172",
+    "event_type": "IDENTIFIER_OBSERVED",
+    "timestamp": "2026-08-07T00:00:00Z",
+    "persona_id": "PERSONA-007",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "email value contact-actor-002@synthetic.example observed for PERSONA-007 on ForumBeta.",
+    "evidence_reference": [
+      "IDENT-060"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0173",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-10T08:00:00Z",
+    "persona_id": null,
+    "entity_id": null,
+    "source_id": "SRC-007",
+    "description": "SHARES_INFRASTRUCTURE: SERVICE-002 <-> SERVICE-004. Both services expose the indicator value FAKE-FAVICON-002",
+    "evidence_reference": [
+      "REL-110"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0174",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-12T00:00:00Z",
+    "persona_id": "PERSONA-002",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "SHARES_IDENTIFIER: PERSONA-002 <-> PERSONA-007. Both accounts observed using the same email value (contact-actor-002@synthetic.example); weakest supporting source score 0.68",
+    "evidence_reference": [
+      "REL-103"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0175",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-20T00:00:00Z",
+    "persona_id": "PERSONA-001",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "SHARES_IDENTIFIER: PERSONA-001 <-> PERSONA-011. Both accounts observed using the same email value (contact-ferry@synthetic.example); weakest supporting source score 0.62",
+    "evidence_reference": [
+      "REL-104"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0176",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-20T00:00:00Z",
+    "persona_id": null,
+    "entity_id": null,
+    "source_id": "SRC-008",
+    "description": "SHARES_INFRASTRUCTURE: SERVICE-006 <-> CLEAR-004. Clearnet asset and hidden service share the indicator value FAKE-SW-SIG-006",
+    "evidence_reference": [
+      "REL-119"
+    ],
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94
+  },
+  {
+    "event_id": "EVT-0177",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-21T22:00:00Z",
+    "persona_id": null,
+    "entity_id": null,
+    "source_id": "SRC-007",
+    "description": "SHARES_INFRASTRUCTURE: SERVICE-002 <-> SERVICE-004. Both services expose the indicator value FAKE-BANNER-004",
+    "evidence_reference": [
+      "REL-109"
+    ],
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "event_id": "EVT-0178",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-22T00:00:00Z",
+    "persona_id": null,
+    "entity_id": null,
+    "source_id": "SRC-008",
+    "description": "SHARES_INFRASTRUCTURE: SERVICE-003 <-> CLEAR-003. Clearnet asset and hidden service share the indicator value FAKE-CERT-FP-003",
+    "evidence_reference": [
+      "REL-118"
+    ],
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94
+  },
+  {
+    "event_id": "EVT-0179",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-23T00:00:00Z",
+    "persona_id": "PERSONA-015",
+    "entity_id": null,
+    "source_id": "SRC-006",
+    "description": "SHARES_IDENTIFIER: PERSONA-015 <-> PERSONA-016. Both accounts observed using the same wallet value (SYN-WALLET-XMR-015); weakest supporting source score 0.35",
+    "evidence_reference": [
+      "REL-108"
+    ],
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35
+  },
+  {
+    "event_id": "EVT-0180",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-24T00:00:00Z",
+    "persona_id": "PERSONA-001",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "SHARES_IDENTIFIER: PERSONA-001 <-> PERSONA-004. Both accounts observed using the same pgp_fingerprint value (FAKE-PGP-001); weakest supporting source score 0.88",
+    "evidence_reference": [
+      "REL-105"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0181",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-24T00:00:00Z",
+    "persona_id": "PERSONA-001",
+    "entity_id": null,
+    "source_id": "SRC-003",
+    "description": "SHARES_IDENTIFIER: PERSONA-001 <-> PERSONA-004. Both accounts observed using the same wallet value (SYN-WALLET-BTC-001); weakest supporting source score 0.88",
+    "evidence_reference": [
+      "REL-107"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "event_id": "EVT-0182",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-24T00:00:00Z",
+    "persona_id": null,
+    "entity_id": null,
+    "source_id": "SRC-008",
+    "description": "SHARES_INFRASTRUCTURE: SERVICE-001 <-> CLEAR-001. Clearnet asset and hidden service share the indicator value FAKE-CERT-FP-001",
+    "evidence_reference": [
+      "REL-111"
+    ],
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94
+  },
+  {
+    "event_id": "EVT-0183",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-24T00:00:00Z",
+    "persona_id": null,
+    "entity_id": null,
+    "source_id": "SRC-008",
+    "description": "SHARES_INFRASTRUCTURE: SERVICE-001 <-> CLEAR-001. Clearnet asset and hidden service share the indicator value FAKE-BANNER-001",
+    "evidence_reference": [
+      "REL-112"
+    ],
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94
+  },
+  {
+    "event_id": "EVT-0184",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-24T00:00:00Z",
+    "persona_id": null,
+    "entity_id": null,
+    "source_id": "SRC-008",
+    "description": "SHARES_INFRASTRUCTURE: SERVICE-001 <-> CLEAR-001. Clearnet asset and hidden service share the indicator value FAKE-FAVICON-001",
+    "evidence_reference": [
+      "REL-113"
+    ],
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94
+  },
+  {
+    "event_id": "EVT-0185",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "persona_id": "PERSONA-002",
+    "entity_id": null,
+    "source_id": "SRC-002",
+    "description": "SHARES_IDENTIFIER: PERSONA-002 <-> PERSONA-007. Both accounts observed using the same alias value (fx); weakest supporting source score 0.68",
+    "evidence_reference": [
+      "REL-102"
+    ],
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "event_id": "EVT-0186",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "persona_id": "PERSONA-015",
+    "entity_id": null,
+    "source_id": "SRC-004",
+    "description": "SHARES_IDENTIFIER: PERSONA-015 <-> PERSONA-017. Both accounts observed using the same pgp_fingerprint value (FAKE-PGP-015); weakest supporting source score 0.62",
+    "evidence_reference": [
+      "REL-106"
+    ],
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "event_id": "EVT-0187",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "persona_id": null,
+    "entity_id": null,
+    "source_id": "SRC-008",
+    "description": "SHARES_INFRASTRUCTURE: SERVICE-002 <-> CLEAR-002. Clearnet asset and hidden service share the indicator value FAKE-BANNER-004",
+    "evidence_reference": [
+      "REL-114"
+    ],
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94
+  },
+  {
+    "event_id": "EVT-0188",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "persona_id": null,
+    "entity_id": null,
+    "source_id": "SRC-008",
+    "description": "SHARES_INFRASTRUCTURE: SERVICE-004 <-> CLEAR-002. Clearnet asset and hidden service share the indicator value FAKE-BANNER-004",
+    "evidence_reference": [
+      "REL-115"
+    ],
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94
+  },
+  {
+    "event_id": "EVT-0189",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "persona_id": null,
+    "entity_id": null,
+    "source_id": "SRC-008",
+    "description": "SHARES_INFRASTRUCTURE: SERVICE-002 <-> CLEAR-002. Clearnet asset and hidden service share the indicator value FAKE-FAVICON-002",
+    "evidence_reference": [
+      "REL-116"
+    ],
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94
+  },
+  {
+    "event_id": "EVT-0190",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "persona_id": null,
+    "entity_id": null,
+    "source_id": "SRC-008",
+    "description": "SHARES_INFRASTRUCTURE: SERVICE-004 <-> CLEAR-002. Clearnet asset and hidden service share the indicator value FAKE-FAVICON-002",
+    "evidence_reference": [
+      "REL-117"
+    ],
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94
+  },
+  {
+    "event_id": "EVT-0191",
+    "event_type": "RELATIONSHIP_DISCOVERED",
+    "timestamp": "2026-08-25T00:00:00Z",
+    "persona_id": null,
+    "entity_id": null,
+    "source_id": "SRC-008",
+    "description": "SHARES_INFRASTRUCTURE: SERVICE-008 <-> CLEAR-006. Clearnet asset and hidden service share the indicator value FAKE-FAVICON-008",
+    "evidence_reference": [
+      "REL-120"
+    ],
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94
+  }
+]

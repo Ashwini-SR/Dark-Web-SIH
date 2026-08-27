@@ -1,0 +1,2555 @@
+[
+  {
+    "relationship_id": "REL-001",
+    "source_entity": "PERSONA-001",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-001",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-02T00:00:00Z",
+    "last_seen": "2026-07-05T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-001"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-002",
+    "source_entity": "PERSONA-002",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-003",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-03T00:00:00Z",
+    "last_seen": "2026-07-28T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-003"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-003",
+    "source_entity": "PERSONA-003",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-004",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-05T00:00:00Z",
+    "last_seen": "2026-08-22T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-004"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-004",
+    "source_entity": "PERSONA-004",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-005",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-19T00:00:00Z",
+    "last_seen": "2026-08-24T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-005"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-005",
+    "source_entity": "PERSONA-005",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-007",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-02T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-007"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-006",
+    "source_entity": "PERSONA-006",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-009",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-04T00:00:00Z",
+    "last_seen": "2026-07-30T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-009"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-007",
+    "source_entity": "PERSONA-007",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-010",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-08-06T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-010"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-008",
+    "source_entity": "PERSONA-008",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-011",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-06T00:00:00Z",
+    "last_seen": "2026-07-12T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-011"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-009",
+    "source_entity": "PERSONA-009",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-012",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-10T00:00:00Z",
+    "last_seen": "2026-08-18T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-012"
+    ],
+    "source_id": "SRC-005",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-010",
+    "source_entity": "PERSONA-010",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-013",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-01T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-013"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-011",
+    "source_entity": "PERSONA-011",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-015",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-20T00:00:00Z",
+    "last_seen": "2026-08-20T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-015"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-012",
+    "source_entity": "PERSONA-012",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-016",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-08-02T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-016"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-013",
+    "source_entity": "PERSONA-013",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-018",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-15T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-018"
+    ],
+    "source_id": "SRC-005",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-014",
+    "source_entity": "PERSONA-014",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-019",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-25T00:00:00Z",
+    "last_seen": "2026-08-21T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-019"
+    ],
+    "source_id": "SRC-006",
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-015",
+    "source_entity": "PERSONA-015",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-020",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-08T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-020"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-016",
+    "source_entity": "PERSONA-016",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-021",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-12T00:00:00Z",
+    "last_seen": "2026-08-15T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-021"
+    ],
+    "source_id": "SRC-006",
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-017",
+    "source_entity": "PERSONA-017",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-022",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-05T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-022"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-018",
+    "source_entity": "PERSONA-018",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-023",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_HANDLE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-01T00:00:00Z",
+    "last_seen": "2026-08-19T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-023"
+    ],
+    "source_id": "SRC-005",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-019",
+    "source_entity": "PERSONA-001",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-024",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-02T00:00:00Z",
+    "last_seen": "2026-07-04T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-024"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-020",
+    "source_entity": "PERSONA-004",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-025",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-19T00:00:00Z",
+    "last_seen": "2026-08-24T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-025"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-021",
+    "source_entity": "PERSONA-011",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-026",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-20T00:00:00Z",
+    "last_seen": "2026-08-20T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-026"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-022",
+    "source_entity": "PERSONA-002",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-027",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-03T00:00:00Z",
+    "last_seen": "2026-07-28T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-027"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-023",
+    "source_entity": "PERSONA-007",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-028",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-08-06T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-028"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-024",
+    "source_entity": "PERSONA-003",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-029",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-05T00:00:00Z",
+    "last_seen": "2026-08-22T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-029"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-025",
+    "source_entity": "PERSONA-005",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-030",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-02T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-030"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-026",
+    "source_entity": "PERSONA-006",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-032",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-04T00:00:00Z",
+    "last_seen": "2026-07-30T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-032"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-027",
+    "source_entity": "PERSONA-013",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-033",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-15T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-033"
+    ],
+    "source_id": "SRC-005",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-028",
+    "source_entity": "PERSONA-008",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-034",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-06T00:00:00Z",
+    "last_seen": "2026-07-12T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-034"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-029",
+    "source_entity": "PERSONA-012",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-035",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-08-02T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-035"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-030",
+    "source_entity": "PERSONA-010",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-036",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-01T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-036"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-031",
+    "source_entity": "PERSONA-015",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-037",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-08T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-037"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-032",
+    "source_entity": "PERSONA-017",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-038",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-05T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-038"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-033",
+    "source_entity": "PERSONA-016",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-039",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-19T00:00:00Z",
+    "last_seen": "2026-07-19T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-039"
+    ],
+    "source_id": "SRC-006",
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-034",
+    "source_entity": "PERSONA-018",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-040",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_PGP",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-01T00:00:00Z",
+    "last_seen": "2026-08-19T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-040"
+    ],
+    "source_id": "SRC-005",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-035",
+    "source_entity": "PERSONA-001",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-041",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-04T00:00:00Z",
+    "last_seen": "2026-07-05T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-041"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-036",
+    "source_entity": "PERSONA-004",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-042",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-21T00:00:00Z",
+    "last_seen": "2026-08-24T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-042"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-037",
+    "source_entity": "PERSONA-011",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-043",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-22T00:00:00Z",
+    "last_seen": "2026-07-30T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-043"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-038",
+    "source_entity": "PERSONA-002",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-044",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-05T00:00:00Z",
+    "last_seen": "2026-07-28T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-044"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-039",
+    "source_entity": "PERSONA-003",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-045",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-09T00:00:00Z",
+    "last_seen": "2026-08-22T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-045"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-040",
+    "source_entity": "PERSONA-005",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-046",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-06T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-046"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-041",
+    "source_entity": "PERSONA-006",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-048",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-07T00:00:00Z",
+    "last_seen": "2026-07-30T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-048"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-042",
+    "source_entity": "PERSONA-013",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-049",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-18T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-049"
+    ],
+    "source_id": "SRC-005",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-043",
+    "source_entity": "PERSONA-008",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-050",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-08T00:00:00Z",
+    "last_seen": "2026-07-12T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-050"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-044",
+    "source_entity": "PERSONA-012",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-051",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-08-03T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-051"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-045",
+    "source_entity": "PERSONA-010",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-052",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-01T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-052"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-046",
+    "source_entity": "PERSONA-015",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-053",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-10T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-053"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-047",
+    "source_entity": "PERSONA-016",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-054",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-14T00:00:00Z",
+    "last_seen": "2026-08-15T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-054"
+    ],
+    "source_id": "SRC-006",
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-048",
+    "source_entity": "PERSONA-017",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-055",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-07T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-055"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-049",
+    "source_entity": "PERSONA-018",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-056",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_WALLET",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-03T00:00:00Z",
+    "last_seen": "2026-08-19T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-056"
+    ],
+    "source_id": "SRC-005",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-050",
+    "source_entity": "PERSONA-001",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-057",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_IDENTIFIER",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-03T00:00:00Z",
+    "last_seen": "2026-07-05T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-057"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-051",
+    "source_entity": "PERSONA-011",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-058",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_IDENTIFIER",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-21T00:00:00Z",
+    "last_seen": "2026-08-20T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-058"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-052",
+    "source_entity": "PERSONA-002",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-059",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_IDENTIFIER",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-04T00:00:00Z",
+    "last_seen": "2026-07-28T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-059"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-053",
+    "source_entity": "PERSONA-007",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-060",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_IDENTIFIER",
+    "evidence_class": "FACT",
+    "first_seen": "2026-08-07T00:00:00Z",
+    "last_seen": "2026-08-12T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-060"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-054",
+    "source_entity": "PERSONA-005",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-061",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_IDENTIFIER",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-05T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-061"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-055",
+    "source_entity": "PERSONA-010",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-062",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_IDENTIFIER",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-02T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-062"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-056",
+    "source_entity": "PERSONA-012",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-063",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_IDENTIFIER",
+    "evidence_class": "FACT",
+    "first_seen": "2026-08-05T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-063"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-057",
+    "source_entity": "PERSONA-015",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-064",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_IDENTIFIER",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-11T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-064"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-058",
+    "source_entity": "PERSONA-009",
+    "source_entity_type": "PERSONA",
+    "target_entity": "IDENT-065",
+    "target_entity_type": "IDENTIFIER",
+    "relationship_type": "USES_IDENTIFIER",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-13T00:00:00Z",
+    "last_seen": "2026-08-18T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-065"
+    ],
+    "source_id": "SRC-005",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-059",
+    "source_entity": "PERSONA-001",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-003",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-02T03:21:00Z",
+    "last_seen": "2026-07-05T04:32:00Z",
+    "evidence_refs": [
+      "POST-0002",
+      "POST-0004",
+      "POST-0006"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": "26 posts observed"
+  },
+  {
+    "relationship_id": "REL-060",
+    "source_entity": "PERSONA-002",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-001",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-03T09:03:00Z",
+    "last_seen": "2026-07-28T11:49:00Z",
+    "evidence_refs": [
+      "POST-0005",
+      "POST-0008",
+      "POST-0018"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": "24 posts observed"
+  },
+  {
+    "relationship_id": "REL-061",
+    "source_entity": "PERSONA-003",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-001",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-05T13:56:00Z",
+    "last_seen": "2026-08-22T15:40:00Z",
+    "evidence_refs": [
+      "POST-0011",
+      "POST-0021",
+      "POST-0036"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": "22 posts observed"
+  },
+  {
+    "relationship_id": "REL-062",
+    "source_entity": "PERSONA-004",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-001",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-30T04:31:27Z",
+    "last_seen": "2026-08-24T03:01:00Z",
+    "evidence_refs": [
+      "POST-0234",
+      "POST-0241",
+      "POST-0256"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": "7 posts observed"
+  },
+  {
+    "relationship_id": "REL-063",
+    "source_entity": "PERSONA-004",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-003",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-19T04:12:00Z",
+    "last_seen": "2026-08-22T02:18:18Z",
+    "evidence_refs": [
+      "POST-0178",
+      "POST-0180",
+      "POST-0186"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": "23 posts observed"
+  },
+  {
+    "relationship_id": "REL-064",
+    "source_entity": "PERSONA-005",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-003",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-02T22:45:00Z",
+    "last_seen": "2026-08-23T21:33:55Z",
+    "evidence_refs": [
+      "POST-0003",
+      "POST-0022",
+      "POST-0025"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": "26 posts observed"
+  },
+  {
+    "relationship_id": "REL-065",
+    "source_entity": "PERSONA-005",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-004",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-25T18:58:43Z",
+    "last_seen": "2026-08-22T22:36:02Z",
+    "evidence_refs": [
+      "POST-0209",
+      "POST-0273",
+      "POST-0346"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": "4 posts observed"
+  },
+  {
+    "relationship_id": "REL-066",
+    "source_entity": "PERSONA-006",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-002",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-04T10:37:00Z",
+    "last_seen": "2026-07-30T12:20:00Z",
+    "evidence_refs": [
+      "POST-0007",
+      "POST-0010",
+      "POST-0020"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": "22 posts observed"
+  },
+  {
+    "relationship_id": "REL-067",
+    "source_entity": "PERSONA-007",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-002",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-08-06T13:20:26Z",
+    "last_seen": "2026-08-25T09:29:00Z",
+    "evidence_refs": [
+      "POST-0262",
+      "POST-0263",
+      "POST-0265"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": "16 posts observed"
+  },
+  {
+    "relationship_id": "REL-068",
+    "source_entity": "PERSONA-008",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-004",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-06T23:36:00Z",
+    "last_seen": "2026-07-12T23:32:00Z",
+    "evidence_refs": [
+      "POST-0013",
+      "POST-0065",
+      "POST-0066"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": "18 posts observed"
+  },
+  {
+    "relationship_id": "REL-069",
+    "source_entity": "PERSONA-009",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-005",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-10T15:13:00Z",
+    "last_seen": "2026-08-18T18:23:00Z",
+    "evidence_refs": [
+      "POST-0024",
+      "POST-0100",
+      "POST-0133"
+    ],
+    "source_id": "SRC-005",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": "8 posts observed"
+  },
+  {
+    "relationship_id": "REL-070",
+    "source_entity": "PERSONA-010",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-001",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-01T15:23:00Z",
+    "last_seen": "2026-08-25T10:29:00Z",
+    "evidence_refs": [
+      "POST-0001",
+      "POST-0012",
+      "POST-0015"
+    ],
+    "source_id": "SRC-001",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "note": "14 posts observed"
+  },
+  {
+    "relationship_id": "REL-071",
+    "source_entity": "PERSONA-010",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-002",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-11T12:37:06Z",
+    "last_seen": "2026-08-13T14:46:30Z",
+    "evidence_refs": [
+      "POST-0032",
+      "POST-0037",
+      "POST-0049"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": "12 posts observed"
+  },
+  {
+    "relationship_id": "REL-072",
+    "source_entity": "PERSONA-011",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-004",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-20T03:47:00Z",
+    "last_seen": "2026-08-20T02:06:00Z",
+    "evidence_refs": [
+      "POST-0054",
+      "POST-0061",
+      "POST-0076"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": "24 posts observed"
+  },
+  {
+    "relationship_id": "REL-073",
+    "source_entity": "PERSONA-012",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-004",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-08-02T22:35:00Z",
+    "last_seen": "2026-08-25T21:03:00Z",
+    "evidence_refs": [
+      "POST-0246",
+      "POST-0251",
+      "POST-0255"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": "15 posts observed"
+  },
+  {
+    "relationship_id": "REL-074",
+    "source_entity": "PERSONA-012",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-007",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-08-03T23:32:11Z",
+    "last_seen": "2026-08-17T20:06:23Z",
+    "evidence_refs": [
+      "POST-0250",
+      "POST-0254",
+      "POST-0287"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "5 posts observed"
+  },
+  {
+    "relationship_id": "REL-075",
+    "source_entity": "PERSONA-013",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-005",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-15T22:34:00Z",
+    "last_seen": "2026-08-25T22:01:00Z",
+    "evidence_refs": [
+      "POST-0043",
+      "POST-0052",
+      "POST-0058"
+    ],
+    "source_id": "SRC-005",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": "24 posts observed"
+  },
+  {
+    "relationship_id": "REL-076",
+    "source_entity": "PERSONA-014",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-006",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-25T18:52:00Z",
+    "last_seen": "2026-08-21T17:01:00Z",
+    "evidence_refs": [
+      "POST-0078",
+      "POST-0134",
+      "POST-0204"
+    ],
+    "source_id": "SRC-006",
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35,
+    "note": "7 posts observed"
+  },
+  {
+    "relationship_id": "REL-077",
+    "source_entity": "PERSONA-015",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-004",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-08T05:16:00Z",
+    "last_seen": "2026-08-23T05:30:00Z",
+    "evidence_refs": [
+      "POST-0017",
+      "POST-0029",
+      "POST-0039"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": "20 posts observed"
+  },
+  {
+    "relationship_id": "REL-078",
+    "source_entity": "PERSONA-016",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-006",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-12T16:04:00Z",
+    "last_seen": "2026-08-15T15:10:00Z",
+    "evidence_refs": [
+      "POST-0034",
+      "POST-0125",
+      "POST-0127"
+    ],
+    "source_id": "SRC-006",
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35,
+    "note": "9 posts observed"
+  },
+  {
+    "relationship_id": "REL-079",
+    "source_entity": "PERSONA-017",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-002",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-05T21:41:00Z",
+    "last_seen": "2026-08-25T21:51:00Z",
+    "evidence_refs": [
+      "POST-0121",
+      "POST-0135",
+      "POST-0152"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": "18 posts observed"
+  },
+  {
+    "relationship_id": "REL-080",
+    "source_entity": "PERSONA-018",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SRC-005",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "POSTED_ON",
+    "evidence_class": "FACT",
+    "first_seen": "2026-07-01T13:42:00Z",
+    "last_seen": "2026-08-19T12:30:00Z",
+    "evidence_refs": [
+      "POST-0103",
+      "POST-0139",
+      "POST-0140"
+    ],
+    "source_id": "SRC-005",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "note": "14 posts observed"
+  },
+  {
+    "relationship_id": "REL-081",
+    "source_entity": "PERSONA-001",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SERVICE-001",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "ASSOCIATED_WITH_SERVICE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-02T00:00:00Z",
+    "last_seen": "2026-08-24T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-001",
+      "INFRA-002",
+      "INFRA-003"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-082",
+    "source_entity": "PERSONA-004",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SERVICE-001",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "ASSOCIATED_WITH_SERVICE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-02T00:00:00Z",
+    "last_seen": "2026-08-24T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-001",
+      "INFRA-002",
+      "INFRA-003"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-083",
+    "source_entity": "PERSONA-005",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SERVICE-002",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "ASSOCIATED_WITH_SERVICE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-04T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-007",
+      "INFRA-008",
+      "INFRA-009"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-084",
+    "source_entity": "PERSONA-002",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SERVICE-003",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "ASSOCIATED_WITH_SERVICE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-06T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-012",
+      "INFRA-013",
+      "INFRA-014"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-085",
+    "source_entity": "PERSONA-007",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SERVICE-003",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "ASSOCIATED_WITH_SERVICE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-06T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-012",
+      "INFRA-013",
+      "INFRA-014"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-086",
+    "source_entity": "PERSONA-008",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SERVICE-004",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "ASSOCIATED_WITH_SERVICE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-07T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-017",
+      "INFRA-018",
+      "INFRA-019"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-087",
+    "source_entity": "PERSONA-012",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SERVICE-004",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "ASSOCIATED_WITH_SERVICE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-07T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-017",
+      "INFRA-018",
+      "INFRA-019"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-088",
+    "source_entity": "PERSONA-006",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SERVICE-005",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "ASSOCIATED_WITH_SERVICE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-16T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-023",
+      "INFRA-024",
+      "INFRA-025"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-089",
+    "source_entity": "PERSONA-015",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SERVICE-006",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "ASSOCIATED_WITH_SERVICE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-10T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-027",
+      "INFRA-028",
+      "INFRA-029"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-090",
+    "source_entity": "PERSONA-017",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SERVICE-006",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "ASSOCIATED_WITH_SERVICE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-10T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-027",
+      "INFRA-028",
+      "INFRA-029"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-091",
+    "source_entity": "PERSONA-009",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SERVICE-007",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "ASSOCIATED_WITH_SERVICE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-14T00:00:00Z",
+    "last_seen": "2026-08-18T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-033",
+      "INFRA-034",
+      "INFRA-035"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-092",
+    "source_entity": "PERSONA-010",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SERVICE-008",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "ASSOCIATED_WITH_SERVICE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-01T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-036",
+      "INFRA-037",
+      "INFRA-038"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-093",
+    "source_entity": "PERSONA-018",
+    "source_entity_type": "PERSONA",
+    "target_entity": "SERVICE-008",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "ASSOCIATED_WITH_SERVICE",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-01T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-036",
+      "INFRA-037",
+      "INFRA-038"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-094",
+    "source_entity": "SERVICE-001",
+    "source_entity_type": "SERVICE",
+    "target_entity": "SRC-007",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "OBSERVED_BY",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-02T00:00:00Z",
+    "last_seen": "2026-08-24T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-001",
+      "INFRA-002",
+      "INFRA-003"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Service catalogued by a synthetic service scan"
+  },
+  {
+    "relationship_id": "REL-095",
+    "source_entity": "SERVICE-002",
+    "source_entity_type": "SERVICE",
+    "target_entity": "SRC-007",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "OBSERVED_BY",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-04T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-007",
+      "INFRA-008",
+      "INFRA-009"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Service catalogued by a synthetic service scan"
+  },
+  {
+    "relationship_id": "REL-096",
+    "source_entity": "SERVICE-003",
+    "source_entity_type": "SERVICE",
+    "target_entity": "SRC-007",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "OBSERVED_BY",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-06T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-012",
+      "INFRA-013",
+      "INFRA-014"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Service catalogued by a synthetic service scan"
+  },
+  {
+    "relationship_id": "REL-097",
+    "source_entity": "SERVICE-004",
+    "source_entity_type": "SERVICE",
+    "target_entity": "SRC-007",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "OBSERVED_BY",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-07T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-017",
+      "INFRA-018",
+      "INFRA-019"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Service catalogued by a synthetic service scan"
+  },
+  {
+    "relationship_id": "REL-098",
+    "source_entity": "SERVICE-005",
+    "source_entity_type": "SERVICE",
+    "target_entity": "SRC-007",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "OBSERVED_BY",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-16T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-023",
+      "INFRA-024",
+      "INFRA-025"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Service catalogued by a synthetic service scan"
+  },
+  {
+    "relationship_id": "REL-099",
+    "source_entity": "SERVICE-006",
+    "source_entity_type": "SERVICE",
+    "target_entity": "SRC-007",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "OBSERVED_BY",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-10T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-027",
+      "INFRA-028",
+      "INFRA-029"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Service catalogued by a synthetic service scan"
+  },
+  {
+    "relationship_id": "REL-100",
+    "source_entity": "SERVICE-007",
+    "source_entity_type": "SERVICE",
+    "target_entity": "SRC-007",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "OBSERVED_BY",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-14T00:00:00Z",
+    "last_seen": "2026-08-18T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-033",
+      "INFRA-034",
+      "INFRA-035"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Service catalogued by a synthetic service scan"
+  },
+  {
+    "relationship_id": "REL-101",
+    "source_entity": "SERVICE-008",
+    "source_entity_type": "SERVICE",
+    "target_entity": "SRC-007",
+    "target_entity_type": "SOURCE",
+    "relationship_type": "OBSERVED_BY",
+    "evidence_class": "FACT",
+    "first_seen": "2026-06-01T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-036",
+      "INFRA-037",
+      "INFRA-038"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Service catalogued by a synthetic service scan"
+  },
+  {
+    "relationship_id": "REL-102",
+    "source_entity": "PERSONA-002",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-007",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "SHARES_IDENTIFIER",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-03T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-069",
+      "IDENT-070"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": "Both accounts observed using the same alias value (fx); weakest supporting source score 0.68"
+  },
+  {
+    "relationship_id": "REL-103",
+    "source_entity": "PERSONA-002",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-007",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "SHARES_IDENTIFIER",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-04T00:00:00Z",
+    "last_seen": "2026-08-12T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-059",
+      "IDENT-060"
+    ],
+    "source_id": "SRC-002",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "note": "Both accounts observed using the same email value (contact-actor-002@synthetic.example); weakest supporting source score 0.68"
+  },
+  {
+    "relationship_id": "REL-104",
+    "source_entity": "PERSONA-001",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-011",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "SHARES_IDENTIFIER",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-03T00:00:00Z",
+    "last_seen": "2026-08-20T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-057",
+      "IDENT-058"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": "Both accounts observed using the same email value (contact-ferry@synthetic.example); weakest supporting source score 0.62"
+  },
+  {
+    "relationship_id": "REL-105",
+    "source_entity": "PERSONA-001",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-004",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "SHARES_IDENTIFIER",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-02T00:00:00Z",
+    "last_seen": "2026-08-24T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-024",
+      "IDENT-025"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": "Both accounts observed using the same pgp_fingerprint value (FAKE-PGP-001); weakest supporting source score 0.88"
+  },
+  {
+    "relationship_id": "REL-106",
+    "source_entity": "PERSONA-015",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-017",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "SHARES_IDENTIFIER",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-08T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-037",
+      "IDENT-038"
+    ],
+    "source_id": "SRC-004",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "note": "Both accounts observed using the same pgp_fingerprint value (FAKE-PGP-015); weakest supporting source score 0.62"
+  },
+  {
+    "relationship_id": "REL-107",
+    "source_entity": "PERSONA-001",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-004",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "SHARES_IDENTIFIER",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-04T00:00:00Z",
+    "last_seen": "2026-08-24T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-041",
+      "IDENT-042"
+    ],
+    "source_id": "SRC-003",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "note": "Both accounts observed using the same wallet value (SYN-WALLET-BTC-001); weakest supporting source score 0.88"
+  },
+  {
+    "relationship_id": "REL-108",
+    "source_entity": "PERSONA-015",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-016",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "SHARES_IDENTIFIER",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-10T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "evidence_refs": [
+      "IDENT-053",
+      "IDENT-054"
+    ],
+    "source_id": "SRC-006",
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35,
+    "note": "Both accounts observed using the same wallet value (SYN-WALLET-XMR-015); weakest supporting source score 0.35"
+  },
+  {
+    "relationship_id": "REL-109",
+    "source_entity": "SERVICE-002",
+    "source_entity_type": "SERVICE",
+    "target_entity": "SERVICE-004",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "SHARES_INFRASTRUCTURE",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-17T02:00:00Z",
+    "last_seen": "2026-08-21T22:00:00Z",
+    "evidence_refs": [
+      "INFRA-008",
+      "INFRA-018"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Both services expose the indicator value FAKE-BANNER-004"
+  },
+  {
+    "relationship_id": "REL-110",
+    "source_entity": "SERVICE-002",
+    "source_entity_type": "SERVICE",
+    "target_entity": "SERVICE-004",
+    "target_entity_type": "SERVICE",
+    "relationship_type": "SHARES_INFRASTRUCTURE",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-07T23:00:00Z",
+    "last_seen": "2026-08-10T08:00:00Z",
+    "evidence_refs": [
+      "INFRA-009",
+      "INFRA-019"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Both services expose the indicator value FAKE-FAVICON-002"
+  },
+  {
+    "relationship_id": "REL-111",
+    "source_entity": "SERVICE-001",
+    "source_entity_type": "SERVICE",
+    "target_entity": "CLEAR-001",
+    "target_entity_type": "CLEARNET_ASSET",
+    "relationship_type": "SHARES_INFRASTRUCTURE",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-17T23:00:00Z",
+    "last_seen": "2026-08-24T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-001"
+    ],
+    "source_id": "SRC-008",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Clearnet asset and hidden service share the indicator value FAKE-CERT-FP-001"
+  },
+  {
+    "relationship_id": "REL-112",
+    "source_entity": "SERVICE-001",
+    "source_entity_type": "SERVICE",
+    "target_entity": "CLEAR-001",
+    "target_entity_type": "CLEARNET_ASSET",
+    "relationship_type": "SHARES_INFRASTRUCTURE",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-21T18:00:00Z",
+    "last_seen": "2026-08-24T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-002"
+    ],
+    "source_id": "SRC-008",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Clearnet asset and hidden service share the indicator value FAKE-BANNER-001"
+  },
+  {
+    "relationship_id": "REL-113",
+    "source_entity": "SERVICE-001",
+    "source_entity_type": "SERVICE",
+    "target_entity": "CLEAR-001",
+    "target_entity_type": "CLEARNET_ASSET",
+    "relationship_type": "SHARES_INFRASTRUCTURE",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-17T15:00:00Z",
+    "last_seen": "2026-08-24T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-003"
+    ],
+    "source_id": "SRC-008",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Clearnet asset and hidden service share the indicator value FAKE-FAVICON-001"
+  },
+  {
+    "relationship_id": "REL-114",
+    "source_entity": "SERVICE-002",
+    "source_entity_type": "SERVICE",
+    "target_entity": "CLEAR-002",
+    "target_entity_type": "CLEARNET_ASSET",
+    "relationship_type": "SHARES_INFRASTRUCTURE",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-17T02:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-008"
+    ],
+    "source_id": "SRC-008",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Clearnet asset and hidden service share the indicator value FAKE-BANNER-004"
+  },
+  {
+    "relationship_id": "REL-115",
+    "source_entity": "SERVICE-004",
+    "source_entity_type": "SERVICE",
+    "target_entity": "CLEAR-002",
+    "target_entity_type": "CLEARNET_ASSET",
+    "relationship_type": "SHARES_INFRASTRUCTURE",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-23T22:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-018"
+    ],
+    "source_id": "SRC-008",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Clearnet asset and hidden service share the indicator value FAKE-BANNER-004"
+  },
+  {
+    "relationship_id": "REL-116",
+    "source_entity": "SERVICE-002",
+    "source_entity_type": "SERVICE",
+    "target_entity": "CLEAR-002",
+    "target_entity_type": "CLEARNET_ASSET",
+    "relationship_type": "SHARES_INFRASTRUCTURE",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-24T08:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-009"
+    ],
+    "source_id": "SRC-008",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Clearnet asset and hidden service share the indicator value FAKE-FAVICON-002"
+  },
+  {
+    "relationship_id": "REL-117",
+    "source_entity": "SERVICE-004",
+    "source_entity_type": "SERVICE",
+    "target_entity": "CLEAR-002",
+    "target_entity_type": "CLEARNET_ASSET",
+    "relationship_type": "SHARES_INFRASTRUCTURE",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-07T23:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-019"
+    ],
+    "source_id": "SRC-008",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Clearnet asset and hidden service share the indicator value FAKE-FAVICON-002"
+  },
+  {
+    "relationship_id": "REL-118",
+    "source_entity": "SERVICE-003",
+    "source_entity_type": "SERVICE",
+    "target_entity": "CLEAR-003",
+    "target_entity_type": "CLEARNET_ASSET",
+    "relationship_type": "SHARES_INFRASTRUCTURE",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-08T19:00:00Z",
+    "last_seen": "2026-08-22T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-012"
+    ],
+    "source_id": "SRC-008",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Clearnet asset and hidden service share the indicator value FAKE-CERT-FP-003"
+  },
+  {
+    "relationship_id": "REL-119",
+    "source_entity": "SERVICE-006",
+    "source_entity_type": "SERVICE",
+    "target_entity": "CLEAR-004",
+    "target_entity_type": "CLEARNET_ASSET",
+    "relationship_type": "SHARES_INFRASTRUCTURE",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-19T04:00:00Z",
+    "last_seen": "2026-08-20T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-030"
+    ],
+    "source_id": "SRC-008",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Clearnet asset and hidden service share the indicator value FAKE-SW-SIG-006"
+  },
+  {
+    "relationship_id": "REL-120",
+    "source_entity": "SERVICE-008",
+    "source_entity_type": "SERVICE",
+    "target_entity": "CLEAR-006",
+    "target_entity_type": "CLEARNET_ASSET",
+    "relationship_type": "SHARES_INFRASTRUCTURE",
+    "evidence_class": "INFERENCE",
+    "first_seen": "2026-06-18T12:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "evidence_refs": [
+      "INFRA-038"
+    ],
+    "source_id": "SRC-008",
+    "collection_method": "synthetic_clearnet_reference",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "note": "Clearnet asset and hidden service share the indicator value FAKE-FAVICON-008"
+  },
+  {
+    "relationship_id": "REL-121",
+    "source_entity": "PERSONA-001",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-004",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "POSSIBLE_SAME_ACTOR",
+    "evidence_class": "HYPOTHESIS",
+    "first_seen": "2026-06-02T03:21:00Z",
+    "last_seen": "2026-08-24T03:01:00Z",
+    "evidence_refs": [
+      "REL-105",
+      "REL-107",
+      "SERVICE-001"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Candidate link raised by shared observable evidence; not confirmed and not to be treated as a fact."
+  },
+  {
+    "relationship_id": "REL-122",
+    "source_entity": "PERSONA-001",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-011",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "POSSIBLE_SAME_ACTOR",
+    "evidence_class": "HYPOTHESIS",
+    "first_seen": "2026-06-02T03:21:00Z",
+    "last_seen": "2026-08-20T02:06:00Z",
+    "evidence_refs": [
+      "REL-104"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Candidate link raised by shared observable evidence; not confirmed and not to be treated as a fact."
+  },
+  {
+    "relationship_id": "REL-123",
+    "source_entity": "PERSONA-002",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-007",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "POSSIBLE_SAME_ACTOR",
+    "evidence_class": "HYPOTHESIS",
+    "first_seen": "2026-06-03T09:03:00Z",
+    "last_seen": "2026-08-25T09:29:00Z",
+    "evidence_refs": [
+      "REL-102",
+      "REL-103",
+      "SERVICE-003"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Candidate link raised by shared observable evidence; not confirmed and not to be treated as a fact."
+  },
+  {
+    "relationship_id": "REL-124",
+    "source_entity": "PERSONA-005",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-008",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "POSSIBLE_SAME_ACTOR",
+    "evidence_class": "HYPOTHESIS",
+    "first_seen": "2026-06-02T22:45:00Z",
+    "last_seen": "2026-08-23T21:33:55Z",
+    "evidence_refs": [
+      "REL-109",
+      "REL-110"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Candidate link raised by shared observable evidence; not confirmed and not to be treated as a fact."
+  },
+  {
+    "relationship_id": "REL-125",
+    "source_entity": "PERSONA-005",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-012",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "POSSIBLE_SAME_ACTOR",
+    "evidence_class": "HYPOTHESIS",
+    "first_seen": "2026-06-02T22:45:00Z",
+    "last_seen": "2026-08-25T21:03:00Z",
+    "evidence_refs": [
+      "REL-109",
+      "REL-110"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Candidate link raised by shared observable evidence; not confirmed and not to be treated as a fact."
+  },
+  {
+    "relationship_id": "REL-126",
+    "source_entity": "PERSONA-008",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-012",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "POSSIBLE_SAME_ACTOR",
+    "evidence_class": "HYPOTHESIS",
+    "first_seen": "2026-06-06T23:36:00Z",
+    "last_seen": "2026-08-25T21:03:00Z",
+    "evidence_refs": [
+      "SERVICE-004"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Candidate link raised by shared observable evidence; not confirmed and not to be treated as a fact."
+  },
+  {
+    "relationship_id": "REL-127",
+    "source_entity": "PERSONA-010",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-018",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "POSSIBLE_SAME_ACTOR",
+    "evidence_class": "HYPOTHESIS",
+    "first_seen": "2026-06-01T15:23:00Z",
+    "last_seen": "2026-08-25T10:29:00Z",
+    "evidence_refs": [
+      "SERVICE-008"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Candidate link raised by shared observable evidence; not confirmed and not to be treated as a fact."
+  },
+  {
+    "relationship_id": "REL-128",
+    "source_entity": "PERSONA-015",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-016",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "POSSIBLE_SAME_ACTOR",
+    "evidence_class": "HYPOTHESIS",
+    "first_seen": "2026-06-08T05:16:00Z",
+    "last_seen": "2026-08-23T05:30:00Z",
+    "evidence_refs": [
+      "REL-108"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Candidate link raised by shared observable evidence; not confirmed and not to be treated as a fact."
+  },
+  {
+    "relationship_id": "REL-129",
+    "source_entity": "PERSONA-015",
+    "source_entity_type": "PERSONA",
+    "target_entity": "PERSONA-017",
+    "target_entity_type": "PERSONA",
+    "relationship_type": "POSSIBLE_SAME_ACTOR",
+    "evidence_class": "HYPOTHESIS",
+    "first_seen": "2026-06-08T05:16:00Z",
+    "last_seen": "2026-08-25T21:51:00Z",
+    "evidence_refs": [
+      "REL-106",
+      "SERVICE-006"
+    ],
+    "source_id": "SRC-007",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "note": "Candidate link raised by shared observable evidence; not confirmed and not to be treated as a fact."
+  }
+]

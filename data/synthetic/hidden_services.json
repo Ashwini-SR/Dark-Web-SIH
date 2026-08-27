@@ -1,0 +1,207 @@
+[
+  {
+    "service_id": "SERVICE-001",
+    "service_label": "synthetic-onion-001",
+    "service_name": "Ferry Vendor Panel (synthetic)",
+    "first_seen": "2026-06-02T00:00:00Z",
+    "last_seen": "2026-08-24T00:00:00Z",
+    "status": "online",
+    "infrastructure_indicators": [
+      "INFRA-001",
+      "INFRA-002",
+      "INFRA-003",
+      "INFRA-004",
+      "INFRA-005",
+      "INFRA-006"
+    ],
+    "associated_personas": [
+      "PERSONA-001",
+      "PERSONA-004"
+    ],
+    "source_id": "SRC-007",
+    "scan_date": "2026-08-26T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "synthetic_domain_relation": "CLEAR-001",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "service_id": "SERVICE-002",
+    "service_label": "synthetic-onion-002",
+    "service_name": "Meridian Broker Desk (synthetic)",
+    "first_seen": "2026-06-04T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "status": "online",
+    "infrastructure_indicators": [
+      "INFRA-007",
+      "INFRA-008",
+      "INFRA-009",
+      "INFRA-010",
+      "INFRA-011"
+    ],
+    "associated_personas": [
+      "PERSONA-005"
+    ],
+    "source_id": "SRC-007",
+    "scan_date": "2026-08-26T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "synthetic_domain_relation": "CLEAR-002",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "service_id": "SERVICE-003",
+    "service_label": "synthetic-onion-003",
+    "service_name": "Harbour Listing Mirror (synthetic)",
+    "first_seen": "2026-06-06T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "status": "online",
+    "infrastructure_indicators": [
+      "INFRA-012",
+      "INFRA-013",
+      "INFRA-014",
+      "INFRA-015",
+      "INFRA-016"
+    ],
+    "associated_personas": [
+      "PERSONA-002",
+      "PERSONA-007"
+    ],
+    "source_id": "SRC-007",
+    "scan_date": "2026-08-26T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "synthetic_domain_relation": "CLEAR-003",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "service_id": "SERVICE-004",
+    "service_label": "synthetic-onion-004",
+    "service_name": "Wren Support Panel (synthetic)",
+    "first_seen": "2026-06-07T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "status": "online",
+    "infrastructure_indicators": [
+      "INFRA-017",
+      "INFRA-018",
+      "INFRA-019",
+      "INFRA-020",
+      "INFRA-021",
+      "INFRA-022"
+    ],
+    "associated_personas": [
+      "PERSONA-008",
+      "PERSONA-012"
+    ],
+    "source_id": "SRC-007",
+    "scan_date": "2026-08-26T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "synthetic_domain_relation": "CLEAR-002",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "service_id": "SERVICE-005",
+    "service_label": "synthetic-onion-005",
+    "service_name": "Kite Settlement Page (synthetic)",
+    "first_seen": "2026-06-16T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "status": "online",
+    "infrastructure_indicators": [
+      "INFRA-023",
+      "INFRA-024",
+      "INFRA-025",
+      "INFRA-026"
+    ],
+    "associated_personas": [
+      "PERSONA-006"
+    ],
+    "source_id": "SRC-007",
+    "scan_date": "2026-08-26T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "synthetic_domain_relation": null,
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "service_id": "SERVICE-006",
+    "service_label": "synthetic-onion-006",
+    "service_name": "Drift Transfer Desk (synthetic)",
+    "first_seen": "2026-06-10T00:00:00Z",
+    "last_seen": "2026-08-23T00:00:00Z",
+    "status": "online",
+    "infrastructure_indicators": [
+      "INFRA-027",
+      "INFRA-028",
+      "INFRA-029",
+      "INFRA-030",
+      "INFRA-031",
+      "INFRA-032"
+    ],
+    "associated_personas": [
+      "PERSONA-015",
+      "PERSONA-017"
+    ],
+    "source_id": "SRC-007",
+    "scan_date": "2026-08-26T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "synthetic_domain_relation": "CLEAR-004",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "service_id": "SERVICE-007",
+    "service_label": "synthetic-onion-007",
+    "service_name": "Harrier Drop Page (synthetic)",
+    "first_seen": "2026-06-14T00:00:00Z",
+    "last_seen": "2026-08-18T00:00:00Z",
+    "status": "intermittent",
+    "infrastructure_indicators": [
+      "INFRA-033",
+      "INFRA-034",
+      "INFRA-035"
+    ],
+    "associated_personas": [
+      "PERSONA-009"
+    ],
+    "source_id": "SRC-007",
+    "scan_date": "2026-08-26T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "synthetic_domain_relation": null,
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  },
+  {
+    "service_id": "SERVICE-008",
+    "service_label": "synthetic-onion-008",
+    "service_name": "Dunmoor Community Gateway (synthetic)",
+    "first_seen": "2026-06-01T00:00:00Z",
+    "last_seen": "2026-08-25T00:00:00Z",
+    "status": "online",
+    "infrastructure_indicators": [
+      "INFRA-036",
+      "INFRA-037",
+      "INFRA-038",
+      "INFRA-039",
+      "INFRA-040"
+    ],
+    "associated_personas": [
+      "PERSONA-010",
+      "PERSONA-018"
+    ],
+    "source_id": "SRC-007",
+    "scan_date": "2026-08-26T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "synthetic_domain_relation": "CLEAR-006",
+    "collection_method": "synthetic_service_scan",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "dataset_name": "VEIL-ATLAS Synthetic Attribution Corpus",
+  "dataset_version": "1.0.0",
+  "schema_version": "1.0",
+  "generated_at": "2026-08-27T00:00:00Z",
+  "generator_seed": 26151,
+  "synthetic_only": true,
+  "safety_statement": "Every record in this dataset is fictional and was generated for software development, testing and controlled demonstration of the VEIL-ATLAS prototype. It contains no real threat actors, personas, keys, wallets, hidden services, domains, certificates or personal information, and must never be presented as real threat intelligence.",
+  "timeline_start": "2026-06-01T00:00:00Z",
+  "timeline_end": "2026-08-25T00:00:00Z",
+  "last_scan_date": "2026-08-26T00:00:00Z",
+  "total_actors": 9,
+  "total_personas": 18,
+  "total_posts": 358,
+  "total_sources": 8,
+  "total_identifiers": 76,
+  "total_infrastructure_indicators": 40,
+  "total_hidden_services": 8,
+  "total_clearnet_assets": 6,
+  "total_relationships": 129,
+  "total_events": 191,
+  "total_evidence_records": 134,
+  "total_cases": 8,
+  "total_evaluation_pairs": 25,
+  "supported_ps_requirements": [
+    "multi_source_footprint_collection",
+    "marketplace_forum_deepweb_sources",
+    "handle_and_persona_identification",
+    "pgp_key_tracking",
+    "wallet_identifier_tracking",
+    "hidden_service_infrastructure_indicators",
+    "clearnet_infrastructure_correlation",
+    "cross_marketplace_actor_mapping",
+    "relationship_graph_construction",
+    "stylometric_persona_identification",
+    "behavioural_profiling",
+    "rebranded_and_migrated_persona_linking",
+    "timeline_based_investigation",
+    "attribution_confidence_evaluation",
+    "source_and_reliability_metadata",
+    "actor_profiles",
+    "category_classification",
+    "first_seen_last_seen",
+    "last_scan_date",
+    "csv_json_report_export",
+    "fact_inference_hypothesis_separation"
+  ],
+  "production_files": [
+    "personas.json",
+    "posts.json",
+    "sources.json",
+    "identifiers.json",
+    "infrastructure.json",
+    "hidden_services.json",
+    "clearnet_assets.json",
+    "relationships.json",
+    "timeline_events.json",
+    "evidence.json",
+    "cases.json"
+  ],
+  "ground_truth_files": [
+    "actors.json",
+    "evaluation_pairs.json",
+    "evaluation_ground_truth.json"
+  ],
+  "inference_input_files": [
+    "personas.json",
+    "posts.json",
+    "sources.json",
+    "identifiers.json",
+    "infrastructure.json",
+    "hidden_services.json",
+    "clearnet_assets.json",
+    "relationships.json",
+    "timeline_events.json",
+    "evidence.json"
+  ],
+  "restricted_from_inference": [
+    "actors.json",
+    "evaluation_pairs.json",
+    "evaluation_ground_truth.json"
+  ],
+  "module_contract": {
+    "P1_data": [
+      "actors.json",
+      "personas.json",
+      "sources.json",
+      "identifiers.json",
+      "infrastructure.json",
+      "hidden_services.json",
+      "clearnet_assets.json"
+    ],
+    "P2_stylolink": [
+      "personas.json",
+      "posts.json",
+      "evaluation_pairs.json (TESTING ONLY - never as model input)"
+    ],
+    "P3_chrono_graph": [
+      "posts.json",
+      "timeline_events.json",
+      "personas.json"
+    ],
+    "P4_fih_ledger": [
+      "identifiers.json",
+      "infrastructure.json",
+      "relationships.json",
+      "evidence.json",
+      "sources.json",
+      "P2 stylometric output",
+      "P3 temporal output"
+    ],
+    "P5_dashboard": [
+      "actors.json",
+      "personas.json",
+      "relationships.json",
+      "timeline_events.json",
+      "cases.json",
+      "hidden_services.json",
+      "clearnet_assets.json",
+      "module outputs"
+    ],
+    "P6_integration": [
+      "dataset_manifest.json",
+      "README.md",
+      "dataset_validation_report.json",
+      "evaluation_ground_truth.json"
+    ]
+  }
+}

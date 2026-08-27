@@ -1,0 +1,312 @@
+[
+  {
+    "actor_id": "ACTOR-001",
+    "display_name": "Ashen Ferry",
+    "primary_category": "stolen_data",
+    "risk_level": "HIGH",
+    "first_seen": "2026-06-02T03:21:00Z",
+    "last_seen": "2026-08-24T03:01:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "persona_count": 3,
+    "known_personas": [
+      "PERSONA-001",
+      "PERSONA-004",
+      "PERSONA-011"
+    ],
+    "known_identifiers": [
+      "IDENT-001",
+      "IDENT-002",
+      "IDENT-005",
+      "IDENT-006",
+      "IDENT-015",
+      "IDENT-024",
+      "IDENT-025",
+      "IDENT-026",
+      "IDENT-041",
+      "IDENT-042",
+      "IDENT-043",
+      "IDENT-057",
+      "IDENT-058",
+      "IDENT-066",
+      "IDENT-067",
+      "IDENT-068"
+    ],
+    "known_infrastructure": [
+      "SERVICE-001"
+    ],
+    "known_sources": [
+      "SRC-001",
+      "SRC-003",
+      "SRC-004"
+    ],
+    "infrastructure_count": 6,
+    "relationship_count": 26,
+    "description": "Fictional multi-persona vendor operation. Runs a long-lived marketplace persona, rebrands after a two-week quiet period, and keeps a second parallel persona on a different marketplace. Reuses key material and payment identifiers across personas."
+  },
+  {
+    "actor_id": "ACTOR-002",
+    "display_name": "Glass Harbour",
+    "primary_category": "credential_trading",
+    "risk_level": "HIGH",
+    "first_seen": "2026-06-03T09:03:00Z",
+    "last_seen": "2026-08-25T09:29:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "persona_count": 2,
+    "known_personas": [
+      "PERSONA-002",
+      "PERSONA-007"
+    ],
+    "known_identifiers": [
+      "IDENT-003",
+      "IDENT-010",
+      "IDENT-027",
+      "IDENT-028",
+      "IDENT-044",
+      "IDENT-059",
+      "IDENT-060",
+      "IDENT-069",
+      "IDENT-070"
+    ],
+    "known_infrastructure": [
+      "SERVICE-003"
+    ],
+    "known_sources": [
+      "SRC-001",
+      "SRC-002"
+    ],
+    "infrastructure_count": 5,
+    "relationship_count": 16,
+    "description": "Fictional credential-trading operator with a careful operational posture: rotates key material and payment identifiers between personas, so the only identifier overlap is a stale shared contact address."
+  },
+  {
+    "actor_id": "ACTOR-003",
+    "display_name": "Pale Circuit",
+    "primary_category": "hacking_service",
+    "risk_level": "MEDIUM",
+    "first_seen": "2026-06-05T13:56:00Z",
+    "last_seen": "2026-08-22T15:40:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "persona_count": 1,
+    "known_personas": [
+      "PERSONA-003"
+    ],
+    "known_identifiers": [
+      "IDENT-004",
+      "IDENT-029",
+      "IDENT-045",
+      "IDENT-072"
+    ],
+    "known_infrastructure": [],
+    "known_sources": [
+      "SRC-001"
+    ],
+    "infrastructure_count": 0,
+    "relationship_count": 4,
+    "description": "Fictional single-persona service advertiser. Stable handle, formal register, no rebranding. Included as a clean control actor."
+  },
+  {
+    "actor_id": "ACTOR-004",
+    "display_name": "Tin Meridian",
+    "primary_category": "access_broker",
+    "risk_level": "HIGH",
+    "first_seen": "2026-06-02T22:45:00Z",
+    "last_seen": "2026-08-23T21:33:55Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "persona_count": 1,
+    "known_personas": [
+      "PERSONA-005"
+    ],
+    "known_identifiers": [
+      "IDENT-007",
+      "IDENT-008",
+      "IDENT-030",
+      "IDENT-031",
+      "IDENT-046",
+      "IDENT-047",
+      "IDENT-061"
+    ],
+    "known_infrastructure": [
+      "SERVICE-002"
+    ],
+    "known_sources": [
+      "SRC-003",
+      "SRC-004"
+    ],
+    "infrastructure_count": 5,
+    "relationship_count": 14,
+    "description": "Fictional access-broker persona that expands from one marketplace to a second under the identical handle and key material. Demonstrates cross-source identity rather than rebranding."
+  },
+  {
+    "actor_id": "ACTOR-005",
+    "display_name": "Umber Kite",
+    "primary_category": "financial_fraud",
+    "risk_level": "MEDIUM",
+    "first_seen": "2026-06-04T10:37:00Z",
+    "last_seen": "2026-08-25T22:01:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "persona_count": 2,
+    "known_personas": [
+      "PERSONA-006",
+      "PERSONA-013"
+    ],
+    "known_identifiers": [
+      "IDENT-009",
+      "IDENT-018",
+      "IDENT-032",
+      "IDENT-033",
+      "IDENT-048",
+      "IDENT-049",
+      "IDENT-073",
+      "IDENT-074"
+    ],
+    "known_infrastructure": [
+      "SERVICE-005"
+    ],
+    "known_sources": [
+      "SRC-002",
+      "SRC-005"
+    ],
+    "infrastructure_count": 4,
+    "relationship_count": 10,
+    "description": "Fictional operator running two concurrent personas on very different schedules. Style is nearly identical across personas but the temporal signal actively contradicts linkage."
+  },
+  {
+    "actor_id": "ACTOR-006",
+    "display_name": "Copper Wren",
+    "primary_category": "malware_service",
+    "risk_level": "HIGH",
+    "first_seen": "2026-06-06T23:36:00Z",
+    "last_seen": "2026-08-25T21:03:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "persona_count": 2,
+    "known_personas": [
+      "PERSONA-008",
+      "PERSONA-012"
+    ],
+    "known_identifiers": [
+      "IDENT-011",
+      "IDENT-016",
+      "IDENT-017",
+      "IDENT-034",
+      "IDENT-035",
+      "IDENT-050",
+      "IDENT-051",
+      "IDENT-063",
+      "IDENT-075"
+    ],
+    "known_infrastructure": [
+      "SERVICE-004"
+    ],
+    "known_sources": [
+      "SRC-004",
+      "SRC-007"
+    ],
+    "infrastructure_count": 6,
+    "relationship_count": 20,
+    "description": "Fictional service operator that abandons a persona and returns three weeks later under a new handle on the same hidden service. Key material is rotated with a near-miss variation."
+  },
+  {
+    "actor_id": "ACTOR-007",
+    "display_name": "Slate Harrier",
+    "primary_category": "money_laundering",
+    "risk_level": "MEDIUM",
+    "first_seen": "2026-06-10T15:13:00Z",
+    "last_seen": "2026-08-21T17:01:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "persona_count": 2,
+    "known_personas": [
+      "PERSONA-009",
+      "PERSONA-014"
+    ],
+    "known_identifiers": [
+      "IDENT-012",
+      "IDENT-019",
+      "IDENT-065"
+    ],
+    "known_infrastructure": [
+      "SERVICE-007"
+    ],
+    "known_sources": [
+      "SRC-005",
+      "SRC-006"
+    ],
+    "infrastructure_count": 3,
+    "relationship_count": 7,
+    "description": "Fictional low-volume operator. Both personas post one-line messages only, deliberately providing insufficient text for stylometric attribution."
+  },
+  {
+    "actor_id": "ACTOR-008",
+    "display_name": "Dunmoor Relay",
+    "primary_category": "marketplace",
+    "risk_level": "LOW",
+    "first_seen": "2026-06-01T15:23:00Z",
+    "last_seen": "2026-08-25T10:29:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "persona_count": 2,
+    "known_personas": [
+      "PERSONA-010",
+      "PERSONA-018"
+    ],
+    "known_identifiers": [
+      "IDENT-013",
+      "IDENT-014",
+      "IDENT-023",
+      "IDENT-036",
+      "IDENT-040",
+      "IDENT-052",
+      "IDENT-056",
+      "IDENT-062"
+    ],
+    "known_infrastructure": [
+      "SERVICE-008"
+    ],
+    "known_sources": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-005"
+    ],
+    "infrastructure_count": 5,
+    "relationship_count": 15,
+    "description": "Fictional community operator: a moderator persona on two forums plus an unrelated-looking discussion persona. Acts as a shared network hub that many unrelated actors interact with."
+  },
+  {
+    "actor_id": "ACTOR-009",
+    "display_name": "Halcyon Drift",
+    "primary_category": "money_laundering",
+    "risk_level": "HIGH",
+    "first_seen": "2026-06-08T05:16:00Z",
+    "last_seen": "2026-08-25T21:51:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "persona_count": 3,
+    "known_personas": [
+      "PERSONA-015",
+      "PERSONA-016",
+      "PERSONA-017"
+    ],
+    "known_identifiers": [
+      "IDENT-020",
+      "IDENT-021",
+      "IDENT-022",
+      "IDENT-037",
+      "IDENT-038",
+      "IDENT-039",
+      "IDENT-053",
+      "IDENT-054",
+      "IDENT-055",
+      "IDENT-064",
+      "IDENT-071",
+      "IDENT-076"
+    ],
+    "known_infrastructure": [
+      "SERVICE-006"
+    ],
+    "known_sources": [
+      "SRC-002",
+      "SRC-004",
+      "SRC-006"
+    ],
+    "infrastructure_count": 6,
+    "relationship_count": 21,
+    "description": "Fictional operator whose three personas write in three different registers. Linkage rests entirely on shared key material and payment identifiers, with the stylometric signal pointing the other way."
+  }
+]

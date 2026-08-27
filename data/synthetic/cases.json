@@ -1,0 +1,615 @@
+[
+  {
+    "case_id": "CASE-001",
+    "title": "Possible migration from shadowvendor to darkknight99",
+    "analyst_question": "Did the shadowvendor account stop trading, or did it continue under a new handle on the same marketplace?",
+    "status": "open",
+    "priority": "HIGH",
+    "target_entities": [
+      "PERSONA-001",
+      "PERSONA-004",
+      "SERVICE-001"
+    ],
+    "relevant_sources": [
+      "SRC-001",
+      "SRC-003"
+    ],
+    "relevant_posts": [
+      "POST-0002",
+      "POST-0004",
+      "POST-0006",
+      "POST-0009",
+      "POST-0014",
+      "POST-0016",
+      "POST-0019",
+      "POST-0028",
+      "POST-0033",
+      "POST-0035",
+      "POST-0038",
+      "POST-0044",
+      "POST-0178",
+      "POST-0180",
+      "POST-0186",
+      "POST-0194",
+      "POST-0201",
+      "POST-0207",
+      "POST-0216",
+      "POST-0220",
+      "POST-0227",
+      "POST-0234",
+      "POST-0238",
+      "POST-0241"
+    ],
+    "relevant_identifiers": [
+      "IDENT-001",
+      "IDENT-002",
+      "IDENT-005",
+      "IDENT-006",
+      "IDENT-024",
+      "IDENT-025",
+      "IDENT-041",
+      "IDENT-042",
+      "IDENT-057",
+      "IDENT-066",
+      "IDENT-067"
+    ],
+    "relevant_infrastructure": [
+      "INFRA-001",
+      "INFRA-002",
+      "INFRA-003",
+      "INFRA-004",
+      "INFRA-005",
+      "INFRA-006"
+    ],
+    "timeline_window": [
+      "2026-06-02T00:00:00Z",
+      "2026-08-24T00:00:00Z"
+    ],
+    "evidence_refs": [
+      "EVID-001",
+      "EVID-002",
+      "EVID-018",
+      "EVID-019",
+      "EVID-034",
+      "EVID-043",
+      "EVID-046",
+      "EVID-109",
+      "EVID-110",
+      "EVID-112",
+      "EVID-126",
+      "EVID-127"
+    ],
+    "created_at": "2026-08-27T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z"
+  },
+  {
+    "case_id": "CASE-002",
+    "title": "Possible infrastructure reuse between the Wren support panel and the Meridian broker desk",
+    "analyst_question": "Do the two hidden services share an operator, or only a hosting environment?",
+    "status": "open",
+    "priority": "MEDIUM",
+    "target_entities": [
+      "PERSONA-005",
+      "PERSONA-012",
+      "SERVICE-002",
+      "SERVICE-004"
+    ],
+    "relevant_sources": [
+      "SRC-003",
+      "SRC-004",
+      "SRC-007"
+    ],
+    "relevant_posts": [
+      "POST-0003",
+      "POST-0022",
+      "POST-0025",
+      "POST-0026",
+      "POST-0027",
+      "POST-0136",
+      "POST-0137",
+      "POST-0142",
+      "POST-0143",
+      "POST-0144",
+      "POST-0182",
+      "POST-0184",
+      "POST-0246",
+      "POST-0250",
+      "POST-0251",
+      "POST-0254",
+      "POST-0255",
+      "POST-0281",
+      "POST-0282",
+      "POST-0283",
+      "POST-0287",
+      "POST-0288",
+      "POST-0315",
+      "POST-0319"
+    ],
+    "relevant_identifiers": [
+      "IDENT-007",
+      "IDENT-008",
+      "IDENT-016",
+      "IDENT-017",
+      "IDENT-030",
+      "IDENT-031",
+      "IDENT-035",
+      "IDENT-046",
+      "IDENT-047",
+      "IDENT-051",
+      "IDENT-061",
+      "IDENT-063",
+      "IDENT-075"
+    ],
+    "relevant_infrastructure": [
+      "INFRA-007",
+      "INFRA-008",
+      "INFRA-009",
+      "INFRA-010",
+      "INFRA-011",
+      "INFRA-017",
+      "INFRA-018",
+      "INFRA-019",
+      "INFRA-020",
+      "INFRA-021",
+      "INFRA-022"
+    ],
+    "timeline_window": [
+      "2026-06-04T00:00:00Z",
+      "2026-08-25T00:00:00Z"
+    ],
+    "evidence_refs": [
+      "EVID-007",
+      "EVID-008",
+      "EVID-012",
+      "EVID-023",
+      "EVID-024",
+      "EVID-028",
+      "EVID-038",
+      "EVID-040",
+      "EVID-047",
+      "EVID-054",
+      "EVID-129",
+      "EVID-130",
+      "EVID-131"
+    ],
+    "created_at": "2026-08-27T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z"
+  },
+  {
+    "case_id": "CASE-003",
+    "title": "Shared wallet identifier across MarketDelta and PasteVault",
+    "analyst_question": "Is the paste-drop account operated by the same party as the MarketDelta transfer account?",
+    "status": "open",
+    "priority": "MEDIUM",
+    "target_entities": [
+      "PERSONA-015",
+      "PERSONA-016",
+      "SERVICE-006"
+    ],
+    "relevant_sources": [
+      "SRC-004",
+      "SRC-006"
+    ],
+    "relevant_posts": [
+      "POST-0017",
+      "POST-0029",
+      "POST-0034",
+      "POST-0039",
+      "POST-0055",
+      "POST-0071",
+      "POST-0094",
+      "POST-0109",
+      "POST-0113",
+      "POST-0125",
+      "POST-0127",
+      "POST-0130",
+      "POST-0163",
+      "POST-0171",
+      "POST-0187",
+      "POST-0199",
+      "POST-0217",
+      "POST-0229",
+      "POST-0292",
+      "POST-0305",
+      "POST-0311"
+    ],
+    "relevant_identifiers": [
+      "IDENT-020",
+      "IDENT-021",
+      "IDENT-037",
+      "IDENT-039",
+      "IDENT-053",
+      "IDENT-054",
+      "IDENT-064",
+      "IDENT-076"
+    ],
+    "relevant_infrastructure": [
+      "INFRA-027",
+      "INFRA-028",
+      "INFRA-029",
+      "INFRA-030",
+      "INFRA-031",
+      "INFRA-032"
+    ],
+    "timeline_window": [
+      "2026-06-08T00:00:00Z",
+      "2026-08-23T00:00:00Z"
+    ],
+    "evidence_refs": [
+      "EVID-014",
+      "EVID-016",
+      "EVID-030",
+      "EVID-031",
+      "EVID-041",
+      "EVID-057",
+      "EVID-058",
+      "EVID-111",
+      "EVID-113",
+      "EVID-133",
+      "EVID-134"
+    ],
+    "created_at": "2026-08-27T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z"
+  },
+  {
+    "case_id": "CASE-004",
+    "title": "Stylometric similarity with conflicting temporal evidence: greycartel and silentnode",
+    "analyst_question": "Two accounts write almost identically but are active at opposite ends of the day. Same operator or not?",
+    "status": "open",
+    "priority": "HIGH",
+    "target_entities": [
+      "PERSONA-006",
+      "PERSONA-013",
+      "SERVICE-005"
+    ],
+    "relevant_sources": [
+      "SRC-002",
+      "SRC-005"
+    ],
+    "relevant_posts": [
+      "POST-0007",
+      "POST-0010",
+      "POST-0020",
+      "POST-0030",
+      "POST-0041",
+      "POST-0043",
+      "POST-0046",
+      "POST-0051",
+      "POST-0052",
+      "POST-0058",
+      "POST-0063",
+      "POST-0069",
+      "POST-0073",
+      "POST-0081",
+      "POST-0089",
+      "POST-0098",
+      "POST-0101",
+      "POST-0106",
+      "POST-0122",
+      "POST-0126",
+      "POST-0145",
+      "POST-0157",
+      "POST-0166",
+      "POST-0176"
+    ],
+    "relevant_identifiers": [
+      "IDENT-009",
+      "IDENT-018",
+      "IDENT-032",
+      "IDENT-033",
+      "IDENT-048",
+      "IDENT-049",
+      "IDENT-073",
+      "IDENT-074"
+    ],
+    "relevant_infrastructure": [
+      "INFRA-023",
+      "INFRA-024",
+      "INFRA-025",
+      "INFRA-026"
+    ],
+    "timeline_window": [
+      "2026-06-04T00:00:00Z",
+      "2026-08-25T00:00:00Z"
+    ],
+    "evidence_refs": [
+      "EVID-009",
+      "EVID-010",
+      "EVID-025",
+      "EVID-026",
+      "EVID-048",
+      "EVID-055"
+    ],
+    "created_at": "2026-08-27T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z"
+  },
+  {
+    "case_id": "CASE-005",
+    "title": "False-positive check: shadowvendor and tinvault",
+    "analyst_question": "Two accounts share a distinctive writing style. Is that enough?",
+    "status": "open",
+    "priority": "MEDIUM",
+    "target_entities": [
+      "PERSONA-001",
+      "PERSONA-015",
+      "SERVICE-001",
+      "SERVICE-006"
+    ],
+    "relevant_sources": [
+      "SRC-003",
+      "SRC-004"
+    ],
+    "relevant_posts": [
+      "POST-0002",
+      "POST-0004",
+      "POST-0006",
+      "POST-0009",
+      "POST-0014",
+      "POST-0016",
+      "POST-0017",
+      "POST-0019",
+      "POST-0028",
+      "POST-0029",
+      "POST-0033",
+      "POST-0035",
+      "POST-0038",
+      "POST-0039",
+      "POST-0044",
+      "POST-0055",
+      "POST-0071",
+      "POST-0094",
+      "POST-0109",
+      "POST-0113",
+      "POST-0130",
+      "POST-0163",
+      "POST-0171",
+      "POST-0187"
+    ],
+    "relevant_identifiers": [
+      "IDENT-001",
+      "IDENT-002",
+      "IDENT-020",
+      "IDENT-024",
+      "IDENT-037",
+      "IDENT-041",
+      "IDENT-053",
+      "IDENT-057",
+      "IDENT-064",
+      "IDENT-066",
+      "IDENT-076"
+    ],
+    "relevant_infrastructure": [
+      "INFRA-001",
+      "INFRA-002",
+      "INFRA-003",
+      "INFRA-004",
+      "INFRA-005",
+      "INFRA-006",
+      "INFRA-027",
+      "INFRA-028",
+      "INFRA-029",
+      "INFRA-030",
+      "INFRA-031",
+      "INFRA-032"
+    ],
+    "timeline_window": [
+      "2026-06-02T00:00:00Z",
+      "2026-08-23T00:00:00Z"
+    ],
+    "evidence_refs": [
+      "EVID-001",
+      "EVID-014",
+      "EVID-018",
+      "EVID-030",
+      "EVID-034",
+      "EVID-041",
+      "EVID-043",
+      "EVID-057",
+      "EVID-109",
+      "EVID-110",
+      "EVID-111",
+      "EVID-112",
+      "EVID-113",
+      "EVID-126",
+      "EVID-127",
+      "EVID-133",
+      "EVID-134"
+    ],
+    "created_at": "2026-08-27T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z"
+  },
+  {
+    "case_id": "CASE-006",
+    "title": "Insufficient evidence: quartzmule and emberlark",
+    "analyst_question": "Can anything be concluded about two very low-volume accounts?",
+    "status": "open",
+    "priority": "LOW",
+    "target_entities": [
+      "PERSONA-009",
+      "PERSONA-014",
+      "SERVICE-007"
+    ],
+    "relevant_sources": [
+      "SRC-005",
+      "SRC-006"
+    ],
+    "relevant_posts": [
+      "POST-0024",
+      "POST-0078",
+      "POST-0100",
+      "POST-0133",
+      "POST-0134",
+      "POST-0204",
+      "POST-0224",
+      "POST-0230",
+      "POST-0237",
+      "POST-0275",
+      "POST-0293",
+      "POST-0297",
+      "POST-0307",
+      "POST-0327",
+      "POST-0339"
+    ],
+    "relevant_identifiers": [
+      "IDENT-012",
+      "IDENT-019",
+      "IDENT-065"
+    ],
+    "relevant_infrastructure": [
+      "INFRA-033",
+      "INFRA-034",
+      "INFRA-035"
+    ],
+    "timeline_window": [
+      "2026-06-10T00:00:00Z",
+      "2026-08-21T00:00:00Z"
+    ],
+    "evidence_refs": [
+      "EVID-042",
+      "EVID-051",
+      "EVID-056"
+    ],
+    "created_at": "2026-08-27T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z"
+  },
+  {
+    "case_id": "CASE-007",
+    "title": "Cross-marketplace identity under one handle: neonbroker",
+    "analyst_question": "Is the neonbroker account on MarketDelta the same account as on MarketGamma, or a squatter?",
+    "status": "open",
+    "priority": "MEDIUM",
+    "target_entities": [
+      "PERSONA-005",
+      "SERVICE-002"
+    ],
+    "relevant_sources": [
+      "SRC-003",
+      "SRC-004"
+    ],
+    "relevant_posts": [
+      "POST-0003",
+      "POST-0022",
+      "POST-0025",
+      "POST-0026",
+      "POST-0027",
+      "POST-0136",
+      "POST-0137",
+      "POST-0142",
+      "POST-0143",
+      "POST-0144",
+      "POST-0182",
+      "POST-0184"
+    ],
+    "relevant_identifiers": [
+      "IDENT-007",
+      "IDENT-008",
+      "IDENT-030",
+      "IDENT-031",
+      "IDENT-046",
+      "IDENT-047",
+      "IDENT-061"
+    ],
+    "relevant_infrastructure": [
+      "INFRA-007",
+      "INFRA-008",
+      "INFRA-009",
+      "INFRA-010",
+      "INFRA-011"
+    ],
+    "timeline_window": [
+      "2026-06-02T00:00:00Z",
+      "2026-08-23T00:00:00Z"
+    ],
+    "evidence_refs": [
+      "EVID-007",
+      "EVID-008",
+      "EVID-023",
+      "EVID-024",
+      "EVID-038",
+      "EVID-047",
+      "EVID-129",
+      "EVID-130"
+    ],
+    "created_at": "2026-08-27T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z"
+  },
+  {
+    "case_id": "CASE-008",
+    "title": "Rebrand across a three-week silence: silentbuyer to hollowtide",
+    "analyst_question": "Did the abandoned silentbuyer account return under a new handle?",
+    "status": "open",
+    "priority": "HIGH",
+    "target_entities": [
+      "PERSONA-008",
+      "PERSONA-012",
+      "SERVICE-004"
+    ],
+    "relevant_sources": [
+      "SRC-004",
+      "SRC-007"
+    ],
+    "relevant_posts": [
+      "POST-0013",
+      "POST-0065",
+      "POST-0066",
+      "POST-0067",
+      "POST-0068",
+      "POST-0074",
+      "POST-0083",
+      "POST-0087",
+      "POST-0088",
+      "POST-0090",
+      "POST-0091",
+      "POST-0092",
+      "POST-0246",
+      "POST-0250",
+      "POST-0251",
+      "POST-0254",
+      "POST-0255",
+      "POST-0281",
+      "POST-0282",
+      "POST-0283",
+      "POST-0287",
+      "POST-0288",
+      "POST-0315",
+      "POST-0319"
+    ],
+    "relevant_identifiers": [
+      "IDENT-011",
+      "IDENT-016",
+      "IDENT-017",
+      "IDENT-034",
+      "IDENT-035",
+      "IDENT-050",
+      "IDENT-051",
+      "IDENT-063",
+      "IDENT-075"
+    ],
+    "relevant_infrastructure": [
+      "INFRA-017",
+      "INFRA-018",
+      "INFRA-019",
+      "INFRA-020",
+      "INFRA-021",
+      "INFRA-022"
+    ],
+    "timeline_window": [
+      "2026-06-06T00:00:00Z",
+      "2026-08-25T00:00:00Z"
+    ],
+    "evidence_refs": [
+      "EVID-011",
+      "EVID-012",
+      "EVID-027",
+      "EVID-028",
+      "EVID-040",
+      "EVID-050",
+      "EVID-054",
+      "EVID-129",
+      "EVID-130",
+      "EVID-131"
+    ],
+    "created_at": "2026-08-27T00:00:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z"
+  }
+]

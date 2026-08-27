@@ -1,0 +1,504 @@
+[
+  {
+    "persona_id": "PERSONA-001",
+    "handle": "shadowvendor",
+    "source_ids": [
+      "SRC-003"
+    ],
+    "primary_source_id": "SRC-003",
+    "primary_category": "stolen_data",
+    "first_seen": "2026-06-02T03:21:00Z",
+    "last_seen": "2026-07-05T04:32:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "inactive",
+    "post_count": 26,
+    "observed_identifier_ids": [
+      "IDENT-001",
+      "IDENT-002",
+      "IDENT-024",
+      "IDENT-041",
+      "IDENT-057",
+      "IDENT-066"
+    ],
+    "observed_service_ids": [
+      "SERVICE-001"
+    ],
+    "announced_migration": true,
+    "migration_notice_post_id": "POST-0120",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "persona_id": "PERSONA-002",
+    "handle": "redfox77",
+    "source_ids": [
+      "SRC-001"
+    ],
+    "primary_source_id": "SRC-001",
+    "primary_category": "credential_trading",
+    "first_seen": "2026-06-03T09:03:00Z",
+    "last_seen": "2026-07-28T11:49:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "inactive",
+    "post_count": 24,
+    "observed_identifier_ids": [
+      "IDENT-003",
+      "IDENT-027",
+      "IDENT-044",
+      "IDENT-059",
+      "IDENT-069"
+    ],
+    "observed_service_ids": [
+      "SERVICE-003"
+    ],
+    "announced_migration": true,
+    "migration_notice_post_id": "POST-0228",
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "persona_id": "PERSONA-003",
+    "handle": "cryptowolf",
+    "source_ids": [
+      "SRC-001"
+    ],
+    "primary_source_id": "SRC-001",
+    "primary_category": "hacking_service",
+    "first_seen": "2026-06-05T13:56:00Z",
+    "last_seen": "2026-08-22T15:40:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 22,
+    "observed_identifier_ids": [
+      "IDENT-004",
+      "IDENT-029",
+      "IDENT-045",
+      "IDENT-072"
+    ],
+    "observed_service_ids": [],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "persona_id": "PERSONA-004",
+    "handle": "darkknight99",
+    "source_ids": [
+      "SRC-001",
+      "SRC-003"
+    ],
+    "primary_source_id": "SRC-003",
+    "primary_category": "stolen_data",
+    "first_seen": "2026-07-19T04:12:00Z",
+    "last_seen": "2026-08-24T03:01:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 30,
+    "observed_identifier_ids": [
+      "IDENT-005",
+      "IDENT-006",
+      "IDENT-025",
+      "IDENT-042",
+      "IDENT-067"
+    ],
+    "observed_service_ids": [
+      "SERVICE-001"
+    ],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "persona_id": "PERSONA-005",
+    "handle": "neonbroker",
+    "source_ids": [
+      "SRC-003",
+      "SRC-004"
+    ],
+    "primary_source_id": "SRC-003",
+    "primary_category": "access_broker",
+    "first_seen": "2026-06-02T22:45:00Z",
+    "last_seen": "2026-08-23T21:33:55Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 30,
+    "observed_identifier_ids": [
+      "IDENT-007",
+      "IDENT-008",
+      "IDENT-030",
+      "IDENT-031",
+      "IDENT-046",
+      "IDENT-047",
+      "IDENT-061"
+    ],
+    "observed_service_ids": [
+      "SERVICE-002"
+    ],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.88
+  },
+  {
+    "persona_id": "PERSONA-006",
+    "handle": "greycartel",
+    "source_ids": [
+      "SRC-002"
+    ],
+    "primary_source_id": "SRC-002",
+    "primary_category": "financial_fraud",
+    "first_seen": "2026-06-04T10:37:00Z",
+    "last_seen": "2026-07-30T12:20:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "inactive",
+    "post_count": 22,
+    "observed_identifier_ids": [
+      "IDENT-009",
+      "IDENT-032",
+      "IDENT-048",
+      "IDENT-073"
+    ],
+    "observed_service_ids": [
+      "SERVICE-005"
+    ],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "persona_id": "PERSONA-007",
+    "handle": "bytefox",
+    "source_ids": [
+      "SRC-002"
+    ],
+    "primary_source_id": "SRC-002",
+    "primary_category": "credential_trading",
+    "first_seen": "2026-08-06T13:20:26Z",
+    "last_seen": "2026-08-25T09:29:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 16,
+    "observed_identifier_ids": [
+      "IDENT-010",
+      "IDENT-028",
+      "IDENT-060",
+      "IDENT-070"
+    ],
+    "observed_service_ids": [
+      "SERVICE-003"
+    ],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "persona_id": "PERSONA-008",
+    "handle": "silentbuyer",
+    "source_ids": [
+      "SRC-004"
+    ],
+    "primary_source_id": "SRC-004",
+    "primary_category": "malware_service",
+    "first_seen": "2026-06-06T23:36:00Z",
+    "last_seen": "2026-07-12T23:32:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "inactive",
+    "post_count": 18,
+    "observed_identifier_ids": [
+      "IDENT-011",
+      "IDENT-034",
+      "IDENT-050"
+    ],
+    "observed_service_ids": [
+      "SERVICE-004"
+    ],
+    "announced_migration": true,
+    "migration_notice_post_id": "POST-0159",
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "persona_id": "PERSONA-009",
+    "handle": "quartzmule",
+    "source_ids": [
+      "SRC-005"
+    ],
+    "primary_source_id": "SRC-005",
+    "primary_category": "money_laundering",
+    "first_seen": "2026-06-10T15:13:00Z",
+    "last_seen": "2026-08-18T18:23:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 8,
+    "observed_identifier_ids": [
+      "IDENT-012",
+      "IDENT-065"
+    ],
+    "observed_service_ids": [
+      "SERVICE-007"
+    ],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "persona_id": "PERSONA-010",
+    "handle": "pinegrove_admin",
+    "source_ids": [
+      "SRC-001",
+      "SRC-002"
+    ],
+    "primary_source_id": "SRC-001",
+    "primary_category": "marketplace",
+    "first_seen": "2026-06-01T15:23:00Z",
+    "last_seen": "2026-08-25T10:29:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 26,
+    "observed_identifier_ids": [
+      "IDENT-013",
+      "IDENT-014",
+      "IDENT-036",
+      "IDENT-052",
+      "IDENT-062"
+    ],
+    "observed_service_ids": [
+      "SERVICE-008"
+    ],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_forum_record",
+    "reliability": "HIGH",
+    "reliability_score": 0.91
+  },
+  {
+    "persona_id": "PERSONA-011",
+    "handle": "nightmerchant",
+    "source_ids": [
+      "SRC-004"
+    ],
+    "primary_source_id": "SRC-004",
+    "primary_category": "stolen_data",
+    "first_seen": "2026-06-20T03:47:00Z",
+    "last_seen": "2026-08-20T02:06:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 24,
+    "observed_identifier_ids": [
+      "IDENT-015",
+      "IDENT-026",
+      "IDENT-043",
+      "IDENT-058",
+      "IDENT-068"
+    ],
+    "observed_service_ids": [],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "persona_id": "PERSONA-012",
+    "handle": "hollowtide",
+    "source_ids": [
+      "SRC-004",
+      "SRC-007"
+    ],
+    "primary_source_id": "SRC-004",
+    "primary_category": "malware_service",
+    "first_seen": "2026-08-02T22:35:00Z",
+    "last_seen": "2026-08-25T21:03:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 20,
+    "observed_identifier_ids": [
+      "IDENT-016",
+      "IDENT-017",
+      "IDENT-035",
+      "IDENT-051",
+      "IDENT-063",
+      "IDENT-075"
+    ],
+    "observed_service_ids": [
+      "SERVICE-004"
+    ],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "persona_id": "PERSONA-013",
+    "handle": "silentnode",
+    "source_ids": [
+      "SRC-005"
+    ],
+    "primary_source_id": "SRC-005",
+    "primary_category": "financial_fraud",
+    "first_seen": "2026-06-15T22:34:00Z",
+    "last_seen": "2026-08-25T22:01:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 24,
+    "observed_identifier_ids": [
+      "IDENT-018",
+      "IDENT-033",
+      "IDENT-049",
+      "IDENT-074"
+    ],
+    "observed_service_ids": [],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  },
+  {
+    "persona_id": "PERSONA-014",
+    "handle": "emberlark",
+    "source_ids": [
+      "SRC-006"
+    ],
+    "primary_source_id": "SRC-006",
+    "primary_category": "money_laundering",
+    "first_seen": "2026-06-25T18:52:00Z",
+    "last_seen": "2026-08-21T17:01:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 7,
+    "observed_identifier_ids": [
+      "IDENT-019"
+    ],
+    "observed_service_ids": [],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35
+  },
+  {
+    "persona_id": "PERSONA-015",
+    "handle": "tinvault",
+    "source_ids": [
+      "SRC-004"
+    ],
+    "primary_source_id": "SRC-004",
+    "primary_category": "money_laundering",
+    "first_seen": "2026-06-08T05:16:00Z",
+    "last_seen": "2026-08-23T05:30:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 20,
+    "observed_identifier_ids": [
+      "IDENT-020",
+      "IDENT-037",
+      "IDENT-053",
+      "IDENT-064",
+      "IDENT-076"
+    ],
+    "observed_service_ids": [
+      "SERVICE-006"
+    ],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_marketplace_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62
+  },
+  {
+    "persona_id": "PERSONA-016",
+    "handle": "brasspetal",
+    "source_ids": [
+      "SRC-006"
+    ],
+    "primary_source_id": "SRC-006",
+    "primary_category": "stolen_data",
+    "first_seen": "2026-06-12T16:04:00Z",
+    "last_seen": "2026-08-15T15:10:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 9,
+    "observed_identifier_ids": [
+      "IDENT-021",
+      "IDENT-039",
+      "IDENT-054"
+    ],
+    "observed_service_ids": [],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_archive_record",
+    "reliability": "LOW",
+    "reliability_score": 0.35
+  },
+  {
+    "persona_id": "PERSONA-017",
+    "handle": "lowtidefox",
+    "source_ids": [
+      "SRC-002"
+    ],
+    "primary_source_id": "SRC-002",
+    "primary_category": "hacking_service",
+    "first_seen": "2026-07-05T21:41:00Z",
+    "last_seen": "2026-08-25T21:51:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 18,
+    "observed_identifier_ids": [
+      "IDENT-022",
+      "IDENT-038",
+      "IDENT-055",
+      "IDENT-071"
+    ],
+    "observed_service_ids": [
+      "SERVICE-006"
+    ],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_forum_record",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68
+  },
+  {
+    "persona_id": "PERSONA-018",
+    "handle": "mistcaller",
+    "source_ids": [
+      "SRC-005"
+    ],
+    "primary_source_id": "SRC-005",
+    "primary_category": "fraud",
+    "first_seen": "2026-07-01T13:42:00Z",
+    "last_seen": "2026-08-19T12:30:00Z",
+    "last_scan_date": "2026-08-26T00:00:00Z",
+    "status": "active",
+    "post_count": 14,
+    "observed_identifier_ids": [
+      "IDENT-023",
+      "IDENT-040",
+      "IDENT-056"
+    ],
+    "observed_service_ids": [
+      "SERVICE-008"
+    ],
+    "announced_migration": false,
+    "migration_notice_post_id": null,
+    "collection_method": "synthetic_forum_record",
+    "reliability": "LOW",
+    "reliability_score": 0.41
+  }
+]

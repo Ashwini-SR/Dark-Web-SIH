@@ -1,0 +1,82 @@
+[
+  {
+    "source_id": "SRC-001",
+    "source_name": "ForumAlpha",
+    "source_type": "forum",
+    "url": "http://forumalpha.synthetic",
+    "description": "Fictional general-purpose discussion forum with vendor sub-boards. Well-archived, stable identifiers, moderated.",
+    "reliability": "HIGH",
+    "reliability_score": 0.91,
+    "collection_method": "synthetic_forum_record"
+  },
+  {
+    "source_id": "SRC-002",
+    "source_name": "ForumBeta",
+    "source_type": "discussion_board",
+    "url": "http://forumbeta.synthetic",
+    "description": "Fictional secondary discussion board. Partial archives, occasional thread loss, moderate confidence in timestamps.",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.68,
+    "collection_method": "synthetic_forum_record"
+  },
+  {
+    "source_id": "SRC-003",
+    "source_name": "MarketGamma",
+    "source_type": "marketplace",
+    "url": "http://marketgamma.synthetic",
+    "description": "Fictional marketplace with escrow and vendor feedback. Strong per-account records and consistent vendor pages.",
+    "reliability": "HIGH",
+    "reliability_score": 0.88,
+    "collection_method": "synthetic_marketplace_record"
+  },
+  {
+    "source_id": "SRC-004",
+    "source_name": "MarketDelta",
+    "source_type": "marketplace",
+    "url": "http://marketdelta.synthetic",
+    "description": "Fictional smaller marketplace. Frequent downtime, mirrors of uncertain provenance, weaker record retention.",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.62,
+    "collection_method": "synthetic_marketplace_record"
+  },
+  {
+    "source_id": "SRC-005",
+    "source_name": "BoardEpsilon",
+    "source_type": "discussion_board",
+    "url": "http://boardepsilon.synthetic",
+    "description": "Fictional low-moderation board. Handle squatting is common and post timestamps are self-reported.",
+    "reliability": "LOW",
+    "reliability_score": 0.41,
+    "collection_method": "synthetic_forum_record"
+  },
+  {
+    "source_id": "SRC-006",
+    "source_name": "PasteVault",
+    "source_type": "paste",
+    "url": "http://pastevault.synthetic",
+    "description": "Fictional paste service. Anonymous drops, no account model, attribution rests entirely on self-claimed handles.",
+    "reliability": "LOW",
+    "reliability_score": 0.35,
+    "collection_method": "synthetic_archive_record"
+  },
+  {
+    "source_id": "SRC-007",
+    "source_name": "DeepWebSigma",
+    "source_type": "controlled_onion_service",
+    "url": "synthetic-onion-index-001",
+    "description": "Fictional research-controlled hidden-service index used for synthetic service scans and descriptor metadata.",
+    "reliability": "MEDIUM",
+    "reliability_score": 0.7,
+    "collection_method": "synthetic_service_scan"
+  },
+  {
+    "source_id": "SRC-008",
+    "source_name": "ServiceIndex",
+    "source_type": "clearnet_reference",
+    "url": "https://serviceindex.synthetic",
+    "description": "Fictional clearnet asset index providing certificate, banner and favicon observations for correlation testing.",
+    "reliability": "HIGH",
+    "reliability_score": 0.94,
+    "collection_method": "synthetic_clearnet_reference"
+  }
+]
