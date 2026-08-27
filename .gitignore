@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+EOF
+veil-atlas-synthetic-dataset-v1.0.0.zip
+test_dataset.py
